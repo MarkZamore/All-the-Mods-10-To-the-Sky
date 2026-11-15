@@ -1,0 +1,135 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "A Haunted House* and some picture frames that spell out \"BOO\" are just what the Witch Doctor ordered for your spooky fireplace!",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/deco.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.deco_caption",
+          "image_width": 116,
+          "image_height": 63
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "*The Haunted house requires items in MerryMaking to craft."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Halloween Mantel Decoration Recipes are shown here:",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_haunted_house.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_haunted_house_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_boo_frame.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_boo_frame_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Halloween Garlands are perfect on MerryMaking Mantels, but work great by themselves, too. Hang Cobweb, Skull, Pumpkin, and Bat Garlands to add some fun and pizazz to your Spooky builds.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/garlands.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.garlands_caption",
+          "image_width": 116,
+          "image_height": 78
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Halloween Garland Recipes are shown here:",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_web_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_web_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_pumpkin_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_pumpkin_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Halloween Garland Recipes, continued.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_bat_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_bat_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_skull_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_skull_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Halloween Garland Recipe Examples",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_v_l_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_v_l_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_v_r_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_v_r_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Halloween Garland Recipe Examples, continued.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_v_c_r_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_v_c_r_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mantel_deco/craft_v_c_l_garland.png",
+          "caption": "happyhallows.guide_book.chapters.mantel_deco.craft_v_c_l_garland_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    }
+  ]
+}

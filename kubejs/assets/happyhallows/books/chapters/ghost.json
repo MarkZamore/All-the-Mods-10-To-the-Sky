@@ -1,0 +1,59 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Is your coffin opening on its own? Did you hear a door open and close but no one was there? You may have a Ghost.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Ghosts have a random chance to show up when you sleep in a Coffin. They are quite curious, and enjoy interacting with the world. They love doors, rummaging through your storage, and playing with creaky coffin lids."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Ghosts are enthralled with the Overworld and want to stay there. When the moon is full, the ghost will try to escape the veil. You may see it flicker as it phases in and out. ",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "If you wish to help the Ghost escape its tether, wait for the night, when the moon is full. Then use a Crystal Ball near it to call the Ghost forth permanently."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Once freed, the thankful Ghost will follow you around and protect you. But take heed--a manifested ghost is no longer invulnerable and can be killed. ",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "If the Ghost senses that you are hurt, it will come to your aid and defend you with a powerful Spectral Shriek. This shriek will knock enemies away from you, and has a small chance to stun them for a couple of seconds."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "A manifested Ghost has a penchant for grave-robbing. If it goes near a grave stone, it may 'find' a trinket, and will bring it to you. This ability is limited to one time per day, however. ",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Ghosts can get bored quickly and are easily distracted, so they may wander off for a bit. Don't worry, it will return to you after some time, and if it senses that you need help it will immediately come to assist you."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Special Note: Only one ghost can appear to a player at a time.  ",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "However, if your ghost dies, another may approach you later on, and you can rescue it in the same manner. "
+        }
+      ]
+    }
+  ]
+}

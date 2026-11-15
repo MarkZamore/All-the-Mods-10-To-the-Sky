@@ -1,0 +1,17 @@
+{
+  "name": "Бесконечная ядерная бомба",
+  "icon": "industrialforegoing:infinity_nuke",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Радиус взрыва зависит от уровня и количества биотоплива внутри. Бомба не разрушает блоки в занятых чанках. $(br2)Поставьте её на землю, взведите правой кнопкой мыши и подожгите огнивом."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_nuke"
+    }
+  ]
+}

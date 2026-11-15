@@ -1,0 +1,47 @@
+{
+  "name": "Печатные платы",
+  "icon": "pneumaticcraft:printed_circuit_board",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Печатные платы/$ (ПП) нужны для многих продвинутых машин и инструментов. Изготовление $(item)платы/$ состоит из нескольких этапов.$(p)Сначала сделайте $(item)заготовку печатной платы/$ в $(l:manufacturing/pressure_chamber)барокамере/$ по рецепту напротив. Далее есть два способа (см. следующие страницы)."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/empty_pcb"
+    },
+    {
+      "type": "text",
+      "title": "Способ № 1",
+      "text": "В начале доступен только этот способ. Без автоматизации и подогрева он проходит довольно медленно. Засветите $(item)плату/$ в $(l:manufacturing/uv_light_box)ультрафиолетовой камере/$, затем отправьте засвеченную $(item)заготовку платы/$ в $(l:manufacturing/etching_tank)бак для травления/$. Получится $(item)несобранная печатная плата/$."
+    },
+    {
+      "type": "blasting",
+      "title": "Переработка испорченных плат",
+      "recipe": "pneumaticcraft:empty_pcb_from_failed_pcb",
+      "text": "Если $(item)заготовка платы/$ была засвечена в $(l:manufacturing/uv_light_box)ультрафиолетовой камере/$ меньше чем на 100%, травление может не удаться. $(item)Неисправную печатную плату/$ можно переработать в $(item)плавильной печи/$."
+    },
+    {
+      "type": "spotlight",
+      "title": "Способ № 2",
+      "item": "pneumaticcraft:assembly_controller",
+      "text": "Когда сделаете $(l:manufacturing/assembly_system)сборочную систему/$, она сможет превращать $(item)заготовки печатных плат/$ сразу в $(item)несобранные печатные платы/$. Используйте $(item)сборочную программу «Лазер»/$. Здесь ни $(item)ультрафиолетовая камера/$, ни $(item)бак для травления/$ не нужны."
+    },
+    {
+      "type": "text",
+      "title": "Способ № 2 (продолжение)",
+      "text": "$(p)Сборочная система позволяет быстро и удобно получать $(item)несобранные печатные платы/$. При хорошей автоматизации и подогреве связка $(thing)ультрафиолетовой камеры и бака для травления/$ может работать заметно быстрее, особенно при массовом производстве."
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/unassembled_pcb"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:printed_circuit_board",
+      "text": "Наконец, добавьте $(l:components/capacitor)конденсаторы/$ и $(l:components/transistor)транзисторы/$, чтобы собрать готовую $(item)печатную плату/$."
+    }
+  ]
+}

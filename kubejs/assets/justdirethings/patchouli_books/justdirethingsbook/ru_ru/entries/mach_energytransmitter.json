@@ -1,0 +1,25 @@
+{
+  "name": "Передатчик энергии",
+  "sortnum": 1,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:energytransmitter",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Передаёт энергию от генераторов машинам по воздуху.$(br2)Сначала подключите источник энергии, например $(l:justdirethings:mach_generatort1)угольный$(/l) или $(l:justdirethings:mach_generatorfluidt1)топливный генератор$(/l). Внутренний буфер начнёт накапливать энергию Forge."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Затем задайте область действия, как у большинства $(l:justdirethings:mach_advanced_controls)продвинутых машин$(/l).$(br2)Машины внутри области, способные принимать энергию Forge, начнут заряжаться из буфера.$(br2)При беспроводной передаче теряется немного энергии. Такова плата за передачу на расстоянии. Потери можно настроить."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "При необходимости укажите получателей в фильтре интерфейса, как у других $(l:justdirethings:mach_advanced_controls)продвинутых машин$(/l).$(br2)Передатчики в пределах области выравнивают заряд друг друга без потерь. Частицы можно отключить кнопкой в интерфейсе."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Передатчик энергии",
+      "recipe": "justdirethings:energytransmitter"
+    }
+  ]
+}

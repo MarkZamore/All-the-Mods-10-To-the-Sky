@@ -1,0 +1,193 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Herbs and Harvest adds several herbs and spices. Select a topic below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.herbs.info",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.herbs.list",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.herbs.spices",
+          "target_page": 3
+        },
+        {
+          "title": "herbsandharvest.guide_book.herbs.thistle",
+          "target_page": 4
+        },
+        {
+          "title": "herbsandharvest.guide_book.herbs.cinn",
+          "target_page": 5
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/herbs/herbs.png",
+          "caption": "herbsandharvest.guide_book.chapters.herbs.herbs_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.herbs.info",
+      "summary": "Like crops, Herbs require farmland and water to grow.\n\nOnce harvested, herbs can be placed on grass or dirt for decoration.\n\nHerbs can also be potted in a Flower Pot.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/herbs/potted.png",
+          "caption": "herbsandharvest.guide_book.chapters.herbs.potted_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.07acd6f6dc4779b1"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.herbs.list",
+      "summary": "",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:fresh_basil",
+              "text": "guide.herbsandharvest.fresh_basil_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_bay_leaf",
+              "text": "guide.herbsandharvest.fresh_bay_leaf_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_chive",
+              "text": "guide.herbsandharvest.fresh_chive_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_cilantro",
+              "text": "guide.herbsandharvest.fresh_cilantro_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_dill",
+              "text": "guide.herbsandharvest.fresh_dill_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_lemongrass",
+              "text": "guide.herbsandharvest.fresh_lemongrass_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_mint",
+              "text": "guide.herbsandharvest.fresh_mint_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_mustard",
+              "text": "guide.herbsandharvest.fresh_mustard_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_oregano",
+              "text": "guide.herbsandharvest.fresh_oregano_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_parsley",
+              "text": "guide.herbsandharvest.fresh_parsley_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_rosemary",
+              "text": "guide.herbsandharvest.fresh_rosemary_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_sage",
+              "text": "guide.herbsandharvest.fresh_sage_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_thyme",
+              "text": "guide.herbsandharvest.fresh_thyme_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.herbs.spices",
+      "summary": "Like herbs, Peppercorn, Ginger, and Turmeric all require farmland to grow.\n\nPeppercorn and the Cinnamon Tree Sapling can also be potted.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.2326699c53a01663"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:cinnamon",
+              "text": "guide.herbsandharvest.cinnamon_desc"
+            },
+            {
+              "item": "herbsandharvest:ginger_root",
+              "text": "guide.herbsandharvest.ginger_desc"
+            },
+            {
+              "item": "herbsandharvest:fresh_peppercorn",
+              "text": "guide.herbsandharvest.fresh_peppercorn_desc"
+            },
+            {
+              "item": "herbsandharvest:thistle",
+              "text": "guide.herbsandharvest.thistle_desc"
+            },
+            {
+              "item": "herbsandharvest:turmeric_root",
+              "text": "guide.herbsandharvest.turmeric_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.herbs.thistle",
+      "summary": "Thistle is a flower that can be found growing in nearly any Overworld biome.\n\nThistle is used to create Rennet, which is used to make cheese.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/plant/thistle.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.thistle_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.f4d9ecacceb6afd7"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.herbs.cinn",
+      "summary": "Cinnamon Trees are two blocks tall. Their bark grows continuously and can be stripped to produce Cinnamon.\n\nCinnamon saplings grow in Tropical biomes, or can be found in Overworld chests.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/plant/cinn_tree.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.cinn_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.f9b1d1794abbdfe7"
+        }
+      ]
+    }
+  ]
+}

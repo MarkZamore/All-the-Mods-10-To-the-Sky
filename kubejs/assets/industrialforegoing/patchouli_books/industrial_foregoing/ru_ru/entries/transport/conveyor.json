@@ -1,0 +1,27 @@
+{
+  "name": "Конвейерные ленты",
+  "icon": "industrialforegoing:conveyor",
+  "category": "industrialforegoing:transport",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ленты перевозят предметы, существа и жидкости. Для взаимодействия с миром нужны $(l:conveyor_upgrades)улучшения$(). Предметы и существа могут двигаться вверх и вниз, жидкости — только горизонтально. $(br2)Чтобы покрасить ленту, нажмите по ней правой кнопкой мыши с красителем в руке."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:conveyor"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:glowstone_dust",
+      "text": "Светокамень значительно ускоряет перевозку предметов и существ."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:plastic",
+      "text": "Если добавить пластик, предметы на ленте нельзя будет подобрать."
+    }
+  ]
+}

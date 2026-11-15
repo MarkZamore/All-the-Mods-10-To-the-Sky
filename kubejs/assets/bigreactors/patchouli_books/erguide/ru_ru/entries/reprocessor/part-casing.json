@@ -1,0 +1,22 @@
+{
+  "name": "Корпус",
+  "icon": "bigreactors:reprocessorcasing",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorcasing",
+      "link_recipe": true,
+      "title": "Корпус",
+      "text": "Блоки корпуса служат основой переработчика.$(br2)Из них собирается каркас. Они также входят в рецепты других деталей. Стенки тоже можно сделать из корпуса, если вам не нравится стекло."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Корпус",
+      "crafting.recipe1": "bigreactors:reprocessor/casing",
+      "usage.text": "$(l)Обязательная деталь:$() нужна для каркаса$(br)$(l)Место установки:$() любое$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

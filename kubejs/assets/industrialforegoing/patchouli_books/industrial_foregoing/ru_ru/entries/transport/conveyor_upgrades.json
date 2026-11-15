@@ -1,0 +1,51 @@
+{
+  "name": "Улучшения конвейеров",
+  "icon": "industrialforegoing:conveyor_extraction_upgrade",
+  "category": "industrialforegoing:transport",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_extraction_upgrade",
+      "title": "Извлечение",
+      "text": "Забирает предметы и жидкости из инвентарей. Может забирать предметы и у игроков. $(br2)Настройте фильтр предметов и жидкостей в интерфейсе."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_insertion_upgrade",
+      "title": "Вставка",
+      "text": "Отправляет предметы и жидкости в инвентарь. Два режима: принимает предметы со всей ленты или только те, что попадают прямо на улучшение. $(br2)Настройте фильтр предметов и жидкостей в интерфейсе."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_detection_upgrade",
+      "title": "Обнаружение",
+      "text": "Обнаруживает предметы и существ на ленте. $(br2)Настройте фильтр в интерфейсе. Для выбора вида существа используйте заключатель с нужным мобом внутри."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_bouncing_upgrade",
+      "title": "Подбрасывание",
+      "text": "Подбрасывает предметы и существ на ленте. Горизонтальную и вертикальную силу можно настроить в интерфейсе.$(br2)Там же есть фильтр. Для выбора вида существа используйте заключатель с нужным мобом внутри."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_dropping_upgrade",
+      "title": "Сбрасывание",
+      "text": "Сбрасывает предметы и существ прямо под ленту. $(br2)Настройте фильтр в интерфейсе. Для выбора вида существа используйте заключатель с нужным мобом внутри."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_blinking_upgrade",
+      "title": "Телепортация",
+      "text": "Телепортирует предметы и существ с ленты. Вертикальное и горизонтальное расстояния задаются в интерфейсе.$(br2)Там же есть фильтр. Для выбора вида существа используйте заключатель с нужным мобом внутри."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:conveyor_splitting_upgrade",
+      "title": "Разделение",
+      "text": "Распределяет предметы и существ между выходами в заданной пропорции. Установите улучшение с каждой стороны, через которую должна идти раздача."
+    }
+  ]
+}

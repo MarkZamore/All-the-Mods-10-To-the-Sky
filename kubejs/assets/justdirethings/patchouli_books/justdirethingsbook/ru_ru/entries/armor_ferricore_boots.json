@@ -1,0 +1,17 @@
+{
+  "name": "Ботинки из Ferricore",
+  "sortnum": 4,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_boots",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Немного прочнее железных ботинок и лучше защищают ноги. С улучшениями позволяют, например, выше прыгать."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление ботинок из Ferricore",
+      "recipe": "justdirethings:ferricore_boots"
+    }
+  ]
+}

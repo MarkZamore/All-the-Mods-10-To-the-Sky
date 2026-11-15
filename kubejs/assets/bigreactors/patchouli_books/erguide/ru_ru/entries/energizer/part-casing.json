@@ -1,0 +1,22 @@
+{
+  "name": "Корпус",
+  "icon": "bigreactors:energizercasing",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:energizercasing",
+      "link_recipe": true,
+      "title": "Корпус",
+      "text": "Блоки корпуса служат основой накопителя.$(br2)Из них собираются каркас и стенки. Они также входят в рецепты других деталей."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Корпус",
+      "crafting.recipe1": "bigreactors:energizer/casing",
+      "usage.text": "$(l)Обязательная деталь:$() нужна для каркаса и стенок$(br)$(l)Место установки:$() любое$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

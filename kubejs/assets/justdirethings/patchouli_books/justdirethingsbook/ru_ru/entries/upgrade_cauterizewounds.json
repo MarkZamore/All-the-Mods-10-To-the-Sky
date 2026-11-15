@@ -1,0 +1,17 @@
+{
+  "name": "Прижигание ран",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_cauterizewounds",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Это улучшение помогает быстро восстановиться после ранения. Оно использует жар боя, чтобы закрыть раны.$(br2)Нажмите правую кнопку, чтобы мгновенно восстановить здоровье. Инструмент при этом потеряет часть прочности. Перед повторным использованием нужно дождаться перезарядки."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Прижигание ран»",
+      "recipe": "justdirethings:upgrade_cauterizewounds"
+    }
+  ]
+}

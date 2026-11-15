@@ -1,0 +1,27 @@
+{
+  "name": "Корпус турбины",
+  "icon": "bigreactors:reinforced_turbinecasing",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinecasing",
+      "link_recipe": true,
+      "title": "Корпус турбины",
+      "text": "Блоки корпуса служат основой турбины.$(br2)Из них собирается каркас и опора $(l:bigreactors/rotor)ротора$(/l). Они также входят в рецепты других деталей. Если не хотите ставить стекло, соберите стенки из корпуса.$(br2)Таких блоков понадобится много."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Базовый",
+      "recipe1": "bigreactors:turbine/basic/casing",
+      "title2": "Усиленный",
+      "recipe2": "bigreactors:turbine/reinforced/casing"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)Обязательная деталь:$() нужна для каркаса и крепления $(l:bigreactors:turbine/rotor)ротора$(/l)$(br)$(l)Место установки:$() любое$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

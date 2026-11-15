@@ -1,0 +1,22 @@
+{
+  "name": "Нагнетатель твёрдого топлива",
+  "icon": "bigreactors:fluidizersolidinjector",
+  "category": "bigreactors:fluidizer-parts",
+  "read_by_default": true,
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:fluidizersolidinjector",
+      "link_recipe": true,
+      "title": "Нагнетатель твёрдого топлива",
+      "text": "Этот нагнетатель подаёт в разжижитель твёрдое топливо, например слитки. В машине оно переходит в жидкое состояние либо смешивается с другим топливом."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Нагнетатель твёрдого топлива",
+      "crafting.recipe1": "bigreactors:fluidizer/solidinjector",
+      "usage.text": "$(l)Обязательная деталь:$() см. $(l:bigreactors:fluidizer/operational_mode)режим работы$(/l)$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Графический интерфейс:$() есть"
+    }
+  ]
+}

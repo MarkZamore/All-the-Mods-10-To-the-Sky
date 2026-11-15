@@ -1,0 +1,19 @@
+{
+  "name": "Телепортация",
+  "icon": "pneumaticcraft:textures/progwidgets/teleport_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Виджет $(thing)«Телепорт в локацию»/$ расходует больше $(l:base_concepts/pressure)воздуха/$, чем виджет $(l:programming/goto)перелёта/$, но работает так же просто. $(l:tools/drone)Дрон/$ телепортируется в ближайшую доступную точку заданной $(l:programming/area)области/$.$(p)$(item)Дрон/$ тратит 10 000 мл воздуха за телепортацию, почти весь запас $(item)дрона/$ без улучшений. Рекомендуем $(l:base_concepts/upgrades#volume)улучшения объёма/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/teleport_piece.png"
+      ],
+      "text": "$(italic)Вот я здесь. А теперь там./$"
+    }
+  ]
+}

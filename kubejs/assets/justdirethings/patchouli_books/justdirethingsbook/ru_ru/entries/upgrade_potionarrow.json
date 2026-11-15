@@ -1,0 +1,17 @@
+{
+  "name": "Стрелы с зельями",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_potionarrow",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Стрелы переносят эффекты зелий и накладывают их на поражённые цели."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения для стрел с зельями",
+      "recipe": "justdirethings:upgrade_potionarrow"
+    }
+  ]
+}

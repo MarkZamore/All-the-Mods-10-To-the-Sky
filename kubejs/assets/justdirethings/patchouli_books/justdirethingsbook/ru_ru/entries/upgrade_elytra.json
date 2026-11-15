@@ -1,0 +1,17 @@
+{
+  "name": "Элитры",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_elytra",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "С этим улучшением броня получает крылья элитр, которые позволяют планировать при падении."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Элитры»",
+      "recipe": "justdirethings:upgrade_elytra"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Высадка существа",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ отправится в заданную $(l:programming/area)область/$ и опустит сущность, которую несёт. Сущность должна подходить необязательному $(l:base_concepts/entity_filter)фильтру сущностей/$ в подключённом виджете $(l:programming/text)«Текст»/$.$(p)Смотри также виджет $(l:programming/entity_import)захвата существа/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_export_piece.png"
+      ],
+      "text": "$(italic)Виджет высадки существа/$"
+    }
+  ]
+}

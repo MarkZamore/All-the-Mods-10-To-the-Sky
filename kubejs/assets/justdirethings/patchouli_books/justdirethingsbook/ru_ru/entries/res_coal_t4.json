@@ -1,0 +1,12 @@
+{
+  "name": "Уголь Eclipse Ember",
+  "sortnum": 24,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:coal_t4",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Высшая ступень улучшения угля. Поставьте блок $(l:justdirethings:res_coal_t3)угля Voidflame$(/l) рядом со $(l:justdirethings:gooblock_tier4)слизью Shadowpulse$(/l). Из всех видов угля Eclipse Ember даёт больше всего энергии."
+    }
+  ]
+}

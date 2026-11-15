@@ -1,0 +1,17 @@
+{
+  "name": "Газонокосилка",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_lawnmower",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Активное улучшение для лопат, начиная с Ferricore. При активации срезает траву и цветы поблизости, оставляя выпавшие предметы на земле."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Газонокосилка»",
+      "recipe": "justdirethings:upgrade_lawnmower"
+    }
+  ]
+}

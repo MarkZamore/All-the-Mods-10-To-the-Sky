@@ -1,0 +1,17 @@
+{
+  "name": "Шлем из сплава Eclipse",
+  "sortnum": 20,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_helmet[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот шлем — вершина броневого дела. Он вмещает 500 000 FE. Чтобы использовать все его возможности, подзаряжайте его $(l:justdirethings:item_pocket_generator)карманным генератором$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление шлема из сплава Eclipse",
+      "recipe": "justdirethings:eclipsealloy_helmet"
+    }
+  ]
+}

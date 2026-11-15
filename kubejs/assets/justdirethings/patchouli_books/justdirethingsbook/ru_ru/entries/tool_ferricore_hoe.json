@@ -1,0 +1,17 @@
+{
+  "name": "Мотыга из Ferricore",
+  "sortnum": 5,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_hoe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Подходит для обработки грядок и поддерживает разные улучшения.$(br2)При вспашке создаёт почву Primogel. Её нельзя вытоптать, поэтому посевы в безопасности. Растения на ней растут немного быстрее."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:ferricore_hoe",
+      "text": "Изготовление мотыги из Ferricore"
+    }
+  ]
+}

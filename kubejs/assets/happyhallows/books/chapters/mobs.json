@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "It is a little-known fact that Monsters enjoy Spooky Season, too. But look around...you will find Undead of all kinds, and even Piglins festively dressed for the occasion.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mobs/mobs.png",
+          "caption": "happyhallows.guide_book.chapters.mobs.mobs_caption",
+          "image_width": 116,
+          "image_height": 67
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "But be warned...The Costumes these festive fiends have donned make them formidable foes. Approach with caution."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Should you find yourself able to best one of these masquerading monstrosities, they may drop a piece of their costume.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mobs/costumes.png",
+          "caption": "happyhallows.guide_book.chapters.mobs.costumes_caption",
+          "image_width": 116,
+          "image_height": 67
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "The 'costumes' are armor, diamond equivalent, at that! Collect them all, if you dare..."
+        }
+      ]
+    }
+  ]
+}

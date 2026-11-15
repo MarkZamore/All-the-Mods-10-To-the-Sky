@@ -1,0 +1,6 @@
+{
+  "name": "Производство",
+  "description": "Механизмы и установки, на которых изготавливают детали для других машин и инструментов $(pncr).",
+  "icon": "pneumaticcraft:assembly_controller",
+  "sortnum": 3
+}

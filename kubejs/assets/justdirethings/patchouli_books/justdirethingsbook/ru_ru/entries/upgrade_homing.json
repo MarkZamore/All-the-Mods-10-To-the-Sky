@@ -1,0 +1,17 @@
+{
+  "name": "Самонаведение",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_homing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Снаряды с этим улучшением сами наводятся на ближайшие цели."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Самонаведение»",
+      "recipe": "justdirethings:upgrade_homing"
+    }
+  ]
+}

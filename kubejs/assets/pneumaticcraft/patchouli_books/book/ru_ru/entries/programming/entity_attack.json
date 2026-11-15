@@ -1,0 +1,40 @@
+{
+  "name": "Атака существ",
+  "icon": "pneumaticcraft:textures/progwidgets/attack_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ будет атаковать любые живые сущности внутри области.$(p)У подключённых виджетов $(l:programming/area)«Область»/$ должна быть выбрана форма $(thing)«Параллелепипед»/$. Другие формы можно составить из нескольких областей, добавляя их справа для включения и слева для исключения."
+    },
+    {
+      "type": "text",
+      "title": "Фильтрация сущностей",
+      "text": "Подключи виджет $(l:programming/text)«Текст»/$ в качестве $(l:base_concepts/entity_filter)фильтра сущностей/$, чтобы указать цели. Например, чтобы $(thing)дрон/$ атаковал всех игроков, подключи $(thing)«Текст»/$ $(italic)справа/$ от виджета $(thing)«Атака существ»/$ и впиши $(#600)@player/$.$(p)Если не хочешь, чтобы дрон нападал на тебя, подключи $(thing)«Текст»/$ $(italic)слева/$ и впиши своё игровое имя."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:diamond_sword",
+      "title": "Ближний бой",
+      "text": "$(l:tools/drone)Дрон/$ может взять оружие ближнего боя из инвентаря. Если оружия несколько, $(thing)дрон/$ выберет то, которое наносит больше всего урона.$(p)Вооружить дрон можно виджетом $(l:programming/inventory_import)«Импорт из инвентаря»/$. Без оружия его удар в ближнем бою слаб."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "Установи $(l:base_concepts/upgrades#minigun)улучшение минигана/$ в $(l:tools/drone)дрон/$, чтобы оснастить его $(l:tools/minigun)миниганом/$. Если подать $(l:tools/minigun_ammo)боеприпасы/$ виджетом $(l:programming/inventory_import)«Импорт из инвентаря»/$, $(thing)дрон/$ будет стрелять из минигана по дальним целям.$(p)Исходная дальность — 16 блоков. Можно поставить до 16 $(l:base_concepts/upgrades#range_upgrade)улучшений дальности/$ и довести её до 32 блоков."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:micromissiles",
+      "text": "Дроны также умеют запускать $(l:tools/micromissiles)микроракеты/$. Если $(thing)дрон/$ держит $(item)микроракету/$ во время выполнения виджета, он выпустит её по текущей цели. Подключённый $(l:base_concepts/entity_filter)фильтр сущностей/$ дрон скопирует в фильтр самой микроракеты."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/attack_piece.png"
+      ],
+      "text": "$(italic)Я вернусь/$"
+    }
+  ]
+}

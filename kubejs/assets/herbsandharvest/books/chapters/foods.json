@@ -1,0 +1,907 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "The Pantry Update adds several new foods to the game. Select a topic below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.foods.meat",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dairy",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.bfast",
+          "target_page": 8
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.bread",
+          "target_page": 9
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.salad",
+          "target_page": 13
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.other",
+          "target_page": 14
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.otherc",
+          "target_page": 15
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.otherd",
+          "target_page": 16
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.cond",
+          "target_page": 17
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.condc",
+          "target_page": 18
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert",
+          "target_page": 19
+        }
+      ],
+      "elements": []
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.meat",
+      "summary": "Herbs and Harvest adds a few meats to the game.\n\nAll are craftable from already-existing items, and each can be smelted into a \"Cooked\" variant.\n\nMeats can used in recipes, or eaten as-is.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:bacon",
+              "text": "guide.herbsandharvest.bacon_desc"
+            },
+            {
+              "item": "herbsandharvest:chicken_cutlet",
+              "text": "guide.herbsandharvest.chicken_cutlet_desc"
+            },
+            {
+              "item": "herbsandharvest:pepperoni",
+              "text": "guide.herbsandharvest.pepperoni_desc"
+            },
+            {
+              "item": "herbsandharvest:salami",
+              "text": "guide.herbsandharvest.salami_desc"
+            },
+            {
+              "item": "herbsandharvest:salmon_steak",
+              "text": "guide.herbsandharvest.salmon_steak_desc"
+            },
+            {
+              "item": "herbsandharvest:sausage",
+              "text": "guide.herbsandharvest.sausage_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dairy",
+      "summary": "There are several dairy products available. Click the links below to learn more.",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.foods.dairy.milk",
+          "target_page": 3
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dairy.milk.got_milk",
+          "target_page": 4
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dairy.cream",
+          "target_page": 5
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dairy.butter",
+          "target_page": 6
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dairy.cheese",
+          "target_page": 7
+        }
+      ],
+      "elements": []
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dairy.milk",
+      "summary": "Herbs and Harvest adds three new kinds of Milk to the game.\n\nMilk is used for recipes, cheese making, or can also be heated in a cauldron to make Cream.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.ee56b3464b0b0025"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:camel_milk_bucket",
+              "text": "guide.herbsandharvest.camel_milk_desc"
+            },
+            {
+              "item": "herbsandharvest:goat_milk_bucket",
+              "text": "guide.herbsandharvest.goat_milk_desc"
+            },
+            {
+              "item": "herbsandharvest:sheep_milk_bucket",
+              "text": "guide.herbsandharvest.sheep_milk_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dairy.milk.got_milk",
+      "summary": "How to Obtain Milk:\n\nJust as you would a Cow, use an empty bucket on a Goat for Goat Milk, and on a Sheep for Sheep Milk. ",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.96f039c0e4bfe2bc"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dairy.cream",
+      "summary": "Cream is made in a heated Cauldron.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "\n",
+          "text": null
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:cream_bucket",
+              "text": "guide.herbsandharvest.cream_bucket_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.2ea810c6fb35d80c"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dairy.butter",
+      "summary": "Cream is made from cooking Milk in a heated Cauldron.\n\nUse a Bucket on a Cauldron full of Cream to obtain it.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "\n",
+          "text": null
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:butter",
+              "text": "guide.herbsandharvest.butter_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.1ed358c447891e2c"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dairy.cheese",
+      "summary": "There are eight types of cheese. Four are hard cheeses, and four are soft cheeses.\n\nThe Cheesemaking guide in this book provides instructions for making each type of cheese.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.e2071e29b1bdb830"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:caravane",
+              "text": "guide.herbsandharvest.caravane_desc"
+            },
+            {
+              "item": "herbsandharvest:chevre",
+              "text": "guide.herbsandharvest.chevre_desc"
+            },
+            {
+              "item": "herbsandharvest:feta",
+              "text": "guide.herbsandharvest.feta_desc"
+            },
+            {
+              "item": "herbsandharvest:ricotta",
+              "text": "guide.herbsandharvest.ricotta_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.97ef0a0430aa57b2"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:aged_cheddar",
+              "text": "guide.herbsandharvest.aged_cheddar_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_gouda",
+              "text": "guide.herbsandharvest.aged_gouda_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_parmesan",
+              "text": "guide.herbsandharvest.aged_parmesan_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_swiss",
+              "text": "guide.herbsandharvest.aged_swiss_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.bfast",
+      "summary": "There are a few Breakfast food items Herbs and Harvest.\n\nThis list will show the Breakfast foods and their recipe discovery items:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:avocado_toast",
+              "text": "guide.herbsandharvest.avo_toast_desc"
+            },
+            {
+              "item": "herbsandharvest:biscuits_gravy",
+              "text": "guide.herbsandharvest.bisc_grav_desc"
+            },
+            {
+              "item": "herbsandharvest:cooked_bacon",
+              "text": "guide.herbsandharvest.c_bacon_desc"
+            },
+            {
+              "item": "herbsandharvest:cooked_sausages",
+              "text": "guide.herbsandharvest.c_sausage_desc"
+            },
+            {
+              "item": "herbsandharvest:eggs",
+              "text": "guide.herbsandharvest.eggs_desc"
+            },
+            {
+              "item": "herbsandharvest:oatmeal",
+              "text": "guide.herbsandharvest.oatmeal_desc"
+            },
+            {
+              "item": "herbsandharvest:pancakes",
+              "text": "guide.herbsandharvest.pancakes_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.bread",
+      "summary": "Herbs and Harvest adds several Breads for you to enjoy. Click the links below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.foods.bread.grain",
+          "target_page": 10
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.bread.grain.slice",
+          "target_page": 11
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.bread.sandwich",
+          "target_page": 12
+        }
+      ],
+      "elements": []
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.bread.grain",
+      "summary": "The many grains in Herbs and Harvest grants a nice selection of different breads and sandwiches.\n\nThe Breads available are:",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "\n",
+          "text": null
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:barley_loaf",
+              "text": "guide.herbsandharvest.barley_bread_desc"
+            },
+            {
+              "item": "herbsandharvest:garlic_bread",
+              "text": "guide.herbsandharvest.garlic_bread_desc"
+            },
+            {
+              "item": "herbsandharvest:pumpernickel_loaf",
+              "text": "guide.herbsandharvest.pump_bread_desc"
+            },
+            {
+              "item": "herbsandharvest:rye_loaf",
+              "text": "guide.herbsandharvest.rye_bread_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.bread.grain.slice",
+      "summary": "Each type of Bread loaf can be crafted into 8 Slices of that kind of bread.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": "\n",
+          "text": null
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:barley_slice",
+              "text": "guide.herbsandharvest.barley_slice_desc"
+            },
+            {
+              "item": "herbsandharvest:garlic_bread_slice",
+              "text": "guide.herbsandharvest.garlic_slice_desc"
+            },
+            {
+              "item": "herbsandharvest:pumpernickel_slice",
+              "text": "guide.herbsandharvest.pump_slice_desc"
+            },
+            {
+              "item": "herbsandharvest:rye_slice",
+              "text": "guide.herbsandharvest.rye_slice_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.451cb56c841fd095"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:bread_slice",
+              "text": "guide.herbsandharvest.bread_slice_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.bread.sandwich",
+      "summary": " Sandwich recipes call for specific breads, and the bread type is also the recipe discovery item.\n\nA complete list of the sandwiches and bread type follows:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:reuben",
+              "text": "guide.herbsandharvest.reuben_desc"
+            },
+            {
+              "item": "herbsandharvest:salami_rye",
+              "text": "guide.herbsandharvest.salami_rye_desc"
+            },
+            {
+              "item": "herbsandharvest:ham_swiss",
+              "text": "guide.herbsandharvest.ham_swiss_desc"
+            },
+            {
+              "item": "herbsandharvest:beef_cheddar",
+              "text": "guide.herbsandharvest.beef_cheddar_desc"
+            },
+            {
+              "item": "herbsandharvest:grilled_cheese",
+              "text": "guide.herbsandharvest.grilled_cheese_desc"
+            },
+            {
+              "item": "herbsandharvest:monte_cristo",
+              "text": "guide.herbsandharvest.monte_cristo_desc"
+            },
+            {
+              "item": "herbsandharvest:peanut_butter_jelly",
+              "text": "guide.herbsandharvest.pbj_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.salad",
+      "summary": "There are four types of Salad in Herbs and Harvest, and each recipe is discovered by obtaining Lettuce.\n\nSalads, once eaten, will leave behind an empty bowl.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:caesar_salad",
+              "text": "guide.herbsandharvest.caesar_salad_desc"
+            },
+            {
+              "item": "herbsandharvest:chef_salad",
+              "text": "guide.herbsandharvest.chef_salad_desc"
+            },
+            {
+              "item": "herbsandharvest:chicken_berry_salad",
+              "text": "guide.herbsandharvest.chicken_salad_desc"
+            },
+            {
+              "item": "herbsandharvest:garden_salad",
+              "text": "guide.herbsandharvest.garden_salad_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.other",
+      "summary": "Some other foods, along with their discovery items are:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:mashed_potatoes",
+              "text": "guide.herbsandharvest.mashed_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:cornbread_stuffing",
+              "text": "guide.herbsandharvest.stuffing_desc"
+            },
+            {
+              "item": "herbsandharvest:vegetable_medley",
+              "text": "guide.herbsandharvest.veg_medley_desc"
+            },
+            {
+              "item": "herbsandharvest:taco",
+              "text": "guide.herbsandharvest.taco_desc"
+            },
+            {
+              "item": "herbsandharvest:burrito",
+              "text": "guide.herbsandharvest.burrito_desc"
+            },
+            {
+              "item": "herbsandharvest:guacamole",
+              "text": "guide.herbsandharvest.guacamole_desc"
+            },
+            {
+              "item": "herbsandharvest:chips",
+              "text": "guide.herbsandharvest.chips_desc"
+            },
+            {
+              "item": "herbsandharvest:guacamole_chips",
+              "text": "guide.herbsandharvest.guacamole_chips_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.otherc",
+      "summary": "Other foods, with their discovery items, continued:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:bagel",
+              "text": "guide.herbsandharvest.bagel_desc"
+            },
+            {
+              "item": "herbsandharvest:bagel_cream_cheese",
+              "text": "guide.herbsandharvest.bagel_cheese_desc"
+            },
+            {
+              "item": "herbsandharvest:bagel_with_salmon",
+              "text": "guide.herbsandharvest.bagel_salmon_desc"
+            },
+            {
+              "item": "herbsandharvest:graham_crackers",
+              "text": "guide.herbsandharvest.graham_cracker_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.otherd",
+      "summary": "Other foods, with their discovery items, continued:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:beef_pie",
+              "text": "guide.herbsandharvest.beef_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:chicken_pie",
+              "text": "guide.herbsandharvest.chicken_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:lamb_pie",
+              "text": "guide.herbsandharvest.lamb_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:pork_pie",
+              "text": "guide.herbsandharvest.pork_pie_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.cond",
+      "summary": "Condiments and other ingredients require either a Bowl or a Spice jar to craft, depending on the recipe.\n\nCondiments and their recipe discovery items are listed here:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:mayo",
+              "text": "guide.herbsandharvest.mayonnaise_desc"
+            },
+            {
+              "item": "herbsandharvest:ketchup",
+              "text": "guide.herbsandharvest.ketchup_desc"
+            },
+            {
+              "item": "herbsandharvest:mustard",
+              "text": "guide.herbsandharvest.mustard_desc"
+            },
+            {
+              "item": "herbsandharvest:oil",
+              "text": "guide.herbsandharvest.vegetable_oil_desc"
+            },
+            {
+              "item": "herbsandharvest:peanut_butter",
+              "text": "guide.herbsandharvest.peanut_butter_desc"
+            },
+            {
+              "item": "herbsandharvest:raspberry_jam",
+              "text": "guide.herbsandharvest.raspberry_jam_desc"
+            },
+            {
+              "item": "herbsandharvest:blackberry_jam",
+              "text": "guide.herbsandharvest.blackberry_jam_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.condc",
+      "summary": "Condiments and other ingredients, continued: ",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:sour_cream",
+              "text": "guide.herbsandharvest.sour_cream_desc"
+            },
+            {
+              "item": "herbsandharvest:cream_cheese",
+              "text": "guide.herbsandharvest.cream_cheese_desc"
+            },
+            {
+              "item": "herbsandharvest:whipped_cream",
+              "text": "guide.herbsandharvest.whipped_cream_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert",
+      "summary": "Herbs and Harvest has desserts aplenty. Click the links below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.info",
+          "target_page": 20
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.infoc",
+          "target_page": 21
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.cakes",
+          "target_page": 22
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.ccakes",
+          "target_page": 23
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.pies",
+          "target_page": 24
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.cookies",
+          "target_page": 25
+        },
+        {
+          "title": "herbsandharvest.guide_book.foods.dessert.muffin",
+          "target_page": 26
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/items/dessert.png",
+          "caption": "herbsandharvest.guide_book.chapters.items.dessert_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert.info",
+      "summary": "The many Desserts available include Cakes, Cheesecakes, Pies, Cookies, Cupcakes, Muffins, Cinnamon Rolls, Sweet Rolls, and Plum Pudding.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.4ca8e8ab7d111aab"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert.infoc",
+      "summary": "The smaller desserts and pastries are single-use, edible items.\n\nAs previously mentioned, only the smaller, single-use desserts and pastries can be placed onto the Pastry Stand.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.7bd5355ebeffce84"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert.cakes",
+      "summary": "Cake recipes are all discovered by looting Wheat.\n\nThe Plum Pudding recipe is discovered by obtaining a Plum.\n\nCakes and Cupcakes are shown here:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:black_forest_cake",
+              "text": "guide.herbsandharvest.bforest_cake_desc"
+            },
+            {
+              "item": "herbsandharvest:carrot_cake",
+              "text": "guide.herbsandharvest.carrot_cake_desc"
+            },
+            {
+              "item": "herbsandharvest:strawberry_cake",
+              "text": "guide.herbsandharvest.straw_cake_desc"
+            },
+            {
+              "item": "herbsandharvest:yellow_cake",
+              "text": "guide.herbsandharvest.yellow_cake_desc"
+            },
+            {
+              "item": "herbsandharvest:pineapple_cake",
+              "text": "guide.herbsandharvest.pine_cake_desc"
+            },
+            {
+              "item": "herbsandharvest:plum_pudding",
+              "text": "guide.herbsandharvest.plum_pudd_desc"
+            },
+            {
+              "item": "herbsandharvest:black_forest_cupcake",
+              "text": "guide.herbsandharvest.bforest_ccake_desc"
+            },
+            {
+              "item": "herbsandharvest:carrot_cupcake",
+              "text": "guide.herbsandharvest.carrot_ccake_desc"
+            },
+            {
+              "item": "herbsandharvest:strawberry_cupcake",
+              "text": "guide.herbsandharvest.straw_ccake_desc"
+            },
+            {
+              "item": "herbsandharvest:yellow_cupcake",
+              "text": "guide.herbsandharvest.yellow_ccake_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert.ccakes",
+      "summary": "Cheesecake recipes are all discovered by obtaining Cream Cheese.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.8ba1193d49ef4f4f"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:cheesecake",
+              "text": "guide.herbsandharvest.ccake_desc"
+            },
+            {
+              "item": "herbsandharvest:blueberry_cheesecake",
+              "text": "guide.herbsandharvest.blue_ccake_desc"
+            },
+            {
+              "item": "herbsandharvest:raspberry_cheesecake",
+              "text": "guide.herbsandharvest.rasp_ccake_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert.pies",
+      "summary": "Pies require Wheat to discover the recipe.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.5441c15a292ddf63"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:apple_pie",
+              "text": "guide.herbsandharvest.apple_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:blueberry_pie",
+              "text": "guide.herbsandharvest.blueberry_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:cherry_pie",
+              "text": "guide.herbsandharvest.cherry_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:chocolate_pie",
+              "text": "guide.herbsandharvest.chocolate_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:key_lime_pie",
+              "text": "guide.herbsandharvest.key_lime_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:lemon_meringue_pie",
+              "text": "guide.herbsandharvest.lemon_meringue_pie_desc"
+            },
+            {
+              "item": "herbsandharvest:peach_pie",
+              "text": "guide.herbsandharvest.peach_pie_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert.cookies",
+      "summary": "Cookies also require Wheat to discover the recipe. ",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.6f750305f50dc43b"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:oatmeal_raisin_cookie",
+              "text": "guide.herbsandharvest.oatmeal_raisin_cookie_desc"
+            },
+            {
+              "item": "herbsandharvest:peanut_butter_cookie",
+              "text": "guide.herbsandharvest.peanut_butter_cookie_desc"
+            },
+            {
+              "item": "herbsandharvest:snickerdoodle_cookie",
+              "text": "guide.herbsandharvest.snickerdoodle_desc"
+            },
+            {
+              "item": "herbsandharvest:sugar_cookie",
+              "text": "guide.herbsandharvest.sugar_cookie_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.foods.dessert.muffin",
+      "summary": "Muffin and Roll recipes are disocvered by obtaining Wheat.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.d0a28a24be343544"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:apple_muffin",
+              "text": "guide.herbsandharvest.apple_muffin_desc"
+            },
+            {
+              "item": "herbsandharvest:blueberry_muffin",
+              "text": "guide.herbsandharvest.blueberry_muffin_desc"
+            },
+            {
+              "item": "herbsandharvest:pumpkin_muffin",
+              "text": "guide.herbsandharvest.pumpkin_muffin_desc"
+            },
+            {
+              "item": "herbsandharvest:sweet_berry_muffin",
+              "text": "guide.herbsandharvest.sweet_berry_muffin_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.6b08ff8e75791297"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:cinnamon_roll",
+              "text": "guide.herbsandharvest.cinnamon_roll_desc"
+            },
+            {
+              "item": "herbsandharvest:sweet_roll",
+              "text": "guide.herbsandharvest.sweet_roll_desc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

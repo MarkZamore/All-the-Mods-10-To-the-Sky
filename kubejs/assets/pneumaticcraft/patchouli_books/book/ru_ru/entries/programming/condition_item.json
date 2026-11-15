@@ -1,0 +1,27 @@
+{
+  "name": "Условие: предметный фильтр",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_item.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это виджет $(l:programming/conditions)«Условие»/$.$(p)Виджет $(thing)«Условие: предметный фильтр»/$ сравнивает $(l:programming/item_filter)предметные фильтры/$. Это особенно полезно, если фильтры берут предметы из $(l:programming/variables)переменных/$.$(p)Он берёт предмет из одного $(l:programming/item_filter)предметного фильтра/$, подключённого справа в верхнем ряду, и проверяет его по $(thing)предметным фильтрам/$ второго ряда."
+    },
+    {
+      "type": "text",
+      "text": "Как обычно, справа ставятся разрешающие фильтры. Предмет должен им соответствовать. Слева ставятся исключающие фильтры: предмет $(italic)не должен/$ им соответствовать. При совпадении условие $(thing)истинно/$, иначе — $(thing)ложно/$."
+    },
+    {
+      "type": "text",
+      "text": "Можно проверять больше одного предмета. Если справа во втором ряду подключено несколько $(l:programming/item_filter)предметных фильтров/$, условие будет $(thing)истинным/$ только при совпадении $(italic)всех/$ предметов. Предметы из $(l:programming/item_filter)фильтров/$ слева $(italic)не должны/$ соответствовать фильтру, чтобы условие было $(thing)истинным/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_item.png"
+      ],
+      "text": "$(italic)Условие: предметный фильтр/$"
+    }
+  ]
+}

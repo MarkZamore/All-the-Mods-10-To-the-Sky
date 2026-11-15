@@ -1,0 +1,17 @@
+{
+  "name": "Поножи из Blazegold",
+  "sortnum": 7,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:blazegold_leggings",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "У этих поножей лучше защита, и в них легче двигаться. Бросьте их в блок-источник лавы, чтобы полностью восстановить прочность."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление поножей из Blazegold",
+      "recipe": "justdirethings:blazegold_leggings"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Порт подачи топлива",
+  "icon": "bigreactors:reinforced_reactorfluidaccessport",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reinforced_reactorfluidaccessport",
+      "link_recipe": true,
+      "title": "Порт подачи топлива",
+      "text": "Через порт подачи проходят жидкие реагенты. Жидкое топливо заполняет $(l:bigreactors:reactor/part-fuelrod)топливные стержни$(/l), заправляя реактор.$(br2)Выберите режим порта в интерфейсе: в $(bold)режиме входа$() он принимает топливо, в $(bold)режиме выхода$() выводит жидкие отходы."
+    },
+    {
+      "type": "crafting-text",
+      "text": "Режим порта можно менять $(l:bigreactors/wrench)гаечным ключом$(/l).$(br2)В отличие от порта твёрдых материалов, при работе с портом подачи топлива потерь нет.",
+      "title1": "Усиленный",
+      "recipe": "bigreactors:reactor/reinforced/fluidaccessport"
+    },
+    {
+      "type": "part_usage",
+      "text": "$(l)Обязательная деталь:$() нет$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Варианты:$() усиленный$(br)$(l)Графический интерфейс:$() есть$(br)$(l)Гаечный ключ:$() этим $(l:bigreactors:misc/wrench)ключом$(/l) можно переключить режим порта"
+    }
+  ]
+}

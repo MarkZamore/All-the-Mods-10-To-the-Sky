@@ -1,0 +1,26 @@
+{
+  "name": "Компьютерный порт",
+  "icon": "bigreactors:reinforced_reactorcomputerport",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorcomputerport",
+      "link_recipe": true,
+      "title": "Компьютерный порт",
+      "text": "Через компьютерный порт можно подключить реактор к компьютеру для сложной автоматизации.$(br2)Стандартные методы, доступные подключённому компьютеру, позволяют узнавать состояние реактора и управлять им."
+    },
+    {
+      "type": "crafting-text",
+      "text": "Чтобы использовать компьютерный порт, установите мод с программируемыми компьютерами.$(br2)Сейчас поддерживается только CC.",
+      "title": "Усиленный",
+      "recipe": "bigreactors:reactor/reinforced/computerport"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)Обязательная деталь:$() нет$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Варианты:$() усиленный$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

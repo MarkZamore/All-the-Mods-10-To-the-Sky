@@ -1,0 +1,22 @@
+{
+  "name": "Вихревая пушка",
+  "icon": "pneumaticcraft:vortex_cannon[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Вихревая пушка/$ стреляет $(thing)вихрями/$ — кольцами вращающегося воздуха, которые летят почти без трения и долго не распадаются.$(p)Порывом воздуха можно оттолкнуть врагов, сдвинуть животных, вырвать растения и листья или постричь подходящих существ."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vortex_cannon",
+      "text": "Чем выше давление в $(item)вихревой пушке/$, тем сильнее действие и больше дальность.$(p)Вихрь может подхватить и вас. Это полезно для быстрого перемещения, но от урона при падении не защищает!"
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление вихревой пушки",
+      "recipe": "pneumaticcraft:vortex_cannon"
+    }
+  ]
+}

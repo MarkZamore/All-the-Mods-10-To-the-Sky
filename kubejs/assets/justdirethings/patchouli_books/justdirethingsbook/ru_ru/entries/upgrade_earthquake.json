@@ -1,0 +1,17 @@
+{
+  "name": "Землетрясение",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_earthquake",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вызывает сильную дрожь земли вокруг вас и замедляет ближайших противников.$(br2)Чтобы запустить способность, назначьте ей клавишу в настройках инструмента."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Землетрясение»",
+      "recipe": "justdirethings:upgrade_earthquake"
+    }
+  ]
+}

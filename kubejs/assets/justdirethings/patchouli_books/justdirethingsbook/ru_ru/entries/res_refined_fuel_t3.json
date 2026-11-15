@@ -1,0 +1,16 @@
+{
+  "name": "Очищенное топливо Voidflame",
+  "sortnum": 28,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:refined_t3_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Бросьте $(l:justdirethings:res_coal_t3)уголь Voidflame$(/l) в $(l:justdirethings:res_refined_fuel_t2)очищенное топливо Blaze Ember$(/l), чтобы получить неочищенное топливо Voidflame. Затем поставьте его рядом со слизью VoidShimmer. Этот вид топлива даёт значительно больше FE за такт и за весь цикл горения."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Из очищенного топлива Voidflame можно вырабатывать энергию в $(l:justdirethings:mach_generatorfluidt1)топливном генераторе$(/l)."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Условие: координаты",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это виджет $(l:programming/conditions)«Условие»/$.$(p)Виджет $(thing)«Условие: координаты»/$ сравнивает два набора $(l:programming/coordinate)координат/$. Можно задать разные проверки и выбрать, по каким осям (X, Y, Z) сравнивать: по одной, двум или всем трём."
+    },
+    {
+      "type": "text",
+      "text": "Выбери оси флажками, а операцию («=», «>=») — переключателем в настройках виджета.$(p)Там же сравнение отображается текстом, например $(thing)x1 <= x2 и z1 <= z2/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png"
+      ],
+      "text": "$(italic)Условие: координаты/$"
+    }
+  ]
+}

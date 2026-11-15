@@ -1,0 +1,17 @@
+{
+  "name": "Защита от лавы",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_lavaimmunity",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Даёт полную невосприимчивость к урону от лавы.$(br2)Защита расходует энергию Forge, поэтому следите за зарядом!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Защита от лавы»",
+      "recipe": "justdirethings:upgrade_lavaimmunity"
+    }
+  ]
+}

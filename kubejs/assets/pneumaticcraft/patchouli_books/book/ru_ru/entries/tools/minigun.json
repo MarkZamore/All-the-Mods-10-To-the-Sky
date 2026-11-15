@@ -1,0 +1,22 @@
+{
+  "name": "Пулемёт",
+  "icon": "pneumaticcraft:minigun[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Пулемёт/$ — ручное оружие на $(l:base_concepts/pressure)сжатом воздухе/$. Нужны $(l:tools/minigun_ammo)боеприпасы/$. Зарядите их в $(l:tools/minigun_ammo#magazine)магазин пулемёта/$. Из инвентаря игрока они не расходуются.$(p)Для стрельбы удерживайте $(thing)правую кнопку мыши/$. Стволы начнут вращаться, и пулемёт выстрелит, когда они раскрутятся."
+    },
+    {
+      "type": "text",
+      "title": "Улучшения",
+      "text": "Скорость раскручивания, дальность, вероятность наложения зелий и другие параметры $(item)пулемёта/$ можно улучшить на $(l:machines/charging_station)зарядной станции/$.$(p)Подробности о каждом улучшении есть в окне улучшений станции."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление пулемёта",
+      "recipe": "pneumaticcraft:minigun"
+    }
+  ]
+}

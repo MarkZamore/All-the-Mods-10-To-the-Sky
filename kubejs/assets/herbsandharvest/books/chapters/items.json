@@ -1,0 +1,91 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "The Pantry Update adds several new items to the game. Select a topic below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.items.rennet",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.items.salt",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.items.spices",
+          "target_page": 3
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/items/rennet.png",
+          "caption": "herbsandharvest.guide_book.chapters.items.rennet_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.items.rennet",
+      "summary": "Rennet is crafted from Thistle, and is used in Cheese Making.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:rennet",
+              "text": "guide.herbsandharvest.rennet_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.5ec22709812a4ed4"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.items.salt",
+      "summary": "Salt is created when a full Salt Basin dries up.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:salt",
+              "text": "guide.herbsandharvest.salt_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.97592a7c8fe112ef"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.items.spices",
+      "summary": "All of the fresh herbs in Herbs and Harvest can be crafted into a \"Chopped\" herb item. Peppercorn can be crafted into a ground spice.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:chopped_parsley",
+              "text": "guide.herbsandharvest.chopped_parsley_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.3df4462c772d25d1"
+        }
+      ]
+    }
+  ]
+}

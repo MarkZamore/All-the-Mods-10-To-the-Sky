@@ -1,0 +1,55 @@
+{
+  "name": "Логистические фреймы",
+  "icon": "pneumaticcraft:logistics_frame_passive_provider",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Логистический фрейм/$ крепится к инвентарю или баку и включает его в $(thing)логистическую систему/$.$(p)Для настройки установленного фрейма $(thing)щёлкните по нему правой кнопкой мыши/$ с $(l:tools/logistics_configurator)логистическим пневмоключом/$. Для снятия фрейма $(thing)щёлкните крадучись/$. Фрейм также можно настроить до установки, щёлкнув правой кнопкой мыши с ним в руке."
+    },
+    {
+      "type": "text",
+      "text": "У фреймов есть следующие настройки:$(li)У всех фреймов есть $(thing)фильтр/$, который определяет, какие предметы и жидкости они принимают или отдают. См. также $(l:tools/tag_filter)«Фильтры по тегам»/$.$(li)Боковая вкладка $(thing)«Фильтр»/$ включает сравнение по $(thing)NBT предмета/$ или $(thing)ID мода/$ и позволяет переключить фильтр с разрешающего списка на запрещающий."
+    },
+    {
+      "type": "text",
+      "text": "$(li)У $(l:logistics/frames#requester)фрейма запроса/$ вкладка $(thing)«Минимальный размер заказа»/$ задаёт минимальное количество предметов или жидкости за одну перевозку. Это избавляет дронов от частых рейсов с мелким грузом.$(li)Любой фрейм можно сделать $(thing)невидимым/$. Тогда его видно только с логистическим предметом в руке, например с фреймом или пневмоключом. Щелчки левой кнопкой мыши через невидимый фрейм передаются блоку под ним."
+    },
+    {
+      "type": "crafting",
+      "anchor": "active_provider",
+      "title": "Фрейм активного поставщика",
+      "recipe": "pneumaticcraft:logistics_frame_active_provider",
+      "text": "$(item)Фрейм активного поставщика/$ передаёт предметы и жидкости $(l:logistics/frames#requester)фреймам запроса/$, $(l:logistics/frames#storage)фреймам хранения/$ и $(l:logistics/frames#default_storage)фреймам хранения по умолчанию/$."
+    },
+    {
+      "type": "crafting",
+      "anchor": "passive_provider",
+      "title": "Фрейм пассивного поставщика",
+      "recipe": "pneumaticcraft:logistics_frame_passive_provider",
+      "text": "$(item)Фрейм пассивного поставщика/$ передаёт предметы и жидкости только $(l:logistics/frames#requester)фреймам запроса/$."
+    },
+    {
+      "type": "crafting",
+      "anchor": "storage",
+      "title": "Фрейм хранения",
+      "recipe": "pneumaticcraft:logistics_frame_storage",
+      "text": "$(item)Фреймы хранения/$ принимают предметы и жидкости от $(l:logistics/frames#active_provider)фреймов активного поставщика/$ и передают предметы $(l:logistics/frames#requester)фреймам запроса/$."
+    },
+    {
+      "type": "crafting",
+      "anchor": "default_storage",
+      "title": "Фрейм хранения по умолчанию",
+      "recipe": "pneumaticcraft:logistics_frame_default_storage",
+      "text": "$(item)Фреймы хранения по умолчанию/$ принимают предметы и жидкости от $(l:logistics/frames#active_provider)фреймов активного поставщика/$ и передают ресурсы $(l:logistics/frames#requester)фреймам запроса/$ и $(l:logistics/frames#storage)фреймам хранения/$. У них ниже приоритет, поэтому при возможности сначала используется обычный фрейм хранения."
+    },
+    {
+      "type": "crafting",
+      "anchor": "requester",
+      "title": "Фрейм запроса",
+      "recipe": "pneumaticcraft:logistics_frame_requester",
+      "text": "$(item)Фреймы запроса/$ могут заказывать предметы и жидкости из любого другого инвентаря с фреймом. В интерфейсе настройки укажите, какой $(thing)запас/$ каждого предмета или жидкости нужно поддерживать."
+    }
+  ]
+}

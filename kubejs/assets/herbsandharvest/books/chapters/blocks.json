@@ -1,0 +1,636 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "The Pantry Update adds several blocks to the game. Select a topic below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.blocks.basin",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.p_jars",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.s_jars",
+          "target_page": 3
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.plates",
+          "target_page": 4
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.shelf",
+          "target_page": 5
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.churn",
+          "target_page": 8
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.stands",
+          "target_page": 9
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pot",
+          "target_page": 12
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pan",
+          "target_page": 17
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.serve",
+          "target_page": 22
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.drink",
+          "target_page": 23
+        }
+      ],
+      "elements": []
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.basin",
+      "summary": "Right-click on a block of Sand with a shovel to create a salt basin.\n\nUse a bucket of water on it, or allow rainfall to fill it.\n\nThen, let it dry up.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/basin.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.basin_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.eec148b0d83dc41a"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.p_jars",
+      "summary": "Pantry Jars are storage jars that will hold up to a single stack of any item.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/jars.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.jars_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.6c58a32b339c268b"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.s_jars",
+      "summary": "These small storage jars will hold a single stack of seasonings.\n\nThe label will change automatically based on the ingredient inside the jar.\n\nSpice Jars hold their contents when broken and picked up.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:chopped_sage",
+              "text": "guide.herbsandharvest.chopped_herb_desc"
+            },
+            {
+              "item": "herbsandharvest:minced_garlic",
+              "text": "guide.herbsandharvest.minced_garlic_desc"
+            },
+            {
+              "item": "herbsandharvest:minced_onion",
+              "text": "guide.herbsandharvest.minced_onion_desc"
+            },
+            {
+              "item": "herbsandharvest:ground_turmeric",
+              "text": "guide.herbsandharvest.ground_turmeric_desc"
+            },
+            {
+              "item": "herbsandharvest:ground_cinnamon",
+              "text": "guide.herbsandharvest.ground_cinn_desc"
+            },
+            {
+              "item": "herbsandharvest:ground_ginger",
+              "text": "guide.herbsandharvest.ground_ginger_desc"
+            },
+            {
+              "item": "herbsandharvest:salt",
+              "text": "guide.herbsandharvest.s_salt_desc"
+            },
+            {
+              "item": "minecraft:sugar",
+              "text": "guide.herbsandharvest.s_sugar_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.plates",
+      "summary": "Plates will hold and display a single item.\n\nDinner Plates are also used to retrieve servings from Pan Meals or the Charcuterie Board.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/plates.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.plates_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.070e5c7a8f20fd21"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:dinner_plate",
+              "text": "guide.herbsandharvest.plate_desc"
+            },
+            {
+              "item": "herbsandharvest:delftware_dinner_plate",
+              "text": "guide.herbsandharvest.delf_plate_desc"
+            },
+            {
+              "item": "herbsandharvest:holiday_dinner_plate",
+              "text": "guide.herbsandharvest.hol_plate_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.shelf",
+      "summary": "The Cheese shelf is an interactive block, and has a GUI similar to a Furnace. Click on a topic below to learn more.",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.blocks.shelf.info",
+          "target_page": 6
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.shelf.auto",
+          "target_page": 7
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/shelf.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.shelf_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.shelf.info",
+      "summary": "Click on the shelf to open the GUI, and add a raw wheel of cheese to the input slot. If you close the GUI, you will see the wheel appear on the shelf. The shelf holds two wheels at once.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/shelf_gui.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.shelf_gui_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.b192f186e036f5cf"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.shelf.auto",
+      "summary": "The Aging process for cheese can be automated with Redstone. ",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.36b2e072ded8a043"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.churn",
+      "summary": "The Butter Churn creates Butter using Cream. To create butter, place down the Churn Block. Use a Bucket of Cream on the Churn.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/churn.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.churn_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.7b3a0af052400809"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.stands",
+      "summary": "There are two types of dessert stands for displaying desserts. Click on a link below to learn more.",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.blocks.stands.cake",
+          "target_page": 10
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.stands.pastry",
+          "target_page": 11
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/stands.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.stands_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.stands.cake",
+      "summary": "A Cake Stand has a large, single tiered base and will hold a single Cake, Pie, or Cheesecake, or up to 8 small pastries or desserts.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.6aaf6dd0bbfa4b1f"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.stands.pastry",
+      "summary": "A Pastry Stand is a little smaller and has two tiers.\n\nIt will hold up to 8 of any one kind of small pastries or desserts.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.9473c34be7a82513"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pot",
+      "summary": "A Soup Pot is a placeable food block. Click on the links below to learn more.",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.blocks.pot.craft",
+          "target_page": 13
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pot.soup",
+          "target_page": 14
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pot.list",
+          "target_page": 15
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pot.listc",
+          "target_page": 16
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/pots.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.pots_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pot.craft",
+      "summary": "An empty Soup Pot is needed for Soup. The crafting recipe for it is shown here:",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/pot_craft.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.pot_craft_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.a0aa24ab14385c2f"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pot.soup",
+      "summary": "Soups are created by combining an empty pot with ingredients. This results in a pot of soup which is a placeable block.\n\nTo heat the Soup Pot, place a heat source underneath it such as a Campfire, or fire.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.15e9c727690ae096"
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.d91e6065e782eb14"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:broccoli_cheddar_soup",
+              "text": "guide.herbsandharvest.broc_cheddar_soup_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.e6d7c73b2654f450"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pot.list",
+      "summary": "Soup recipes will be discovered when a player obtains their main ingredient, or meat.\n\nList of Soups and their discovery ingredient, which is in parentheses: ",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:beef_stew_pot",
+              "text": "guide.herbsandharvest.beef_stew_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:broccoli_cheddar_pot",
+              "text": "guide.herbsandharvest.broccoli_cheddar_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:chicken_dumplings_pot",
+              "text": "guide.herbsandharvest.chicken_dump_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:chicken_noodle_pot",
+              "text": "guide.herbsandharvest.chicken_noodle_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:chicken_rice_pot",
+              "text": "guide.herbsandharvest.chicken_rice_pot_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pot.listc",
+      "summary": "Soups and their discovery ingredient, continued: ",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:corn_chowder_pot",
+              "text": "guide.herbsandharvest.corn_chowder_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:pea_soup_pot",
+              "text": "guide.herbsandharvest.pea_soup_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:potato_soup_pot",
+              "text": "guide.herbsandharvest.potato_soup_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:squash_soup_pot",
+              "text": "guide.herbsandharvest.squash_soup_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:tomato_soup_pot",
+              "text": "guide.herbsandharvest.tomato_soup_pot_desc"
+            },
+            {
+              "item": "herbsandharvest:vegetable_soup_pot",
+              "text": "guide.herbsandharvest.veg_soup_pot_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pan",
+      "summary": "Baked Pan Meals are also placeable food blocks. Click on the links below to learn more.",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.blocks.pan.info",
+          "target_page": 18
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pan.make",
+          "target_page": 19
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pan.list",
+          "target_page": 20
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.pan.listc",
+          "target_page": 21
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/pots.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.pots_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pan.info",
+      "summary": "An empty Baking Pan is needed for a Baked Pan Meal. The crafting recipe for it is shown here:",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/pan_craft.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.pans_craft_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.7ec8159734a9ff96"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pan.make",
+      "summary": "Baked Pan meals are made by combining a Pan with recipe ingredients, and then 'baking' it in a furnace or a smoker.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.ad7b988f11a304c1"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pan.list",
+      "summary": "Pan Recipes and Discovery Ingredients:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:wellington_pan",
+              "text": "guide.herbsandharvest.wellington_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:chicken_pan",
+              "text": "guide.herbsandharvest.chicken_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:eggplant_pan",
+              "text": "guide.herbsandharvest.eggplant_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:lamb_pan",
+              "text": "guide.herbsandharvest.lamb_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:lasagna_pan",
+              "text": "guide.herbsandharvest.lasagna_pan_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.pan.listc",
+      "summary": "Pan Recipes and Discovery Ingredients, continued:",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:meatloaf_pan",
+              "text": "guide.herbsandharvest.meatloaf_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:pork_pan",
+              "text": "guide.herbsandharvest.pork_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:roast_pan",
+              "text": "guide.herbsandharvest.roast_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:salmon_pan",
+              "text": "guide.herbsandharvest.salmon_pan_desc"
+            },
+            {
+              "item": "herbsandharvest:pears_pan",
+              "text": "guide.herbsandharvest.pears_pan_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.serve",
+      "summary": "Using a Dinner Plate on a Baked Pan Meal will create a \"Served Plate\" of that particular meal.\n\nThe Served Plate of food is a placeable block which can can be \"eaten\" at a later time, by right-clicking on it.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/served.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.served_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.0a7e130d81d5c9a1"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.drink",
+      "summary": "There are several drinks in Herbs and Harvest. To make drinks, you need glassware.\n\nClick on the links below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.blocks.drink.pitcher",
+          "target_page": 24
+        },
+        {
+          "title": "herbsandharvest.guide_book.blocks.drink.cup",
+          "target_page": 25
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/drink.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.drink_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.drink.pitcher",
+      "summary": "Drink Pitchers are crafted with glass, and are reusable.\n\nCrafting a Glass Pitcher and combining it with different drink recipes will create a placeable Drink Pitcher.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/pitcher_craft.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.pitcher_craft_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.5a8230b2a56f786c"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.blocks.drink.cup",
+      "summary": "Cups are also crafted with glass, and are reusable, as well.\n\nWhen placed, the Glass Cup can be picked back up with an empty hand.\nIf it contains a drink, it will keep the drink in inventory.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/cup_craft.png",
+          "caption": "herbsandharvest.guide_book.chapters.blocks.cup_craft_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.3bea81ca97157053"
+        }
+      ]
+    }
+  ]
+}

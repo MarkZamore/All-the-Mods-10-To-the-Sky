@@ -1,0 +1,21 @@
+{
+  "name": "Простой установщик жидкости",
+  "sortnum": 15,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:fluidplacert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Автоматически размещает жидкость в мире, как $(l:justdirethings:mach_blockplacert1)простой установщик$(/l) размещает блоки.$(br2)В ячейку можно положить ведро, канистру или другую ёмкость."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Слева в интерфейсе виден бак и его содержимое. Если внутри больше 1 000 мБ жидкости, а пространство перед машиной не занято жидкостью или блоком, машина выльет её в мир."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Простой установщик жидкости",
+      "recipe": "justdirethings:fluidplacert1"
+    }
+  ]
+}

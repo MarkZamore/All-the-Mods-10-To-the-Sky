@@ -1,0 +1,33 @@
+{
+  "name": "Дрон-жнец",
+  "icon": "pneumaticcraft:harvesting_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Дрон-жнец/$ — специализированный непрограммируемый $(l:tools/drone)дрон/$ для $(l:programming/harvest)сбора урожая и рубки деревьев/$. Работает в кубе 17×17×17 с центром в точке установки. Дрон $(italic)не подбирает/$ выпавшие предметы."
+    },
+    {
+      "type": "spotlight",
+      "title": "Автоматическая зарядка",
+      "item": "pneumaticcraft:charging_station",
+      "text": "Как и другим дронам, ему нужно $(l:base_concepts/pressure)давление/$. Когда воздух на исходе, он ищет $(l:tools/drone#charging)зарядную станцию с улучшением «Раздатчик»/$."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:harvesting_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "title": "Использование инструмента",
+      "text": "Если, $(thing)присев и щёлкнув правой кнопкой/$, установить $(item)дрона-жнеца/$ на инвентарь, в котором лежит только $(item)мотыга/$ любого вида, дрон будет пересаживать растения. Пока мотыга не взята, он не начнёт работу. Если пересадка не нужна, поставьте дрона на любой другой блок."
+    },
+    {
+      "type": "crafting",
+      "text": "Как ни странно, дроны-жнецы научились рубить деревья мотыгой вместо топора. Сообразительные!",
+      "recipe": "pneumaticcraft:harvesting_drone"
+    }
+  ]
+}

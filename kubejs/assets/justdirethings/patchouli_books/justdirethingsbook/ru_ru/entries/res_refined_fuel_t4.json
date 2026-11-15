@@ -1,0 +1,16 @@
+{
+  "name": "Очищенное топливо Eclipse Ember",
+  "sortnum": 29,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:refined_t4_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Сначала бросьте $(l:justdirethings:res_coal_t4)Eclipse Ember$(/l) в $(l:justdirethings:res_refined_fuel_t3)очищенное топливо Voidflame$(/l), чтобы получить неочищенное топливо Eclipse Ember. Для очистки поставьте жидкость рядом со слизью Shadowpulse. Топливо высшего уровня даёт больше всего FE за такт и за весь цикл. Оно подходит для самых требовательных механизмов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Из очищенного топлива Eclipse Ember можно вырабатывать энергию в $(l:justdirethings:mach_generatorfluidt1)топливном генераторе$(/l)."
+    }
+  ]
+}

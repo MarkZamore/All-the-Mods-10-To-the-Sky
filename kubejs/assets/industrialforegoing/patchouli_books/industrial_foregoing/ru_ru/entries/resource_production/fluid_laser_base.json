@@ -1,0 +1,17 @@
+{
+  "name": "Основа жидкостного лазера",
+  "icon": "industrialforegoing:fluid_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Когда $(l:resource_production/laser_drill)лазерная дрель$() полностью зарядит основу, та добудет жидкость. Для добычи нужны подходящий катализатор, который не расходуется, определённый биом и заданная глубина бурения. $(br2)Для некоторых жидкостей требуется существо под машиной. $(br2)Точные условия смотрите в JEI."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_laser_base"
+    }
+  ]
+}

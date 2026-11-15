@@ -1,0 +1,17 @@
+{
+  "name": "Тотем возвращения после смерти",
+  "sortnum": 4,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:totem_of_death_recall",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Даёт возможность вернуться после гибели. Пока тотем лежит в инвентаре, он сработает при смерти и запомнит её место.$(br2)Удерживайте правую кнопку мыши с активированным тотемом, чтобы телепортироваться туда. При использовании тотем исчезнет."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление тотема возвращения после смерти",
+      "recipe": "justdirethings:totem_of_death_recall"
+    }
+  ]
+}

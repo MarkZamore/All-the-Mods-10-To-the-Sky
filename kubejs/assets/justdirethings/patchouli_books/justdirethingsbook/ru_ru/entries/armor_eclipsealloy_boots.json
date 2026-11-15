@@ -1,0 +1,17 @@
+{
+  "name": "Ботинки из сплава Eclipse",
+  "sortnum": 23,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:eclipsealloy_boots[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти ботинки вмещают до 500 000 FE, позволяют свободно двигаться и хорошо поглощают урон. Держите их заряженными с помощью $(l:justdirethings:item_pocket_generator)карманного генератора$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление ботинок из сплава Eclipse",
+      "recipe": "justdirethings:eclipsealloy_boots"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Флаксовый компрессор",
+  "icon": "pneumaticcraft:flux_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Флаксовый компрессор/$ преобразует $(thing)Forge Energy/$ (она совместима с $(thing)Redstone Flux/$ и энергосистемами других модов) в $(l:base_concepts/pressure)сжатый воздух/$. Базовый расход — 40 FE/такт. Компрессор можно ускорить $(l:base_concepts/upgrades#speed)улучшениями скорости/$.$(p)Внутренний буфер вмещает 100 000 FE. Принимает энергию он вдвое быстрее, чем расходует."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление $(item)флаксового компрессора/$$(p)Компрессор нужно $(l:base_concepts/heat)охлаждать/$. С ростом температуры эффективность падает вплоть до полной остановки выработки воздуха.",
+      "recipe": "pneumaticcraft:flux_compressor"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Контроллер",
+  "icon": "bigreactors:reprocessorcontroller",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorcontroller",
+      "link_recipe": true,
+      "title": "Контроллер",
+      "text": "Контроллер — основное средство управления переработчиком.$(br2)Щёлкните по нему правой кнопкой мыши. В интерфейсе можно включать и выключать машину, проверять запасы жидкостей и энергии и следить за ходом переработки."
+    },
+    {
+      "type": "crafting-text",
+      "text": "Если навести указатель на элемент интерфейса, появится подсказка с дополнительными сведениями или пояснением.$(br2)",
+      "title": "Контроллер",
+      "recipe": "bigreactors:reprocessor/controller"
+    },
+    {
+      "type": "part_usage",
+      "text": "$(l)Обязательная деталь:$() нужен хотя бы один$(br)$(l)Место установки:$() любая боковая стенка вне каркаса$(br)$(l)Графический интерфейс:$() есть"
+    }
+  ]
+}

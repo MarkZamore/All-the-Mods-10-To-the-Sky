@@ -1,0 +1,23 @@
+{
+  "name": "Экспорт в инвентарь",
+  "icon": "pneumaticcraft:textures/progwidgets/inventory_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Противоположность виджету $(l:programming/inventory_import)«Импорт из инвентаря»/$. $(l:tools/drone)Дрон/$ переместится к ближайшему инвентарю в заданной $(l:programming/area)области/$ и выгрузит в него предметы из $(item)своего инвентаря/$.$(p)Нажми $(thing)ПКМ/$ по виджету, чтобы выбрать стороны выгрузки и максимальное количество предметов."
+    },
+    {
+      "type": "text",
+      "text": "Можно подключить сколько угодно $(l:programming/item_filter)предметных фильтров/$ или обойтись без них. Фильтры $(italic)справа/$ разрешают предметы, фильтры $(italic)слева/$ исключают их.$(p)Виджет заканчивает работу, когда инвентарь $(item)дрона/$ пуст или в области не осталось инвентарей, которые могут принять предметы."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/inventory_export_piece.png"
+      ],
+      "text": "$(italic)Не за что/$"
+    }
+  ]
+}

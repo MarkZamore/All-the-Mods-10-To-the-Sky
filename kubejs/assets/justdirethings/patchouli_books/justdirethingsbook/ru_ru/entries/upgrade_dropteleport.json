@@ -1,0 +1,17 @@
+{
+  "name": "Телепортация добычи",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_dropteleport",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Перемещает добычу непосредственно в привязанный инвентарь.$(br2)Держа инструмент, присядьте и щёлкните правой кнопкой по инвентарю, например сундуку. Теперь добыча из руды и с мобов отправится прямо туда!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Телепортация добычи»",
+      "recipe": "justdirethings:upgrade_dropteleport"
+    }
+  ]
+}

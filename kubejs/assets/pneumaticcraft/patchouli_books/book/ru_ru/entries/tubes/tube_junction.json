@@ -1,0 +1,17 @@
+{
+  "name": "Пересечение труб",
+  "icon": "pneumaticcraft:tube_junction",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Пересечение труб/$ позволяет провести две $(l:tubes/pressure_tubes)пневматические трубы/$ любого $(l:base_concepts/pressure_tiers)уровня давления/$ крест-накрест, оставив их раздельными."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление пересечения труб",
+      "recipe": "pneumaticcraft:tube_junction"
+    }
+  ]
+}

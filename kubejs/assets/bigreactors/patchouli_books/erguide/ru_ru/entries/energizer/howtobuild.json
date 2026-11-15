@@ -1,0 +1,17 @@
+{
+  "name": "Как собрать",
+  "icon": "bigreactors:energizercell",
+  "category": "bigreactors:energizer",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Накопитель — машина размером не менее 3×3×3 блока. Соберите его из блоков корпуса и других деталей, а всё внутреннее пространство заполните энергоячейками.$(br2)Допустимые места установки указаны на странице каждой детали."
+    },
+    {
+      "type": "zcmultiblock",
+      "multiblock_id": "bigreactors:bookenergizer"
+    }
+  ]
+}

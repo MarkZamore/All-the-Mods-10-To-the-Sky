@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "The Crystal Ball is a mysterious, unique item, and is rewarded to the player once they complete every HappyHallows advancement. Activate it to hear your fortune.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/crystal_ball/crystal_ball.png",
+          "caption": "happyhallows.guide_book.chapters.crystal_ball.crystal_ball_caption",
+          "image_width": 116,
+          "image_height": 60
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Those who pay attention may discover that there is more to this orb than meets the eye..."
+        }
+      ]
+    }
+  ]
+}

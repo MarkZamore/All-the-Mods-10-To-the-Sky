@@ -1,0 +1,17 @@
+{
+  "name": "Каменное основание",
+  "icon": "pneumaticcraft:stone_base",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это деталь для создания других устройств. Сама по себе она не используется."
+    },
+    {
+      "type": "crafting",
+      "text": "Рецепт каменного основания",
+      "recipe": "pneumaticcraft:stone_base"
+    }
+  ]
+}

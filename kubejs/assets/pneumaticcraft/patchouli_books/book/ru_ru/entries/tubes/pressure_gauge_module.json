@@ -1,0 +1,30 @@
+{
+  "name": "Модуль манометра",
+  "icon": "pneumaticcraft:pressure_gauge_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Показывает текущее $(l:base_concepts/pressure)давление/$ в трубе, на которой установлен. Кроме того, модуль выдаёт направленный $(#f00)сигнал редстоуна/$:$(p)$(formula)  сила сигнала = 2 × давление/$$(p)Например, при 3,5 бар сила сигнала будет равна 7."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "Установка $(l:tubes/module_expansion_card)карты расширения модуля/$ даёт доступ к настройкам $(#f00)сигнала редстоуна/$. Щёлкните правой кнопкой, чтобы их открыть. По умолчанию можно задать порог: ниже него сигнала нет, выше он максимальный. Есть и обратный режим. Переключатель $(bold)«Расширенные настройки»/$ открывает дополнительные возможности, показанные на следующей странице."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pressure_gauge_gui.png"
+      ],
+      "text": "$(italic)<10 бар = сигнал 0, >20 бар = сигнал 15. Между 10 и 20 бар сигнал меняется пропорционально (например, 12 бар = сигнал 3)./$",
+      "anchor": "img"
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление модуля манометра",
+      "recipe": "pneumaticcraft:pressure_gauge_module"
+    }
+  ]
+}

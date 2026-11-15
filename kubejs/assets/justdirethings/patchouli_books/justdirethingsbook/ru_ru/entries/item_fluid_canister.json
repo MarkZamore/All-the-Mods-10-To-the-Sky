@@ -1,0 +1,17 @@
+{
+  "name": "Канистра для жидкости",
+  "sortnum": 12,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:fluid_canister",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вмещает до 8 вёдер жидкости. Правой кнопкой мыши можно забирать и выливать жидкость, как ведром.$(br2)Щёлкните правой кнопкой с Shift, чтобы включить автозаполнение других ёмкостей из инвентаря. Три режима: выключено, только предметы Just Dire Things и все ёмкости, включая ёмкости других модов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление канистры для жидкости",
+      "recipe": "justdirethings:fluid_canister"
+    }
+  ]
+}

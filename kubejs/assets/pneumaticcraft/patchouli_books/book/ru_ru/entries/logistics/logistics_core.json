@@ -1,0 +1,25 @@
+{
+  "name": "Логистическое ядро",
+  "icon": "pneumaticcraft:logistics_core",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Базовая деталь для всех предметов и устройств $(l:logistics/overview)логистики/$."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "pneumaticcraft:logistics/frames",
+        "pneumaticcraft:logistics/logistics_drone",
+        "pneumaticcraft:tubes/logistics_module"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "Рецепт логистического ядра",
+      "recipe": "pneumaticcraft:logistics_core"
+    }
+  ]
+}

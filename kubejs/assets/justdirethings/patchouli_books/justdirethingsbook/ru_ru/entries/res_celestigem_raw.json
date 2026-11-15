@@ -1,0 +1,12 @@
+{
+  "name": "Руда Celestigem",
+  "sortnum": 4,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:raw_celestigem_ore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Слизь VoidShimmer превращает алмазный блок в блок руды Celestigem. Разбейте блок, чтобы получить $(l:justdirethings:res_celestigem)Celestigem$(/l)."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Меч из Blazegold",
+  "sortnum": 7,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:blazegold_sword",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Наносит больше урона, чем $(l:justdirethings:tool_ferricore_sword)меч из Ferricore$(/l). Чтобы полностью его починить, бросьте в лаву."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:blazegold_sword",
+      "text": "Изготовление меча из Blazegold"
+    }
+  ]
+}

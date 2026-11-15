@@ -1,0 +1,12 @@
+{
+  "name": "Жидкость времени",
+  "sortnum": 31,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:time_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Питает все предметы и блоки, меняющие ход времени. Она почти прозрачна, словно лишь отчасти принадлежит нашему потоку времени.$(br2)Чтобы её получить, бросьте $(l:justdirethings:res_time_crystal)кристалл времени$(/l) в $(l:justdirethings:res_polymorphic_fluid)полиморфную жидкость.$(/l)"
+    }
+  ]
+}

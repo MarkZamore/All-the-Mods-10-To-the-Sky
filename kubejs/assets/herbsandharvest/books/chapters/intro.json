@@ -1,0 +1,21 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Mama's Herbs and Harvest is a farming mod which is also the base for the recipes in Mama's Minis such as MerryMaking and Happy Hallows. There are 32 growable crops, along with: grapes, 8 fruit-bearing trees, and 14 herbs.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/intro/crops.png",
+          "caption": "herbsandharvest.guide_book.chapters.intro.intro_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.27f9cd1b688db369"
+        }
+      ]
+    }
+  ]
+}

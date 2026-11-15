@@ -1,0 +1,23 @@
+{
+  "name": "Экспорт жидкости",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Противоположность $(l:programming/liquid_import)импорту жидкости/$. $(l:tools/drone)Дрон/$ полетит к ближайшему баку в указанной $(l:programming/area)области/$, чтобы выгрузить туда жидкость из своего бака.$(p)$(item)Дрон/$ также может выливать жидкость прямо в мир. Для этого включи $(thing)«Размещать жидкость в мире»/$ в настройках виджета. Будь осторожен: $(item)дрон/$ легко может сам угодить в ловушку!"
+    },
+    {
+      "type": "text",
+      "text": "В настройках укажи стороны бака для выгрузки и максимальный объём жидкости в мБ.$(p)Можно $(ttcolor)$(t:Подключи справа, чтобы разрешить, или слева, чтобы исключить)подключить/$ $(l:programming/liquid_filter)жидкостный фильтр/$ и ограничить выбор жидкости.$(p)Виджет заканчивает работу, когда у $(item)дрона/$ заканчивается подходящая жидкость или в области нет бака, который её примет."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_export_piece.png"
+      ],
+      "text": "$(italic)Виджет «Экспорт жидкости»/$"
+    }
+  ]
+}

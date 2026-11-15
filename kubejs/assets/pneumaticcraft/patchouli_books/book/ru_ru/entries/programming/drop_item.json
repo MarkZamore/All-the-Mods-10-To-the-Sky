@@ -1,0 +1,23 @@
+{
+  "name": "Выброс предметов",
+  "icon": "pneumaticcraft:textures/progwidgets/item_drop_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ будет выбрасывать предметы из своего инвентаря в подключённой $(l:programming/area)области/$. Щёлкни $(thing)ПКМ/$ по виджету $(thing)«Бросить предметы»/$, чтобы указать число предметов на каждую позицию. Есть режимы $(thing)«Случайно»/$ и $(thing)«Прямо»/$. В первом предметы падают с небольшим случайным смещением (как из обычного $(item)выбрасывателя)/$, во втором — строго вниз."
+    },
+    {
+      "type": "text",
+      "text": "Можно подключить $(l:programming/item_filter)предметный фильтр/$. Тогда будут выбрасываться только подходящие предметы.$(p)Работа заканчивается, если в инвентаре $(item)дрона/$ закончились подходящие предметы или $(item)дрон/$ посетил все позиции области."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_drop_piece.png"
+      ],
+      "text": "$(italic)Виджет выброса предметов/$"
+    }
+  ]
+}

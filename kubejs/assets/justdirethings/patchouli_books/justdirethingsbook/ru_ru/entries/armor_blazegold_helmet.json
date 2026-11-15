@@ -1,0 +1,17 @@
+{
+  "name": "Шлем из Blazegold",
+  "sortnum": 5,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:blazegold_helmet",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Защищает лучше шлема из Ferricore и умеет восстанавливаться в лаве. Бросьте его в блок-источник лавы, чтобы полностью починить."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление шлема из Blazegold",
+      "recipe": "justdirethings:blazegold_helmet"
+    }
+  ]
+}

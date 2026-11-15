@@ -1,0 +1,33 @@
+{
+  "name": "Улучшения",
+  "icon": "industrialforegoing:range_addon11",
+  "category": "industrialforegoing:basics",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:range_addon_tier_11",
+      "title": "Дальность",
+      "text": "Увеличивает рабочую зону машин. Некоторые машины это улучшение не принимают. Каждый уровень прибавляет 1 к дальности."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:speed_addon_tier_2",
+      "title": "Скорость",
+      "text": "Шкала выполнения заполняется быстрее с каждым тактом. $(br2)Уровень 1 → +1$(br)Уровень 2 → +2"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:efficiency_addon_tier_2",
+      "title": "Эффективность",
+      "text": "Сокращает количество тактов, необходимое для выполнения операции. $(br2)Уровень 1 → -10%$(br)Уровень 2 → -20%"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:processing_addon_tier_2",
+      "title": "Обработка",
+      "text": "Позволяет выполнить несколько операций вместо одной за рабочий цикл. $(br2)Уровень 1 → +1 операция $(br)Уровень 2 → +2 операции"
+    }
+  ]
+}

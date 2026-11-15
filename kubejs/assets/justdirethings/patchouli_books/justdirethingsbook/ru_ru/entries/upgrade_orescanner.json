@@ -1,0 +1,17 @@
+{
+  "name": "Сканер руды",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_orescanner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Активная способность для кирок, начиная с Ferricore. Показывает ближайшую руду частицами, видимыми сквозь блоки. Разные виды руды при этом не различаются."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление сканера руды",
+      "recipe": "justdirethings:upgrade_orescanner"
+    }
+  ]
+}

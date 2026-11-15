@@ -1,0 +1,17 @@
+{
+  "name": "Извлекатель зачарований",
+  "icon": "industrialforegoing:enchantment_extractor",
+  "category": "industrialforegoing:misc",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Снимает зачарования с предметов. $(br2)Два режима: переносит зачарование в загруженную книгу или снимает его и превращает в $(l:agr_husb/essence)эссенцию$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_extractor"
+    }
+  ]
+}

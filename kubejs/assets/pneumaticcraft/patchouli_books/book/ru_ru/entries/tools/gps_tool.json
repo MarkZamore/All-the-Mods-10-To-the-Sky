@@ -1,0 +1,33 @@
+{
+  "name": "GPS-инструмент",
+  "icon": "pneumaticcraft:gps_tool",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Возьмите $(item)GPS-инструмент/$ и $(thing)щёлкните правой кнопкой/$ по блоку, чтобы записать его координаты. Они используются в нескольких местах в $(pncr), о которых написано дальше.$(p)$(thing)Щёлкните правой кнопкой/$ с $(item)GPS-инструментом/$ в воздухе, чтобы открыть окно точного ввода координат.$(p)Присядьте и покрутите колёсико мыши, чтобы быстро передвинуть точку вдоль направления взгляда."
+    },
+    {
+      "type": "text",
+      "anchor": "variables",
+      "title": "Привязка глобальных переменных",
+      "text": "$(l:programming/variables#global)Глобальные переменные/$ — дополнительная возможность $(l:base_concepts/drone)дронов/$. С ними работает $(l:programming/coordinate_operator)оператор координат/$.$(p)$(thing)Щёлкните правой кнопкой/$ с $(item)GPS-инструментом/$ в воздухе, чтобы ввести имя переменной.$(p)После этого $(thing)глобальная переменная/$ будет отслеживать координаты, выбранные $(item)GPS-инструментом/$. Так можно создавать $(thing)программы дронов/$ с изменяемыми областями."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "pneumaticcraft:machines/air_cannon",
+        "pneumaticcraft:machines/universal_sensor",
+        "pneumaticcraft:programming/programmer",
+        "pneumaticcraft:tools/amadron_tablet"
+      ],
+      "text": "Механизмы и инструменты, использующие $(item)GPS-инструмент/$."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление GPS-инструмента",
+      "recipe": "pneumaticcraft:gps_tool"
+    }
+  ]
+}

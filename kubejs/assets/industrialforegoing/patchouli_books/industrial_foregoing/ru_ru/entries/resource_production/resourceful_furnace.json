@@ -1,0 +1,17 @@
+{
+  "name": "Генератор на ресурсах",
+  "icon": "industrialforegoing:resourceful_furnace",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Три печи в одной.$(br2)За каждый переплавленный предмет возвращает $(6)2$() мБ эссенции. Требует $(6)40$() RF/такт."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:resourceful_furnace"
+    }
+  ]
+}

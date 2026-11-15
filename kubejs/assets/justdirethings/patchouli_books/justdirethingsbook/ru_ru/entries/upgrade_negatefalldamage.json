@@ -1,0 +1,17 @@
+{
+  "name": "Отмена урона от падения",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_negatefalldamage",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Поглощает весь урон от падения и позволяет безопасно приземлиться.$(br2)Смягчение падения расходует энергию. Чем больше урона нужно поглотить, тем выше расход. В ботинках из Celestigem заряд не бесконечный…"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения для защиты от падения",
+      "recipe": "justdirethings:upgrade_negatefalldamage"
+    }
+  ]
+}

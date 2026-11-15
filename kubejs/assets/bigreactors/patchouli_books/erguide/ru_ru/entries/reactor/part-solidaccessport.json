@@ -1,0 +1,31 @@
+{
+  "name": "Порт твёрдых материалов",
+  "icon": "bigreactors:reinforced_reactorsolidaccessport",
+  "category": "bigreactors:reactor-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_reactorsolidaccessport",
+      "link_recipe": true,
+      "title": "Порт твёрдых материалов",
+      "text": "Порт превращает твёрдые материалы, обычно слитки, в реагенты. Они заполняют $(l:bigreactors:reactor/part-fuelrod)топливные стержни$(/l) и питают реактор.$(br2)Выберите режим в интерфейсе: в $(bold)режиме входа$() порт принимает исходное топливо, в $(bold)режиме выхода$() выводит отходы."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Режим можно менять $(l:bigreactors:misc/wrench)гаечным ключом$(/l).$(br2)Материалы также можно вручную вставлять и забирать через интерфейс.$(br2)Порт твёрдых материалов позволяет быстро заправить реактор, но при этом неизбежно теряется немного материала."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Базовый",
+      "recipe1": "bigreactors:reactor/basic/solidaccessport",
+      "title2": "Усиленный",
+      "recipe2": "bigreactors:reactor/reinforced/solidaccessport"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)Обязательная деталь:$() нет, но обычно нужны два$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() есть$(br)$(l)Гаечный ключ:$() этим $(l:bigreactors:misc/wrench)ключом$(/l) можно переключить режим порта."
+    }
+  ]
+}

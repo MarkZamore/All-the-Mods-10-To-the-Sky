@@ -1,0 +1,21 @@
+{
+  "name": "Сейсмический датчик",
+  "icon": "pneumaticcraft:seismic_sensor",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пригодится в начале игры для поиска $(l:base_concepts/oil)нефти/$. В отличие от большинства инструментов, датчику не нужно $(l:base_concepts/pressure)давление/$. $(thing)Щёлкните правой кнопкой/$ по блоку, и датчик покажет, есть ли прямо под ним нефть."
+    },
+    {
+      "type": "text",
+      "text": "Возможны два результата:$(p)$(#008)  Нефть не найдена./$$(p)Под этим блоком её нет. Поищите ещё.$(p)$(#008)  Нефть найдена на глубине <distance> м, около <amount> вёдер./$$(p)Нефть найдена! На выбранном блоке удобно поставить $(l:machines/gas_lift)газлифт/$ для откачки нефти."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление сейсмического датчика",
+      "recipe": "pneumaticcraft:seismic_sensor"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Топор из Ferricore",
+  "sortnum": 4,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_axe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Подходит для рубки и боя. Прочнее железного топора и рубит быстрее, а улучшения открывают новые возможности."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:ferricore_axe",
+      "text": "Изготовление топора из Ferricore"
+    }
+  ]
+}

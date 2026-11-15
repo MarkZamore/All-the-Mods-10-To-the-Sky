@@ -1,0 +1,17 @@
+{
+  "name": "Удар по земле",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_groundstomp",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "При активации создаёт ударную волну, которая отбрасывает существа поблизости.$(br2)Чтобы пользоваться способностью, назначьте ей клавишу."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Удар по земле»",
+      "recipe": "justdirethings:upgrade_groundstomp"
+    }
+  ]
+}

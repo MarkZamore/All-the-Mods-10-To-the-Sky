@@ -1,0 +1,22 @@
+{
+  "name": "Активный энергопорт FE",
+  "icon": "bigreactors:energizerpowerport_fe_active",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:energizerpowerport_fe_active",
+      "link_recipe": true,
+      "title": "Активный энергопорт FE",
+      "text": "Активный энергопорт FE принимает и отдаёт энергию накопителя.$(br2)К нему можно подключить любой кабель или машину с поддержкой Forge Energy. Порт сам передаёт энергию подключённому блоку, если тот может её принять."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Активный энергопорт FE",
+      "crafting.recipe1": "bigreactors:energizer/powerport_fe_active",
+      "usage.text": "$(l)Обязательная деталь:$() нет$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Графический интерфейс:$() есть"
+    }
+  ]
+}

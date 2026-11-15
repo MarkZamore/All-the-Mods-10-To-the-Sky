@@ -1,0 +1,21 @@
+{
+  "name": "Жезл Voidshift",
+  "sortnum": 6,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:voidshift_wand[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Усовершенствованный $(l:justdirethings:item_blazejet_wand)жезл Blazejet$(/l) использует энергию измерений для более сложных действий.$(br2)Новая способность позволяет телепортироваться туда, куда вы смотрите, в пределах выбранной дальности."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Откройте настройки инструмента, чтобы назначить кнопку мыши или клавишу. Я, например, ставлю воздушный рывок на правую кнопку мыши, а телепортацию — на левую.$(br2)В настройках можно уменьшить максимальное расстояние и включить или отключить отрисовку игрока."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление жезла Voidshift",
+      "recipe": "justdirethings:voidshift_wand"
+    }
+  ]
+}

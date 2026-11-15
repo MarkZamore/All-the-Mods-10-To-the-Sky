@@ -1,0 +1,17 @@
+{
+  "name": "Обогатитель грязи",
+  "icon": "industrialforegoing:sludge_refiner",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 10,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Переводит $(6)мусор$() в полезные ресурсы.$(br2)Залейте $(6)мусор$() от $(l:agriculture_n_husbandry/plant_gatherer)сборщика растений$(), и машина выдаст $(6)что-нибудь полезное$().$(br)Понадобится $(6)1000$() RF/такт, так что запасите энергию заранее."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sludge_refiner"
+    }
+  ]
+}

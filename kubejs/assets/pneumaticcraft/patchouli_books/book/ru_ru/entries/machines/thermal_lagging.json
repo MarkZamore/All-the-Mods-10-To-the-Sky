@@ -1,0 +1,22 @@
+{
+  "name": "Теплоизоляция",
+  "icon": "pneumaticcraft:thermal_lagging",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Открытые механизмы $(pncr), работающие с $(l:base_concepts/heat)теплом/$, теряют его в окружающий воздух. Для защиты подойдёт почти любой блок, не проводящий тепло, но $(thing)теплоизоляция/$ особенно удобна."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:thermal_lagging",
+      "text": "Через $(thing)теплоизоляцию/$ можно $(italic)щёлкать насквозь/$ по блокам за ней, будто её нет.$(p)Если держите $(item)кирку/$ или $(item)ключ/$ либо $(thing)крадётесь/$, можно выбрать саму теплоизоляцию, чтобы снять её или выполнить другое действие."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление теплоизоляции",
+      "recipe": "pneumaticcraft:thermal_lagging"
+    }
+  ]
+}

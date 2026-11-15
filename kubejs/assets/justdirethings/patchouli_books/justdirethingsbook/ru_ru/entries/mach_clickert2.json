@@ -1,0 +1,17 @@
+{
+  "name": "Продвинутый кликер",
+  "sortnum": 8,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:clickert2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Улучшенная версия $(l:justdirethings:mach_clickert1)простого кликера$(/l). Он работает в большей области и фильтрует блоки и существа.$(br2)Для фильтрации существ используйте яйца призыва или ловец существ.$(br2)Выберите левую кнопку и враждебных мобов для фермы мобов или правую кнопку и взрослых животных для автоматического разведения."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Продвинутый кликер",
+      "recipe": "justdirethings:clickert2"
+    }
+  ]
+}

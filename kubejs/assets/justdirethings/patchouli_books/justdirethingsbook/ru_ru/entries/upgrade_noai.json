@@ -1,0 +1,17 @@
+{
+  "name": "Подавление разума",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_noai",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Останавливает ход времени для разума выбранного моба. Его искусственный интеллект выключается навсегда, и моб больше ничего не делает.$(br2)Это активная способность. Назначьте ей клавишу в настройках инструмента."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Подавление разума»",
+      "recipe": "justdirethings:upgrade_noai"
+    }
+  ]
+}

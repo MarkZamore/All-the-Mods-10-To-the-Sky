@@ -1,0 +1,17 @@
+{
+  "name": "Поножи из Ferricore",
+  "sortnum": 3,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_leggings",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Прочные и удобные поножи. С улучшениями можно быстрее двигаться."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление поножей из Ferricore",
+      "recipe": "justdirethings:ferricore_leggings"
+    }
+  ]
+}

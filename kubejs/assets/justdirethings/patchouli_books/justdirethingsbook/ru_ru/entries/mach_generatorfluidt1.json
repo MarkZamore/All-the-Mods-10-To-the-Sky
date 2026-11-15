@@ -1,0 +1,17 @@
+{
+  "name": "Простой генератор топлива",
+  "sortnum": 20,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:generatorfluidt1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Усовершенствованный $(l:justdirethings:mach_generatort1)простой угольный генератор$(/l) работает на очищенном топливе и вырабатывает энергию эффективнее.$(br2)В разделе об $(l:justdirethings:res_refined_fuel_t2)очищенном топливе$(/l) описаны все три доступных уровня топлива."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Простой генератор топлива",
+      "recipe": "justdirethings:generatorfluidt1"
+    }
+  ]
+}

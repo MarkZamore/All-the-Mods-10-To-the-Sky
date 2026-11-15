@@ -1,0 +1,17 @@
+{
+  "name": "Лук из Ferricore",
+  "sortnum": 6,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:bow_ferricore",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Прочнее обычного лука и поддерживает разные улучшения.$(br2)В настройках лука есть ячейка для зелий. Вставьте туда $(l:justdirethings:item_potion_canister)канистру с зельем$(/l), чтобы накладывать эффект на стрелы."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:bow_ferricore",
+      "text": "Изготовление лука из Ferricore"
+    }
+  ]
+}

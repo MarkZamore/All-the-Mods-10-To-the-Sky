@@ -1,0 +1,17 @@
+{
+  "name": "Снятие отрицательных эффектов",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_debuffremover",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Удаляет отрицательные эффекты, чтобы они не мешали в бою.$(br2)Это активная способность. Назначьте ей клавишу в настройках инструмента. Между применениями нужна перезарядка."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения для снятия эффектов",
+      "recipe": "justdirethings:upgrade_debuffremover"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Первобытный уголь",
+  "sortnum": 21,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:coal_t1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Первый вид улучшенного угля. Чтобы его получить, поставьте угольный блок рядом со $(l:justdirethings:gooblock_tier1)слизью Primogel$(/l). Он горит заметно дольше обычного угля и даёт больше FE за такт в генераторе, в том числе карманном."
+    }
+  ]
+}

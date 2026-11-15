@@ -1,0 +1,23 @@
+{
+  "name": "Подбор предметов",
+  "icon": "pneumaticcraft:textures/progwidgets/item_pick_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ будет собирать лежащие в мире предметы и складывать их в инвентарь. У подключённых виджетов $(l:programming/area)«Область»/$ должна быть выбрана форма $(thing)«Параллелепипед»/$. Сложную форму можно составить из нескольких областей, включая одни и исключая другие."
+    },
+    {
+      "type": "text",
+      "text": "Виджет $(l:programming/item_filter)«Предметный фильтр»/$ ограничивает, какие предметы можно подбирать. Исключающий фильтр ставится $(thing)слева/$ от виджета.$(p)Виджет завершает работу, когда подходящих предметов на земле больше нет или ни один из них не помещается в инвентарь дрона."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_pick_piece.png"
+      ],
+      "text": "$(italic)Моё. Моё. Моё./$"
+    }
+  ]
+}

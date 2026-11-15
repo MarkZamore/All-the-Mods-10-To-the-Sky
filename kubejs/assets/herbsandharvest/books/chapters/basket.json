@@ -1,0 +1,21 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "The crop basket can hold up to 8 stacks of any Crop items such as fruits or vegetables.\n\nEach item displayed represents one stack.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/basket/basket.png",
+          "caption": "herbsandharvest.guide_book.chapters.basket.basket_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.80d53cf45ca3ff60"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Жезл времени",
+  "sortnum": 7,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:time_wand[justdirethings:forge_energy=100000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Переносной инструмент, использующий свойства $(l:justdirethings:res_time_crystal)кристаллов времени$(/l).$(br2)Для работы нужны энергия Forge и $(l:justdirethings:res_time_fluid)жидкость времени$(/l)."
+    },
+    {
+      "type": "justdirethings:text_with_config",
+      "text": "Щёлкните правой кнопкой по блоку, который обновляется каждый такт, например печи или пшенице. Сначала он заработает вдвое быстрее. Следующие нажатия увеличат скорость до ×4, ×8 и так далее, вплоть до ×#time_wand.time_wand_max_multiplier#!$(br2)Чем сильнее ускорение, тем больше энергии и жидкости времени оно расходует.$(br2)Ускорение действует 30 секунд.",
+      "config_options": [
+        "time_wand.time_wand_max_multiplier"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление жезла времени",
+      "recipe": "justdirethings:time_wand"
+    }
+  ]
+}

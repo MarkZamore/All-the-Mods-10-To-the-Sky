@@ -1,0 +1,17 @@
+{
+  "name": "Генератор на биотопливе",
+  "icon": "industrialforegoing:biofuel_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Вырабатывает $(6)160$() RF/такт из $(l:generators/biofuel)биотоплива$(). $(br2)Экономит топливо: когда внутренний буфер заполнен, расход останавливается."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:biofuel_generator"
+    }
+  ]
+}

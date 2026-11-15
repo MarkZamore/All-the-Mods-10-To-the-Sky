@@ -1,0 +1,12 @@
+{
+  "name": "Уголь Blaze Ember",
+  "sortnum": 22,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:coal_t2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Поставьте блок $(l:justdirethings:res_coal_t1)первобытного угля$(/l) рядом со $(l:justdirethings:gooblock_tier2)слизью Blazebloom$(/l). Blaze Ember горит жарче и эффективнее предыдущего вида угля, давая больше RF за такт."
+    }
+  ]
+}

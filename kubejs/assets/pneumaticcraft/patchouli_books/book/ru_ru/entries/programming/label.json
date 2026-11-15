@@ -1,0 +1,23 @@
+{
+  "name": "Ярлык",
+  "icon": "pneumaticcraft:textures/progwidgets/label_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот виджет управляет $(l:programming/flow_control)ходом программы/$. Ярлык отмечает точку, к которой могут перейти виджеты $(l:programming/jump)«Перейти»/$ и $(l:programming/conditions)«Условие»/$. Чтобы дать ярлыку имя, присоедини к нему виджет $(l:programming/text)«Текст»/$. Переходы и условия, которым передан виджет $(thing)«Текст»/$ с тем же именем, будут вести к этому ярлыку."
+    },
+    {
+      "type": "text",
+      "text": "Виджет $(thing)«Ярлык»/$ позволяет сделать $(italic)ветвление/$ программы с помощью $(l:programming/conditions)условий/$. Ярлыками также можно разделять части программы для удобства чтения. Включи флажок $(bold)«Показать ход программы»/$ в левом нижнем углу $(l:programming/programmer)программатора/$, чтобы увидеть линии между виджетами $(thing)перехода, условия и ярлыка/$ с одинаковым именем."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/label_piece.png"
+      ],
+      "text": "$(italic)Виджет «Ярлык»/$"
+    }
+  ]
+}

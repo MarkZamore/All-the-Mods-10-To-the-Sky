@@ -1,0 +1,17 @@
+{
+  "name": "Бесконечный лаунчер",
+  "icon": "industrialforegoing:infinity_launcher",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Позволяет на расстоянии поймать моба в заключатель или выпустить его оттуда. Выберите режим в интерфейсе и выстрелите. Используется заключатель мобов из вашего инвентаря."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_launcher"
+    }
+  ]
+}

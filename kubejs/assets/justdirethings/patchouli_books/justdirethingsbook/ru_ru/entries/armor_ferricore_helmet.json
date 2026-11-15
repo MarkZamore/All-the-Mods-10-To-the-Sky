@@ -1,0 +1,17 @@
+{
+  "name": "Шлем из Ferricore",
+  "sortnum": 1,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_helmet",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Простой шлем в стиле древних воинов. Защищает чуть лучше железного, а особые улучшения сделают его ещё надёжнее."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление шлема из Ferricore",
+      "recipe": "justdirethings:ferricore_helmet"
+    }
+  ]
+}

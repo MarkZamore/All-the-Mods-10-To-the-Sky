@@ -1,0 +1,12 @@
+{
+  "The Extreme Book": "Справочник Extreme Reactors",
+  "Welcome to the Extreme Reactors Fundamentals Handbook, or the Extreme Book for short.$(br2)Extreme Reactors is a mod all about making extreme amounts of energy in an efficient way and this book will be your guide in achieving that!": "Добро пожаловать в справочник Extreme Reactors!$(br2)Этот мод позволяет вырабатывать огромные объёмы энергии. В справочнике вы узнаете, как собрать и настроить эффективную установку.",
+  "block.bigreactors.energizercasing": "Корпус накопителя",
+  "block.bigreactors.energizercontroller": "Контроллер накопителя",
+  "block.bigreactors.energizerstatus": "Экран состояния накопителя",
+  "block.bigreactors.energizerchargingportfe": "Порт зарядки FE",
+  "block.bigreactors.energizerpowerportfe": "Пассивный энергопорт FE",
+  "block.bigreactors.energizerpowerportfe_active": "Активный энергопорт FE",
+  "block.bigreactors.energizercomputerport": "Компьютерный порт накопителя",
+  "block.bigreactors.energizercell": "Энергоячейка"
+}

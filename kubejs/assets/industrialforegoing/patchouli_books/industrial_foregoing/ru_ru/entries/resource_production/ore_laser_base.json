@@ -1,0 +1,17 @@
+{
+  "name": "Лазерная основа",
+  "icon": "industrialforegoing:ore_laser_base",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Когда $(l:resource_production/laser_drill)лазерная дрель$() полностью зарядит основу, та добудет руду. Вес каждой руды зависит от биома и настроенной глубины бурения. $(br2)Линзы увеличивают вес соответствующей руды. $(br2)Точные значения смотрите в JEI."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:ore_laser_base"
+    }
+  ]
+}

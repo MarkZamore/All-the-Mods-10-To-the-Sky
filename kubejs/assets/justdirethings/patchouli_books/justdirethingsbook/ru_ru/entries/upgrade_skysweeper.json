@@ -1,0 +1,17 @@
+{
+  "name": "Расчистка сверху",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_skysweeper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пассивная способность для лопат, начиная с Ferricore. Когда вы ломаете падающий блок, например песок или гравий, все такие же блоки над ним тоже ломаются. Больше никакого падающего гравия при копке!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения для расчистки сверху",
+      "recipe": "justdirethings:upgrade_skysweeper"
+    }
+  ]
+}

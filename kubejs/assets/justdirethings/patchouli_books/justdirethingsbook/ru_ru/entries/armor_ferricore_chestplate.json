@@ -1,0 +1,17 @@
+{
+  "name": "Нагрудник из Ferricore",
+  "sortnum": 2,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:ferricore_chestplate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Выдерживает больше ударов, чем железный нагрудник. Специальные улучшения могут ещё повысить его защиту."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление нагрудника из Ferricore",
+      "recipe": "justdirethings:ferricore_chestplate"
+    }
+  ]
+}

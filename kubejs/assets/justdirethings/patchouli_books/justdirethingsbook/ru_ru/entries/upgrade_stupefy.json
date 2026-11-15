@@ -1,0 +1,17 @@
+{
+  "name": "Ошеломление",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_stupefy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Посмотрите на противника и нажмите назначенную клавишу. Противник тут же забудет о вас!$(br2)Некоторое время он не сможет снова выбрать вас целью. Способности требуется перезарядка!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Ошеломление»",
+      "recipe": "justdirethings:upgrade_stupefy"
+    }
+  ]
+}

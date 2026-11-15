@@ -1,0 +1,21 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Now you're ready to begin farming and filling your home with delicious and interactive dishes.\n\nFor questions, or immediate help, please join the discord:\n\nhttps://discord.gg/2QWyQ8fkUr",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/mama.png",
+          "caption": "herbsandharvest.guide_book.chapters.mama_caption",
+          "image_width": 30,
+          "image_height": 30
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.39b5b387f364c10f"
+        }
+      ]
+    }
+  ]
+}

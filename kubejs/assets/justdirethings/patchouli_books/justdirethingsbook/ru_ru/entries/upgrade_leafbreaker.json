@@ -1,0 +1,17 @@
+{
+  "name": "Разрушение листвы",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_leafbreaker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Щёлкните правой кнопкой по блоку листвы, чтобы активировать улучшение. Все соседние блоки листвы тоже сломаются."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения для разрушения листвы",
+      "recipe": "justdirethings:upgrade_leafbreaker"
+    }
+  ]
+}

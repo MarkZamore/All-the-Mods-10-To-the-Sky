@@ -1,0 +1,6 @@
+{
+  "name": "Возобновляемые ресурсы",
+  "description": "В $(pncr) есть способы получать возобновляемые ресурсы, в частности биодизель.",
+  "icon": "pneumaticcraft:biodiesel_bucket",
+  "sortnum": 11
+}

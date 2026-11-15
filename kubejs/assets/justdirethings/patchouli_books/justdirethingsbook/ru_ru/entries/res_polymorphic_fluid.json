@@ -1,0 +1,12 @@
+{
+  "name": "Полиморфная жидкость",
+  "sortnum": 26,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:polymorphic_fluid_bucket",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Универсальная основа для других жидкостей. Чтобы получить её, бросьте $(l:justdirethings:res_polymorphic_catalyst)полиморфный катализатор$(/l) в воду. Она вступает в разные реакции с ресурсами и образует специальные виды топлива."
+    }
+  ]
+}

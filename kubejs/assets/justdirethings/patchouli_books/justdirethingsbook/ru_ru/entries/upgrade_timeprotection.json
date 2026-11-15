@@ -1,0 +1,17 @@
+{
+  "name": "Защита от времени",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_time_protection",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:justdirethings:res_time_crystal)Кристаллы времени$(/l) замечательны! Но если носить их с собой, иногда возникают нежелательные эффекты. Дальнейшие исследования могут привести к появлению полей и способностей, меняющих время.$(br2)Это улучшение защищает от странных последствий экспериментов со временем!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Скорость ходьбы»",
+      "recipe": "justdirethings:upgrade_time_protection"
+    }
+  ]
+}

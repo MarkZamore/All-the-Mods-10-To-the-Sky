@@ -1,0 +1,21 @@
+{
+  "name": "Карманный генератор",
+  "sortnum": 2,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:pocket_generator",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Переносной источник энергии, который заряжает инструменты и броню на ходу. Пригодится всем, кто пользуется энергией Forge.$(br2)Откройте интерфейс и загрузите обычный уголь или один из видов угля этого мода."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Топливо высокого уровня горит жарче и дольше, поэтому даёт больше FE за такт. Можно также вставить $(l:justdirethings:item_fuel_canister)канистру для топлива$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление карманного генератора",
+      "recipe": "justdirethings:pocket_generator"
+    }
+  ]
+}

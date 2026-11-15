@@ -1,0 +1,19 @@
+{
+  "name": "Самоликвидация дрона",
+  "icon": "pneumaticcraft:textures/progwidgets/suicide_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ сразу превратится в предмет и упадёт на землю. Программа тут же остановится."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/suicide_piece.png"
+      ],
+      "text": "$(italic)Вот и всё, ребята/$"
+    }
+  ]
+}

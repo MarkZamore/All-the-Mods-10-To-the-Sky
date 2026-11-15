@@ -1,0 +1,14 @@
+{
+  "name": "Добыча сока с Tree Tap",
+  "icon": "minecraft:barrier",
+  "category": "productivetrees:treetap_missing",
+  "flag": "!mod:treetap",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/treetap",
+      "link_text": "Страница мода",
+      "text": "У вас не установлен Tree Tap :("
+    }
+  ]
+}

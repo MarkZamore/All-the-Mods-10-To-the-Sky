@@ -1,0 +1,116 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Pine Trees are found in cold biomes. Cut one down, and let the logs or planks sit out until they weather and rot. Then use them to build spooky houses!",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": " Sunflower Oil can be used to halt the aging process. Use the Oil on the wood to preserve it, but remember, this change is permanent. You can't un-oil wood!\n\n"
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/pine_log.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.pine_log_caption",
+          "image_width": 116,
+          "image_height": 29
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Each age of Pine Planks can be crafted into:\n-Stairs\n-Slabs\n-Fences & Gates\n-Pressure Plates\n-Buttons\n-Doors\n-Trapdoors",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/blocks/pine.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.pine_caption",
+          "image_width": 116,
+          "image_height": 83
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "These blocks use the same recipe formats as regular blocks, but will accept either regular or preserved planks."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "There are two new types of fences in HappyHallows: A Wrought Iron Fence, and Picket Fences.\n\nThe Wrought Iron Fence Gate makes a creepy squeak when opened.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/fences/iron_fence.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.iron_fence_caption",
+          "image_width": 116,
+          "image_height": 68
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "It's perfect for graveyards or keeping mobs and traveling salesmen* at bay.\n\n*Restrictions may apply."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Iron Fence and Gate crafting recipes are shown here:",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/fences/craft_iron_fence.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.craft_iron_fence_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/fences/craft_iron_gate.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.craft_iron_gate_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Keep your questionable activities hidden from nosy neighbors with a Picket Fence. Gates and booby traps sold separately.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/fences/picket_fence.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.picket_fence_caption",
+          "image_width": 116,
+          "image_height": 68
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Picket Fences can be made from each type of Pine Planks, and are also found in MerryMaking."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Picket Fence and Picket Fence Gate crafting recipes are shown here:",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/fences/craft_picket_fence.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.craft_picket_fence_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/fences/craft_picket_gate.png",
+          "caption": "happyhallows.guide_book.chapters.blocks.craft_picket_gate_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    }
+  ]
+}

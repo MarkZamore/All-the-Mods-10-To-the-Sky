@@ -1,0 +1,17 @@
+{
+  "name": "Шлем из Celestigem",
+  "sortnum": 9,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:celestigem_helmet[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Шлем расходует энергию Forge вместо прочности и вмещает до 10 000 FE. Заряжайте его $(l:justdirethings:item_pocket_generator)карманным генератором$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление шлема из Celestigem",
+      "recipe": "justdirethings:celestigem_helmet"
+    }
+  ]
+}

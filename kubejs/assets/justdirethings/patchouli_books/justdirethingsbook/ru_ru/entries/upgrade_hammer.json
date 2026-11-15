@@ -1,0 +1,17 @@
+{
+  "name": "Молот",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_hammer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет ломать по несколько блоков за раз и ускоряет добычу.$(br2)Кирка из Blazegold добывает участок 3×3. Celestigem открывает 5×5, а сплав Eclipse — 7×7. Нажимайте на значок улучшения в интерфейсе, чтобы менять размер участка."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Молот»",
+      "recipe": "justdirethings:upgrade_hammer"
+    }
+  ]
+}

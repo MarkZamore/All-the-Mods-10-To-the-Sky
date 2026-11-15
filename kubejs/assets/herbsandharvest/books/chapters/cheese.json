@@ -1,0 +1,267 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "The Homesteader's Guide to Cheese Making\n\n",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.cheese.wheels",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.wheelsc",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.supp",
+          "target_page": 3
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.mix",
+          "target_page": 4
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.milk",
+          "target_page": 5
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.rennet",
+          "target_page": 6
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.curds",
+          "target_page": 7
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.salt",
+          "target_page": 8
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.raw",
+          "target_page": 9
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.age",
+          "target_page": 10
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.place",
+          "target_page": 11
+        },
+        {
+          "title": "herbsandharvest.guide_book.cheese.auto",
+          "target_page": 12
+        }
+      ],
+      "elements": []
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.wheels",
+      "summary": "Cheese comes in two types: Soft Cheese, and Hard Cheese. A Soft Cheese Wheel is ready for use immediately.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:caravane",
+              "text": "guide.herbsandharvest.caravane_desc"
+            },
+            {
+              "item": "herbsandharvest:chevre",
+              "text": "guide.herbsandharvest.chevre_desc"
+            },
+            {
+              "item": "herbsandharvest:feta",
+              "text": "guide.herbsandharvest.feta_desc"
+            },
+            {
+              "item": "herbsandharvest:ricotta",
+              "text": "guide.herbsandharvest.ricotta_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.wheelsc",
+      "summary": "A raw wheel of hard cheese must be \"aged\" on a Cheese Shelf before using.",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:aged_cheddar",
+              "text": "guide.herbsandharvest.aged_cheddar_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_gouda",
+              "text": "guide.herbsandharvest.aged_gouda_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_parmesan",
+              "text": "guide.herbsandharvest.aged_parmesan_desc"
+            },
+            {
+              "item": "herbsandharvest:aged_swiss",
+              "text": "guide.herbsandharvest.aged_swiss_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.supp",
+      "summary": "For Cheese Making, you need the following:\n-Milk Buckets (An assortment, for different cheeses)\n-A Cauldron with a heat source below it\n-Rennet\n-Salt\n-A Cheese Aging Shelf",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.8cf6f6dcdd03d247"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.mix",
+      "summary": "Hard Cheeses:\n\n- Cheddar: Cow Milk\n- Gouda: Sheep Milk\n- Parmesan: Cow Milk, Goat Milk\n- Swiss: Sheep Milk, Goat Milk",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.dc8b3924b8a49dcf"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.milk",
+      "summary": "Once you have decided on a recipe, and you have your other supplies, it's time to start creating the Cheese.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/add_milk.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.add_milk_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.8f188366a90a7744"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.rennet",
+      "summary": "Next, QUICKLY add your Rennet. This is important, because if Rennet is not added fast enough, the Milk will change into Cream.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/add_rennet.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.add_rennet_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.dc1cc0ad2d9da134"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.curds",
+      "summary": "The mixture will begin to move, and after some time, will change once more, into Curds and Whey.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/curds.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.curds_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.3d658d569726b5db"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.salt",
+      "summary": "When your Cauldron is full of Curds and Whey, the next thing to do is to use Salt on the Cauldron.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.91bd9f9d03e675dc"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.raw",
+      "summary": "The next part depends on what type of Cheese you have made.\n\nIf your Cheese recipe was a Soft Cheese, then there is nothing else to do; it's ready to go. ",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/wheel.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.wheel_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.c16c6c55f8204d9f"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.age",
+      "summary": "If you have crafted a Hard Cheese recipe, the Wheel you receive will be a \"Raw\" Wheel of that Cheese type, which will need to be aged.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/shelf.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.shelf_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.412d366aca78de7f"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.place",
+      "summary": "A finished Wheel of Cheese is a placeable block.\n\nPlace it down, and click on it to recieve an edible Wedge of Cheese, which can be eaten or used in food recipes.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/cheese/wheel1.png",
+          "caption": "herbsandharvest.guide_book.chapters.cheese.wheel1_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.9f98f4d43871d8c6"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.cheese.auto",
+      "summary": "Adding Rennet or Salt to the Cauldron can be automated with a Dispenser.\n\nNote: Adding the Milk mixtures to the Cauldron cannot be automated.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.d9b439b9ad68d951"
+        }
+      ]
+    }
+  ]
+}

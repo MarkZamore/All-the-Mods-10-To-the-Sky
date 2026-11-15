@@ -1,0 +1,23 @@
+{
+  "name": "Переход",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот виджет управляет $(l:programming/flow_control)ходом программы/$. Когда программа доходит до виджета $(thing)«Перейти»/$, он читает подключённый виджет $(l:programming/text)«Текст»/$ и пытается перейти к $(l:programming/label)ярлыку/$ с тем же именем. Если это по какой-то причине не получается, выполнение возвращается к $(l:programming/start)«Старту»/$. В нормальной программе такой возврат не должен происходить."
+    },
+    {
+      "type": "text",
+      "text": "Виджетом $(thing)«Перейти»/$ можно объединить несколько $(italic)веток/$, направив два или более переходов к одному $(l:programming/label)ярлыку/$, или разнести части программы по отдельным «подпрограммам». Включи флажок $(bold)«Показать ход программы»/$ в левом нижнем углу $(l:programming/programmer)программатора/$, чтобы увидеть линии между виджетами $(thing)перехода, условия и ярлыка/$ с одинаковым именем."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/jump_piece.png"
+      ],
+      "text": "$(italic)Почему бы не прыгнуть/$"
+    }
+  ]
+}

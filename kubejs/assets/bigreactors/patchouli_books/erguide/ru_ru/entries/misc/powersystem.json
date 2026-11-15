@@ -1,0 +1,16 @@
+{
+  "name": "Системы питания",
+  "icon": "minecraft:redstone_block",
+  "category": "bigreactors:misc",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Генераторы Extreme Reactors не привязаны к одной конкретной системе питания Minecraft.$(br2)Выработанная энергия хранится во внутреннем буфере и преобразуется энергоотводом в момент извлечения."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Установленные на реактор или турбину энергоотводы определяют систему питания на выходе.$(br2)В моде есть $(l:bigreactors/part-forgepowertap)энергоотвод Forge Energy$(/l), который передаёт энергию в единицах $(bold)Forge Energy$().$(br2)Для других систем питания можно добавить новые типы энергоотводов."
+    }
+  ]
+}

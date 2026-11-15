@@ -1,0 +1,21 @@
+{
+  "name": "Простой угольный генератор",
+  "sortnum": 19,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:generatort1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вырабатывает энергию Forge (FE) из обычного топлива для печей и улучшенных видов угля. Более высокие уровни, например $(l:justdirethings:res_coal_t1)первобытный уголь$(/l), $(l:justdirethings:res_coal_t2)Blaze Ember$(/l), $(l:justdirethings:res_coal_t3)Voidflame$(/l) и $(l:justdirethings:res_coal_t4)Eclipse Ember$(/l), дают больше FE за такт и больше энергии за весь цикл горения."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чем выше уровень угля, тем дольше он горит и тем больше энергии можно получить из того же количества топлива."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Рецепт изготовления",
+      "recipe": "justdirethings:generatort1"
+    }
+  ]
+}

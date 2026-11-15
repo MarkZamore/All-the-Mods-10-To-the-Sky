@@ -1,0 +1,17 @@
+{
+  "name": "Рентген руды",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_orexray",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Подсвечивает скрытую в породе руду сквозь сплошные блоки.$(br2)Заменяет сканер руды и запускается тем же способом."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Рентген руды»",
+      "recipe": "justdirethings:upgrade_orexray"
+    }
+  ]
+}

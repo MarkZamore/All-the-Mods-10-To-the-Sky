@@ -1,0 +1,22 @@
+{
+  "name": "Выходной порт",
+  "icon": "bigreactors:fluidizeroutputport",
+  "category": "bigreactors:fluidizer-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:fluidizeroutputport",
+      "link_recipe": true,
+      "title": "Выходной порт",
+      "text": "Через выходной порт из разжижителя забирают жидкое топливо.$(br2)Подключите любую подходящую трубу, чтобы забирать топливо автоматически."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Выходной порт",
+      "crafting.recipe1": "bigreactors:fluidizer/outputport",
+      "usage.text": "$(l)Обязательная деталь:$() нужен хотя бы один$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

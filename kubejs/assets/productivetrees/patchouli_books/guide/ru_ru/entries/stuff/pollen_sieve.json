@@ -1,0 +1,18 @@
+{
+  "name": "Улучшение: сито для пыльцы",
+  "icon": "productivetrees:upgrade_pollen_sieve",
+  "category": "productivetrees:stuff",
+  "flag": "mod:productivebees",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivetrees:upgrade_pollen_sieve",
+      "text": "Установите улучшение в улучшенный улей из Productive Bees, и пчёлы начнут собирать пыльцу с ближайших деревьев. Радиус сбора увеличивают улучшения дальности. Второе сито урожай не увеличит."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "productivetrees:pollen_sieve",
+      "text": ""
+    }
+  ]
+}

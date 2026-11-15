@@ -1,0 +1,26 @@
+{
+  "name": "Порт зарядки FE",
+  "icon": "bigreactors:energizerchargingport_fe",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:energizerchargingport_fe",
+      "link_recipe": true,
+      "title": "Порт зарядки FE",
+      "text": "Порт зарядки использует энергию накопителя для зарядки предметов, которые поддерживают $(l:bigreactors:misc/powersystem)систему питания$(/l) Forge Energy.$(br2)Откройте интерфейс порта и вставьте предмет в центральную входную ячейку."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Когда предмет полностью зарядится, он автоматически переместится в выходную ячейку. Заберите его оттуда.$(br2)Чтобы остановить зарядку раньше, нажмите кнопку извлечения. Предмет сразу переместится в выходную ячейку."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Порт зарядки FE",
+      "crafting.recipe1": "bigreactors:energizer/chargingport_fe",
+      "usage.text": "$(l)Обязательная деталь:$() нет$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Графический интерфейс:$() есть"
+    }
+  ]
+}

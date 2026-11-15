@@ -1,0 +1,17 @@
+{
+  "name": "Укреплённый сундук",
+  "icon": "pneumaticcraft:reinforced_chest",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "В $(item)укреплённом сундуке/$ 36 ячеек. Он устойчив к взрывам как обсидиан и сохраняет содержимое при разрушении."
+    },
+    {
+      "type": "crafting",
+      "text": "Рецепт укреплённого сундука",
+      "recipe": "pneumaticcraft:reinforced_chest"
+    }
+  ]
+}

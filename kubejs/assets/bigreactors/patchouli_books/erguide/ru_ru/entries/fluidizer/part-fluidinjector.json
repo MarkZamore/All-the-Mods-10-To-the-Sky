@@ -1,0 +1,22 @@
+{
+  "name": "Нагнетатель жидкого топлива",
+  "icon": "bigreactors:fluidizerfluidinjector",
+  "category": "bigreactors:fluidizer-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:fluidizerfluidinjector",
+      "link_recipe": true,
+      "title": "Нагнетатель жидкого топлива",
+      "text": "Этот нагнетатель подаёт жидкое топливо в разжижитель. В машине оно смешивается с другим топливом, образуя новый вид."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Нагнетатель жидкости",
+      "crafting.recipe1": "bigreactors:fluidizer/fluidinjector",
+      "usage.text": "$(l)Обязательная деталь:$() см. $(l:bigreactors:fluidizer/operational_mode)режим работы$(/l)$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

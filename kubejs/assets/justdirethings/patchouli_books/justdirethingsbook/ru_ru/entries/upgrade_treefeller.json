@@ -1,0 +1,17 @@
+{
+  "name": "Лесоруб",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_treefeller",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пассивная способность для топоров, начиная с Ferricore. При рубке одного бревна она ломает и примыкающие брёвна того же вида.$(br2)Срубите целое дерево одним взмахом!$(br2)На рубку целого дерева уйдёт чуть больше времени, чем на один блок."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Лесоруб»",
+      "recipe": "justdirethings:upgrade_treefeller"
+    }
+  ]
+}

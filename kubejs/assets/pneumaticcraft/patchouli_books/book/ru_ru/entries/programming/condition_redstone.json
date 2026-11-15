@@ -1,0 +1,19 @@
+{
+  "name": "Условие: редстоун",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_redstone_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это виджет $(l:programming/conditions)«Условие»/$.$(p)Виджет $(thing)«Условие: редстоун»/$ удалённо сравнивает силу сигнала редстоуна у блоков в подключённой $(l:programming/area)области/$ с заданным порогом."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_redstone_piece.png"
+      ],
+      "text": "$(italic)Условие: редстоун/$"
+    }
+  ]
+}

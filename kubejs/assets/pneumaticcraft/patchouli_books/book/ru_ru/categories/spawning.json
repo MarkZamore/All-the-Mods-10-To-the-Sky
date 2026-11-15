@@ -1,0 +1,6 @@
+{
+  "name": "Призыв мобов",
+  "description": "Механизмы и приспособления для управляемого появления мобов.",
+  "icon": "pneumaticcraft:pressurized_spawner",
+  "sortnum": 12
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Станция ферментизации",
+  "icon": "industrialforegoing:fermentation_station",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 20,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Когда сырое рудное мясо достигнет заданного уровня, станция герметично закроется и начнёт ферментацию выбранным способом."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fermentation_station"
+    }
+  ]
+}

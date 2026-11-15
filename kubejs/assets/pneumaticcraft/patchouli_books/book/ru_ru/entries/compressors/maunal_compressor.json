@@ -1,0 +1,17 @@
+{
+  "name": "Ручной компрессор",
+  "icon": "pneumaticcraft:manual_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Ручной компрессор/$ вырабатывает $(l:base_concepts/pressure)сжатый воздух/$ за счёт вашего труда и сытости. Зажмите ПКМ на компрессоре, чтобы накачать воздух и сжать его. Чем выше давление, тем дольше работает каждый качок. Под конец накачать ещё воздуха уже не получится."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление $(item)ручного компрессора/$",
+      "recipe": "pneumaticcraft:manual_compressor"
+    }
+  ]
+}

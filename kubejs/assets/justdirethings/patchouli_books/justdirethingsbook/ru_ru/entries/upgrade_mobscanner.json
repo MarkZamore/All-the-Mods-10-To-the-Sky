@@ -1,0 +1,17 @@
+{
+  "name": "Сканер мобов",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_mobscanner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Активная способность для мечей, начиная с Ferricore. После активации ближайшие враги отмечаются частицами, видимыми сквозь блоки."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление сканера мобов",
+      "recipe": "justdirethings:upgrade_mobscanner"
+    }
+  ]
+}

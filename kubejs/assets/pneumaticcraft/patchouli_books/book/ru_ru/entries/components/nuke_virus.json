@@ -1,0 +1,17 @@
+{
+  "name": "Ядерный вирус",
+  "icon": "pneumaticcraft:nuke_virus",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Особый компонент, который используется только для взлома $(l:machines/security_station)станций безопасности/$. Создать его нельзя. Ищите в подземельях или изредка у торговцев среди жителей."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:nuke_virus",
+      "text": "Если применить $(thing)ядерный вирус/$ к узлу при взломе, он мгновенно взломает этот узел. Между применениями должно пройти три секунды."
+    }
+  ]
+}

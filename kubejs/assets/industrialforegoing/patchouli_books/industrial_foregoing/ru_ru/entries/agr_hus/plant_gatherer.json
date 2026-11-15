@@ -1,0 +1,21 @@
+{
+  "name": "Сборщик растений",
+  "icon": "industrialforegoing:plant_gatherer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)Рубит$() деревья и $(6)собирает$() урожай. При каждом действии образуется немного $(l:agr_hus/sludge)мусора$(). $(br2)Если сборщик начал рубить дерево в рабочей зоне, он соберёт все брёвна и листья, которые соединены с нижним бревном."
+    },
+    {
+      "type": "text",
+      "text": "При сборе урожая машина ломает растения, даже если их можно собрать правой кнопкой мыши. При подаче небольшого количества эфира она автоматически засаживает грядку снова."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_gatherer"
+    }
+  ]
+}

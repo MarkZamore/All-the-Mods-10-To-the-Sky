@@ -1,0 +1,17 @@
+{
+  "name": "Юнит по производству латекса",
+  "icon": "industrialforegoing:latex_processing_unit",
+  "category": "industrialforegoing:basics",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Использует $(6)750$() мБ $(l:basics/latex)латекса$() и $(6)500$() мБ воды для получения 1 $(l:basics/plastic)кусочка сухой резины$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:latex_processing_unit"
+    }
+  ]
+}

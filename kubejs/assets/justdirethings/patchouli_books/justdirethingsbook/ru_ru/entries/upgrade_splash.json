@@ -1,0 +1,17 @@
+{
+  "name": "Всплеск",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_splash",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "При попадании стрела разбрызгивает зелье, распространяя эффект по большей области."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Всплеск»",
+      "recipe": "justdirethings:upgrade_splash"
+    }
+  ]
+}

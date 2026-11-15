@@ -1,0 +1,17 @@
+{
+  "name": "Варщик зелий",
+  "icon": "industrialforegoing:potion_brewer",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Автоматическая зельеварка.$(br2)При подаче $(6)энергии$() варит зелья из загруженных ингредиентов.$(br)Наполняет пустые пузырьки, если во внутреннем баке есть $(6)вода$(). Вода из бака не расходуется. $(br2)Чтобы забирать готовые зелья, укажите нужное зелье в зелёном фильтре."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:potion_brewer"
+    }
+  ]
+}

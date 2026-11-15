@@ -1,0 +1,12 @@
+{
+  "name": "Паксель из сплава Eclipse",
+  "sortnum": 26,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_paxel[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Объединяет кирку, топор и лопату высшего уровня в одном инструменте.$(br2)Соедините кирку, топор и лопату из сплава Eclipse или улучшите $(l:justdirethings:tool_celestigem_paxel)паксель из Celestigem$(/l) на кузнечном столе. В обоих случаях все установленные улучшения сохраняются."
+    }
+  ]
+}

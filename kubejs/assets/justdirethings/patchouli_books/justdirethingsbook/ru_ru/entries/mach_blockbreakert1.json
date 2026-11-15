@@ -1,0 +1,17 @@
+{
+  "name": "Простой разрушитель блоков",
+  "sortnum": 3,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:blockbreakert1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ломает блок перед собой инструментом, например киркой или лопатой. Без инструмента не работает. При разрушении блока тратит прочность или заряд, как при работе игрока."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Простой разрушитель блоков",
+      "recipe": "justdirethings:blockbreakert1"
+    }
+  ]
+}

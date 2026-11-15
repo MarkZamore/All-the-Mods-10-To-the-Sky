@@ -1,0 +1,31 @@
+{
+  "name": "Зарядный порт Forge",
+  "icon": "bigreactors:reinforced_turbinechargingportfe",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinechargingportfe",
+      "link_recipe": true,
+      "title": "Зарядный порт Forge",
+      "text": "Зарядный порт использует энергию турбины, чтобы заряжать предметы с поддержкой $(l:bigreactors:misc/powersystem)системы питания$(/l) Forge Energy.$(br2)Откройте интерфейс порта и вставьте предмет в центральную входную ячейку."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Когда предмет полностью зарядится, он автоматически переместится в выходную ячейку. Заберите его оттуда.$(br2)Чтобы прервать зарядку, нажмите кнопку извлечения. Предмет сразу попадёт в выходную ячейку."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Базовый",
+      "recipe1": "bigreactors:turbine/basic/chargingfe",
+      "title2": "Усиленный",
+      "recipe2": "bigreactors:turbine/reinforced/chargingfe"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)Обязательная деталь:$() нет$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() есть"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Слизь Blazebloom",
+  "sortnum": 2,
+  "category": "justdirethings:goo",
+  "icon": "justdirethings:gooblock_tier2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Blazebloom вобрала жар Нижнего мира. Она превращает золото в Blazegold, наполненный солнечной энергией материал для новых рецептов и магических предметов.$(br2)Подойдёт тому, кто уже освоил основы преобразования ресурсов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление слизи Blazebloom",
+      "recipe": "justdirethings:gooblock_tier2"
+    }
+  ]
+}

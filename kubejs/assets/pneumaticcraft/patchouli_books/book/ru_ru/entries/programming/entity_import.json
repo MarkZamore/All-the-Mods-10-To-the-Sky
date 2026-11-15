@@ -1,0 +1,29 @@
+{
+  "name": "Захват существа",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_import_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)Дрон/$ подлетит к ближайшей сущности в заданной $(l:programming/area)области/$, которая подходит необязательному $(l:base_concepts/entity_filter)фильтру сущностей/$ в подключённом виджете $(l:programming/text)«Текст»/$, и подхватит её для перевозки.$(p)Это работает и с игроками, но игрок может легко слезть с $(item)дрона/$ через $(thing)приседание/$. Хотя у поездки на летающем существе, которым ты управляешь, есть свои плюсы…"
+    },
+    {
+      "type": "text",
+      "title": "Сферы опыта",
+      "text": "Дроны также могут собирать $(thing)сферы опыта/$. Для них в фильтре сущностей используется $(item)@orb/$. Захваченные сферы превращаются в $(l:base_concepts/memory_essence)эссенцию памяти/$ и хранятся во внутреннем баке дрона. Чтобы перелить её во внешний бак, воспользуйся виджетом $(l:programming/liquid_export)«Экспорт жидкости»/$."
+    },
+    {
+      "type": "text",
+      "title": "Ограничения области",
+      "text": "У подключённых виджетов $(l:programming/area)«Область»/$ должна быть выбрана форма $(thing)«Параллелепипед»/$. Другие формы можно получить, включая и исключая несколько областей."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_import_piece.png"
+      ],
+      "text": "$(italic)Похищение инопланетянами/$"
+    }
+  ]
+}

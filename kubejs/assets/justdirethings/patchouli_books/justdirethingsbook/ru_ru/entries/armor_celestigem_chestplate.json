@@ -1,0 +1,17 @@
+{
+  "name": "Нагрудник из Celestigem",
+  "sortnum": 10,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:celestigem_chestplate[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Нагрудник работает на энергии Forge и вмещает 10 000 FE. Его удобно подзаряжать $(l:justdirethings:item_pocket_generator)карманным генератором$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление нагрудника из Celestigem",
+      "recipe": "justdirethings:celestigem_chestplate"
+    }
+  ]
+}

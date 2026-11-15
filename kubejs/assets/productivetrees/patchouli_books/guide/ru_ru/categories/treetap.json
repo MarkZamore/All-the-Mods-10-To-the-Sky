@@ -1,0 +1,6 @@
+{
+  "name": "Совместимость с Tree Tap",
+  "description": "Если установить мод Tree Tap, из деревьев можно будет получать дополнительные продукты.",
+  "icon": "treetap:tap",
+  "flag": "mod:treetap"
+}

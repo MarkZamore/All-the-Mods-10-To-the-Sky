@@ -1,0 +1,17 @@
+{
+  "name": "Поножи из Celestigem",
+  "sortnum": 11,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:celestigem_leggings[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти поножи вмещают 10 000 FE и расходуют энергию Forge вместо прочности. Подзаряжайте их на ходу $(l:justdirethings:item_pocket_generator)карманным генератором$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление поножей из Celestigem",
+      "recipe": "justdirethings:celestigem_leggings"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Завод-резня мобов",
+  "icon": "industrialforegoing:mob_slaughter_factory",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 9,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Перерабатывает мобов и животных в $(l:agr_hus/meat)жидкое мясо$() и $(l:agr_hus/pink_slime)розовую слизь$(). Добычу и опыт они при этом не оставляют. $(br2)Пассивные мобы дают больше розовой слизи, чем остальные."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_slaughter_factory"
+    }
+  ]
+}

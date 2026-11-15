@@ -1,0 +1,17 @@
+{
+  "name": "Лук из Celestigem",
+  "sortnum": 18,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:bow_celestigem[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Улучшенная версия $(l:justdirethings:tool_blazegold_bow)лука из Blazegold$(/l). Лук тратит не прочность, а энергию Forge и вмещает до 10 000 FE.$(br2)Три ячейки для $(l:justdirethings:item_potion_canister)канистр с зельями$(/l) позволяют накладывать на стрелы нужные эффекты."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:bow_celestigem",
+      "text": "Изготовление лука из Celestigem"
+    }
+  ]
+}

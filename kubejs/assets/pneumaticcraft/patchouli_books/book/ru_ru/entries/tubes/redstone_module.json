@@ -1,0 +1,29 @@
+{
+  "name": "Модуль редстоуна",
+  "icon": "pneumaticcraft:redstone_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Обменивается $(#f00)сигналами редстоуна/$ с модулями на соединённых трубах. Так трубы могут передавать редстоун.$(p)Доступно до 16 независимых каналов. Выберите канал в интерфейсе или щёлкните по модулю правой кнопкой с $(item)красителем/$ в руке.$(p)Правый щелчок $(item)ключом/$ переключает модуль между входом и выходом."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/redstone_module.png"
+      ],
+      "border": "true"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "$(l:tubes/module_expansion_card)Карта расширения модуля/$ открывает обработку сигнала. В $(thing)режиме выхода/$ щёлкните по модулю правой кнопкой и выберите нужный режим. Можно инвертировать выходной сигнал или применить к нему И, ИЛИ либо исключающее ИЛИ с другим каналом.$(p)Описание каждого режима есть в интерфейсе."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление модуля редстоуна",
+      "recipe": "pneumaticcraft:redstone_module"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Пневматические трубы",
+  "icon": "pneumaticcraft:pressure_tube",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:root",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пневматические трубы — основной способ подачи сжатого воздуха от компрессоров к машинам в $(pncr).$(p)Через открытые концы труб уходит воздух! Чтобы открыть или перекрыть сторону трубы, щёлкните правой кнопкой с $(l:tools/pneumatic_wrench)пневматическим ключом/$. Некоторые ключи из других модов тоже подходят."
+    },
+    {
+      "type": "image",
+      "title": "Трубы!",
+      "text": "$(italic)Две трубы с $(l:tubes/pressure_gauge_module)манометром/$ $(italic)соединяют $(l:compressors/air_compressor)воздушный компрессор/$ $(italic)и $(l:machines/air_cannon)воздушную пушку/$",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pressure_tubes.png"
+      ],
+      "border": "true"
+    },
+    {
+      "type": "text",
+      "text": "На трубы можно ставить $(l:tubes/tube_modules)трубные модули/$. Это детали, которые добавляют трубам разные возможности. Подробнее читайте на странице каждого модуля.$(p)Трубы можно скрыть $(l:tools/camo_applicator)наносителем камуфляжа/$."
+    },
+    {
+      "type": "text",
+      "text": "У труб три $(l:base_concepts/pressure_tiers)уровня/$:$(br)$(li)Уровень 1: давление до 5 бар, объём 1000 мл воздуха.$(li)Уровень 1,5 (укреплённая труба): давление до 10 бар, объём 1000 мл.$(li)Уровень 2 (продвинутая труба): давление до 20 бар, объём 4000 мл воздуха."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление пневматической трубы",
+      "recipe": "pneumaticcraft:pressure_tube"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/reinforced_pressure_tube"
+    },
+    {
+      "anchor": "advanced",
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/advanced_pressure_tube"
+    }
+  ]
+}

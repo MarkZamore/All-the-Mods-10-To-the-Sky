@@ -1,0 +1,17 @@
+{
+  "name": "Слизь VoidShimmer",
+  "sortnum": 3,
+  "category": "justdirethings:goo",
+  "icon": "justdirethings:gooblock_tier3",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "VoidShimmer вобрала таинственную энергию Края. Она превращает алмазы в Celestigem. Из него делают предметы, которые накапливают больше энергии или позволяют телепортироваться."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление слизи VoidShimmer",
+      "recipe": "justdirethings:gooblock_tier3"
+    }
+  ]
+}

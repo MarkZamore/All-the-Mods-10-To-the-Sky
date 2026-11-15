@@ -1,0 +1,22 @@
+{
+  "name": "Компьютерный порт",
+  "icon": "bigreactors:energizercomputerport",
+  "category": "bigreactors:energizer-parts",
+  "read_by_default": true,
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:energizercomputerport",
+      "link_recipe": true,
+      "title": "Компьютерный порт",
+      "text": "Через компьютерный порт можно подключить накопитель к компьютеру и получать сведения о состоянии машины.$(br2)Запрашивать их можно стандартными методами, доступными подключённому компьютеру."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Компьютерный порт",
+      "crafting.recipe1": "bigreactors:energizer/computerport",
+      "usage.text": "$(l)Обязательная деталь:$() нет$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

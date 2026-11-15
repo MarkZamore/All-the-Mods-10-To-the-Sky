@@ -1,0 +1,17 @@
+{
+  "name": "Затуманивание разума",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_mindfog",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пассивная способность делает вас менее заметным. Мобы обнаруживают вас позже, поэтому к ним можно подойти ближе, прежде чем они нападут.$(br2)На броне высокого уровня эффект сильнее."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Затуманивание разума»",
+      "recipe": "justdirethings:upgrade_mindfog"
+    }
+  ]
+}

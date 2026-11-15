@@ -1,0 +1,17 @@
+{
+  "name": "Добыча жилы",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_oreminer",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пассивная способность для кирок, начиная с Ferricore. При добыче руды автоматически ломает и соединённые с ней блоки руды. Действует только на руду."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения для добычи жилы",
+      "recipe": "justdirethings:upgrade_oreminer"
+    }
+  ]
+}

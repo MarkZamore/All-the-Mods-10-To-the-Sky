@@ -1,0 +1,38 @@
+{
+  "name": "Энергоотвод Forge Energy",
+  "icon": "bigreactors:reinforced_turbinepowertapfe_active",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinepowertapfe_active",
+      "link_recipe": true,
+      "title": "Энергоотвод Forge Energy",
+      "text": "Энергоотвод Forge Energy выводит энергию турбины.$(br2)Он использует $(l:bigreactors:misc/powersystem)систему питания$(/l) Forge Energy и подключается только к совместимым кабелям и машинам."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "В турбине можно использовать только одну $(l:bigreactors:misc/powersystem)систему питания$(/l) и один тип энергоотвода.$(br2)Бывают $(l:bigreactors:misc/passiveactiveparts)пассивные и активные$(/l) энергоотводы."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Базовый (пассивный)",
+      "recipe1": "bigreactors:turbine/basic/passivetap_fe",
+      "title2": "Усиленный (пассивный)",
+      "recipe2": "bigreactors:turbine/reinforced/passivetap_fe"
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Базовый (активный)",
+      "recipe1": "bigreactors:turbine/basic/activetap_fe",
+      "title2": "Усиленный (активный)",
+      "recipe2": "bigreactors:turbine/reinforced/activetap_fe"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)Обязательная деталь:$() нет$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Система питания:$() Forge Energy"
+    }
+  ]
+}

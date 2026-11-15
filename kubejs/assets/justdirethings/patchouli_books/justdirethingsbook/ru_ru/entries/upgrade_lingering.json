@@ -1,0 +1,17 @@
+{
+  "name": "Оседание",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_lingering",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет стреле с зельем оставлять облако, которое продлевает действие эффекта в области попадания."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Оседание»",
+      "recipe": "justdirethings:upgrade_lingering"
+    }
+  ]
+}

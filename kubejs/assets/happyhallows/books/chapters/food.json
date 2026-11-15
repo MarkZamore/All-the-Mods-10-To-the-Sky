@@ -1,0 +1,113 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "There are several fall yummies to be enjoyed during Spooky Season:\n-Candy Corn\n-Caramel Popcorn\n-Caramel Apple\n-Popcorn\n-Pumpkin Bread\n-Apple Cider.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/yums.png",
+          "caption": "happyhallows.guide_book.chapters.food.yums_caption",
+          "image_width": 53,
+          "image_height": 80
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Popcorn\n\nPopcorn is made by dropping Corn Kernels onto a Campfire, or cooking in a Furnace.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/popcorn.png",
+          "caption": "happyhallows.guide_book.chapters.food.popcorn_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Use it for recipes like Caramel Popcorn, or eat as is for a delicious snack."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Caramel\n\nCaramel is used for Apples and Caramel Popcorn. Yes, you can drink it, although it's not recommended...",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/craft_caramel.png",
+          "caption": "happyhallows.guide_book.chapters.food.craft_caramel_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/caramel.png",
+          "caption": "happyhallows.guide_book.chapters.food.caramel_caption",
+          "image_width": 32,
+          "image_height": 32
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Caramel Apples and Caramel Popcorn\n\n Oeey, gooey, sticky, and delicious!",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/craft_caramel_apple.png",
+          "caption": "happyhallows.guide_book.chapters.food.craft_caramel_apple_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/craft_caramel_popcorn.png",
+          "caption": "happyhallows.guide_book.chapters.food.craft_caramel_popcorn_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Candy Corn and Pumpkin Bread\n\n Some folks don't care for Candy Corn. So if you're not a fan, try a warm slice of Pumpkin Bread. So tasty, just like Mom used to make.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/craft_candy_corn.png",
+          "caption": "happyhallows.guide_book.chapters.food.craft_candy_corn_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/craft_pumpkin_bread.png",
+          "caption": "happyhallows.guide_book.chapters.food.craft_pumpkin_bread_caption",
+          "image_width": 116,
+          "image_height": 54
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Apple Cider*\n\n What better way to spend your fall evenings than to cozy up with a good book and a nice mug of Apple Cider?",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/food/craft_cider.png",
+          "caption": "happyhallows.guide_book.chapters.food.craft_cider_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "*Requires a Mug from MerryMaking to craft."
+        }
+      ]
+    }
+  ]
+}

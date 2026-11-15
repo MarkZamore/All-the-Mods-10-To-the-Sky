@@ -1,0 +1,17 @@
+{
+  "name": "Мотыга из Celestigem",
+  "sortnum": 17,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:celestigem_hoe[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В отличие от $(l:justdirethings:tool_blazegold_hoe)мотыги из Blazegold$(/l), инструменты из Celestigem расходуют энергию Forge вместо прочности. Эта мотыга создаёт почву VoidShimmer.$(br2)Если мотыга умеет телепортировать добычу и связана с инвентарём, почва отправит туда автоматически собранный урожай."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:celestigem_hoe",
+      "text": "Изготовление мотыги из Celestigem"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Слиток Ferricore",
+  "sortnum": 1,
+  "category": "justdirethings:resources",
+  "icon": "justdirethings:ferricore_ingot",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Слитки выплавляют из сырого Ferricore, который добывают из $(l:justdirethings:res_ferricore_raw)блоков руды Ferricore$(/l). Они прочнее обычного железа и могут его заменить."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "Переплавка руды Ferricore",
+      "recipe": "justdirethings:ferricore_ingot_smelted"
+    }
+  ]
+}

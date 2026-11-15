@@ -1,0 +1,23 @@
+{
+  "name": "Условие: существо",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_entity_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это виджет $(l:programming/conditions)«Условие»/$.$(p)Виджет $(thing)«Условие: существо»/$ подсчитывает сущности в заданной $(l:programming/area)области/$. Подключи виджет $(l:programming/text)«Текст»/$ с $(l:base_concepts/entity_filter)фильтром сущностей/$, если нужно учитывать только некоторые из них."
+    },
+    {
+      "type": "text",
+      "text": "У подключённых виджетов $(l:programming/area)«Область»/$ должна быть выбрана форма $(thing)«Параллелепипед»/$. Другие формы можно составить, включая и исключая несколько областей."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_entity_piece.png"
+      ],
+      "text": "$(italic)Условие: существо/$"
+    }
+  ]
+}

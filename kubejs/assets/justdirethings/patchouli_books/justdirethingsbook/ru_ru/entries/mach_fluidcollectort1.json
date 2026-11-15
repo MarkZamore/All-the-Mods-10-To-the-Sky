@@ -1,0 +1,17 @@
+{
+  "name": "Простой сборщик жидкости",
+  "sortnum": 17,
+  "category": "justdirethings:machines",
+  "icon": "justdirethings:fluidcollectort1",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Автоматически забирает жидкость перед собой во внутренний бак. В баке может находиться только одна жидкость за раз.$(br2)Через ячейку можно наполнить пустое ведро, канистру или другую ёмкость для жидкости."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Простой сборщик жидкости",
+      "recipe": "justdirethings:fluidcollectort1"
+    }
+  ]
+}

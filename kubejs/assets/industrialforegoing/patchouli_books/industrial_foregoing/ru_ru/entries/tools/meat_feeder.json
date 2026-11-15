@@ -1,0 +1,17 @@
+{
+  "name": "Мясной кормитель",
+  "icon": "industrialforegoing:meat_feeder",
+  "category": "industrialforegoing:tools",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пока он лежит в инвентаре, автоматически кормит вас запасённым в нём жидким мясом."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:meat_feeder"
+    }
+  ]
+}

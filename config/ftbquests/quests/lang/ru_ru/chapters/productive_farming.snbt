@@ -1,0 +1,94 @@
+{
+	quest.01B7B66FAAAAEAE5.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_anemone.png width:100 height:150 align:center}"]
+	quest.01B7B66FAAAAEAE5.quest_subtitle: "Белый"
+	quest.06B197EB778C17AC.quest_desc: ["&6Скрещивать&r можно как &dцветы&r, так и &2сельскохозяйственные культуры&r! \\n\\nПри &6опылении пчёлами&r подходящие &2растения&r могут &6мутировать&r. \\n\\nВ &lJEI&r можно посмотреть, какие &2культуры&r нужны для скрещивания."]
+	quest.06B197EB778C17AC.title: "&6Мутации"
+	quest.095024BF19ABA326.quest_desc: ["Скрестите оранжевый и зелёный сладкий перец."]
+	quest.0D04BCF5940E2AF1.quest_desc: ["Из кукурузы «Синий нефрит» и «Чёрной ацтекской» получается «Сахарный жемчуг»."]
+	quest.126CCC6B187C0B18.quest_desc: ["Наконец, скрестив «Чёрную ацтекскую» кукурузу с «Сахарным жемчугом», получаем радужную кукурузу. "]
+	quest.15474BAF1997CD27.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_balloon.png width:100 height:150 align:center}"]
+	quest.15474BAF1997CD27.quest_subtitle: "Фиолетовый"
+	quest.15474BAF1997CD27.title: "&5Ширококолокольчик"
+	quest.158978D35BDA805D.quest_desc: ["Это гибрид малины и… томатов «Сангольд»? \\n\\nНо одно же ягода, а другое томат? Как такое вообще вышло?!"]
+	quest.167554E0A562B60A.quest_desc: ["Гибрид красного и жёлтого сладкого перца! \\n\\nВроде бы понятно и так… он же оранжевый."]
+	quest.1699BD1B8B348B7C.quest_desc: ["Скрестите кукурузу «Синий нефрит» и жёлтую зубовидную, чтобы получить «Чёрную ацтекскую»."]
+	quest.2117CE8C21A9EE98.quest_desc: ["Скрестите красный и чёрный сладкий перец."]
+	quest.223F47BDD763F306.quest_desc: ["Томаты черри иногда мутируют в сорт «Шоколадная груша». \\n\\nОткуда взялись шоколад и груши, понятия не имею. Ну и ладно!"]
+	quest.244B10862943A802.quest_subtitle: "Безумный мир"
+	quest.2AFB12E742596864.quest_desc: ["&aКонтроллер фермы&r — сердце &a&lавтофермы&r, многоблочной машины для самых разных посадок! \\n\\nВ следующем квесте разберёмся со строительством, а сейчас — с её работой. \\n\\n&a&lАвтоферма&r выращивает, собирает и заново сажает все &2культуры&r внутри конструкции. Подойдут &a&lProductive Farming&r, &2&lMystical Agriculture&r и &2&lобычные&r &2культуры&r Minecraft! \\n\\nУрожай копится в контроллере. Его можно забирать вручную или выводить трубами."]
+	quest.2AFB12E742596864.title: "&a&lАвтоферма"
+	quest.2BFC97460B4B49F1.quest_desc: ["Скрестите томаты «Шоколадная груша» и «Жёлтая груша», чтобы получить «Сангольд»."]
+	quest.2CFD0DF119CC5E85.quest_desc: ["Приступаем к строительству. Сначала выберем блоки. \\n\\nВ задании большой список допустимых блоков. Из всех них можно собрать &a&lконструкцию&r. \\n\\nПодойдёт почти любой кирпич или стекло. Материалы можно сочетать как угодно. \\n\\n&a&lКонструкция&r состоит из стен и внутреннего пространства. Выложите стены из разрешённых блоков и следите за объёмом внутри. \\n\\nСамая маленькая &a&lавтоферма&r имеет размер 2×2. У самой большой внутри 200 блоков объёма. Считаются два блока по высоте, включая место под растения. Поэтому внутренний размер 10×10 уже достигает предела. \\n\\nВнутри разместите &2грядки&r, &9воду&r или другой субстрат для посадок. Чтобы &2грядки&r оставались влажными, им всё равно нужна &9вода&r. Советую &9водяной блок&r из XyCraft. \\n\\nЧтобы &2посевы &fросли быстрее, по-прежнему можно использовать ускорители роста рядом с ними или удобрять &2грядки&r!", "{image:atm:textures/questpics/pro_farming/farm_autofarm.png width:150 height:100 align:center}"]
+	quest.2CFD0DF119CC5E85.title: "Строительство автофермы"
+	quest.2DB404AA2832F81D.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_holly.png width:100 height:150 align:center}"]
+	quest.2DB404AA2832F81D.quest_subtitle: "Синий"
+	quest.2DB404AA2832F81D.title: "&9Приморский синеголовник"
+	quest.2F1B74D45E50A079.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_lobelia.png width:100 height:150 align:center}"]
+	quest.2F1B74D45E50A079.quest_subtitle: "Ультрамариновый"
+	quest.2F1B74D45E50A079.title: "&9Лобелия синяя"
+	quest.3111C0CA63A82E7A.quest_desc: ["Кукуруза «Синий нефрит» получается из жёлтой зубовидной кукурузы и васильков. \\n\\nТак вот зачем васильки назвали cornflowers — «кукурузные цветы»!"]
+	quest.33C3C334981AF72E.quest_desc: ["Томаты черри и их следующая эволюция (я разве уже не шутил так?), «Шоколадная груша», дают «Жёлтую грушу». \\n\\nОткуда жёлтый цвет? Да и груша опять откуда?"]
+	quest.383EDBE9AAAF4C99.quest_subtitle: "Микрофонная линия"
+	quest.3BB39CC4E8F40B67.quest_subtitle: "1,2... 1,2"
+	quest.3CBF4D703AA17199.quest_desc: ["На момент написания &a&lProductive Farming&r — самый новый мод из серии Productive. \\n\\nВ нём есть многоблочная автоферма, новые культуры, цветы и расцветки. \\n\\nОн также хорошо сочетается с &6&lProductive Bees&r и &l&cD&6y&ee&an&ba&dm&ci&6c&es&r!"]
+	quest.3CBF4D703AA17199.quest_subtitle: "Сколько же модов он ещё сделает?"
+	quest.3CBF4D703AA17199.title: "&a&lProductive Farming"
+	quest.3E57854E27545581.quest_desc: ["Скрестите оранжевый и жёлтый сладкий перец."]
+	quest.42AE629EBAA3AA94.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_skullcap.png width:100 height:150 align:center}"]
+	quest.42AE629EBAA3AA94.quest_subtitle: "Фиолетовый"
+	quest.42AE629EBAA3AA94.title: "&5Шлемник"
+	quest.439705A42B6DC4D1.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_cattail.png width:100 height:150 align:center}"]
+	quest.439705A42B6DC4D1.quest_subtitle: "Коричневый"
+	quest.439705A42B6DC4D1.title: "&8Рогоз"
+	quest.44DA8B6C651B3456.quest_desc: ["Из ягод годжи и золотой малины получаются чудо-ягоды. \\n\\nЧудо-ягоды меняют работу вкусовых рецепторов. После них всё кислое кажется сладким! \\n\\nПопробуйте сами!"]
+	quest.46932B57EF21D346.quest_desc: ["&9Поилка&r тоже пригодится для ухода за животными. \\n\\nВместо &cкорма&r ей нужны &9вёдра воды&r! \\n\\nДетёныши у &9поилки&r растут быстрее остальных. \\n\\nГлавное, не забывайте доливать &9воду&r!"]
+	quest.46932B57EF21D346.title: "&9Поилка"
+	quest.48323FABB7E3D31E.quest_desc: ["Скрещивание томата «Рома» с выросшим из него «Бычьим сердцем» может дать томат «Синяя красавица». \\n\\nНо есть шанс получить и один из двух других сортов."]
+	quest.4B2754CD11FFE247.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_amaryllis.png width:100 height:150 align:center}"]
+	quest.4B2754CD11FFE247.quest_subtitle: "Бордовый"
+	quest.4B2754CD11FFE247.title: "&4Амариллис"
+	quest.507821D8F9C064CF.quest_desc: ["Из зелёного и красного винограда получается виноград «Конкорд». \\n\\nОн же фиолетовый виноград!"]
+	quest.512A525B513DA118.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_chrysanthemum.png width:100 height:150 align:center}"]
+	quest.512A525B513DA118.quest_subtitle: "Пурпурный"
+	quest.512A525B513DA118.title: "&dХризантема"
+	quest.523AD3D448DE58A6.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_hellebore.png width:100 height:150 align:center}"]
+	quest.523AD3D448DE58A6.quest_subtitle: "Серый"
+	quest.523AD3D448DE58A6.title: "&7Морозник"
+	quest.53CD2E3D27601F3F.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_cape.png width:100 height:150 align:center}"]
+	quest.53CD2E3D27601F3F.quest_subtitle: "Ледяной голубой"
+	quest.53CD2E3D27601F3F.title: "&bСвинчатка ушковидная"
+	quest.540F3CA118762DDB.quest_desc: ["&cКормушка&r — блок из &a&lProductive Farming&r. \\n\\nВ ней девять ячеек по одной стопке &cкорма&r. Корм нужно подавать трубами. \\n\\nКакой &cкорм&r подходит? \\n\\nВсё, чем можно разводить двух животных одного вида. Пшеница? Да! Бамбук? Тоже да! Только посмотрите, чтобы бамбук был посажен поблизости."]
+	quest.540F3CA118762DDB.title: "&cКормушка"
+	quest.5854DA8F791AD71F.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_nettle.png width:100 height:150 align:center}"]
+	quest.5854DA8F791AD71F.quest_subtitle: "Зелёный"
+	quest.5854DA8F791AD71F.title: "&2Жгучая крапива"
+	quest.5969AEE09A61EC16.quest_desc: ["Скрещивание томата «Рома» с выросшим из него «Бычьим сердцем» может дать томат «Белое чудо». \\n\\nНо есть шанс получить и один из двух других сортов."]
+	quest.5B21A7A5ED1DDABB.quest_desc: ["Томат «Бычье сердце» иногда появляется в результате случайной мутации томата «Рома»."]
+	quest.5E4DE1FFA8A45C6D.quest_desc: ["&dЦветы&r! Как получить все эти прекрасные новые &dцветы&r? \\n\\nЭти &dцветы&r добываются так же, как другие &dцветы&r: удобрите &2дёрн&r костной мукой. Извините, &dцветочные поля&r в &bнебе&r особо не помогут. \\n\\nКак выглядят &dцветы&r, можно посмотреть в квестах о каждом из них. \\n\\nЦвет может отличаться благодаря новому способу &6скрещивания&r. \\n\\n&6Пчёлы&r с &aулучшениями пыльцы&r в &6ульях&r могут &6скрещивать&r виды и расцветки &dцветов&r, которые &aопыляют&r. \\n\\nНовые &dцветы&r появляются на &2дёрне&r рядом со старыми &dцветами&r. Новые &dцветы&r унаследуют вид одного из родителей и цвет одного из них либо смесь их цветов. \\n\\nТак вы получите &9синие маки&f, &4бордовые рогозы&r и даже белые тюльпаны! Погодите, это же &2&lобычный&r &dцветок&r Minecraft…"]
+	quest.5E4DE1FFA8A45C6D.title: "&dЦВЕТЫ"
+	quest.60521AAE8BAA32C5.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_hydrangea.png width:100 height:150 align:center}"]
+	quest.60521AAE8BAA32C5.quest_subtitle: "Розовый"
+	quest.60521AAE8BAA32C5.title: "&dГортензия"
+	quest.6479A38086A43E49.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_zinnia.png width:100 height:150 align:center}"]
+	quest.6479A38086A43E49.quest_subtitle: "Янтарный"
+	quest.6479A38086A43E49.title: "&eЦинния"
+	quest.66D27708343F9DB4.quest_desc: ["Из зелёного винограда и «Конкорда» получается виноград «Сахарная вата». \\n\\nНа вкус он скорее напоминает праздничный торт, но всё равно очень вкусный!"]
+	quest.699F91BC5CA58FE2.quest_desc: ["Чтобы получить эти &2культуры&r, купите у жителей-фермеров &2семена &fили сами &2растения&r. \\n\\nОткуда они у фермеров, лучше не спрашивайте… \\n\\nФермеры берут &aизумруды&r за &2семена &fили &2растения&r. На пятом уровне новые &2семена &fи &2растения&r уже не появляются. \\n\\nА какие &2семена &fили &2растения&r фермер будет продавать, решает случай? Именно. Удачи с перестановкой компостеров! \\n\\nВот бы сюда порт Village Artifacts."]
+	quest.699F91BC5CA58FE2.title: "&2Культурные растения"
+	quest.6AF7427DCA9D66D2.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_dahlia.png width:100 height:150 align:center}"]
+	quest.6AF7427DCA9D66D2.quest_subtitle: "Чёрный"
+	quest.6AF7427DCA9D66D2.title: "&0Георгин"
+	quest.6C31A50068FBA0EE.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_bearded.png width:100 height:150 align:center}"]
+	quest.6C31A50068FBA0EE.quest_subtitle: "Серый"
+	quest.6C31A50068FBA0EE.title: "&8Чёрный бородатый ирис"
+	quest.7264CC40170E461A.quest_desc: ["Скрещивание томата «Рома» с выросшим из него «Бычьим сердцем» может дать томат «Чёрная красавица». \\n\\nНо есть шанс получить и один из двух других сортов."]
+	quest.739C0DB291B1563C.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_valerian.png width:100 height:150 align:center}"]
+	quest.739C0DB291B1563C.quest_subtitle: "Белый"
+	quest.7514CF65A077985E.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_himalayan.png width:100 height:150 align:center}"]
+	quest.7514CF65A077985E.quest_subtitle: "Голубой"
+	quest.7514CF65A077985E.title: "&bГималайский мак"
+	quest.7EF3DB8B5258FA34.quest_desc: ["{image:atm:textures/questpics/pro_farming/farm_motherwort.png width:100 height:150 align:center}"]
+	quest.7EF3DB8B5258FA34.quest_subtitle: "Персиковый"
+	quest.7EF3DB8B5258FA34.title: "&6Пустырник"
+	task.0A074866CCBD8FD5.title: "Блоки автофермы"
+}

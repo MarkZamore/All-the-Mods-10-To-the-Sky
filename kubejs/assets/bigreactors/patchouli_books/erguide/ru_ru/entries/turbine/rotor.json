@@ -1,0 +1,41 @@
+{
+  "name": "Ротор",
+  "icon": "bigreactors:reinforced_turbinerotorshaft",
+  "category": "bigreactors:turbine",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ротор — самая важная деталь турбины. От его конструкции зависит $(l:bigreactors:turbine/innerworking)выработка энергии$(/l).$(br2)Для сборки нужны четыре вида блоков:$(li)один $(l:bigreactors:turbine/part-rotorbearing)подшипник$(/l)$(li)несколько блоков $(l:bigreactors:turbine/part-rotorshaft)вала$(/l)$(li)несколько $(l:bigreactors:turbine/part-rotorblade)лопастей$(/l)$(li)один блок $(l:bigreactors:turbine/part-casing)корпуса$(/l)."
+    },
+    {
+      "type": "bigreactors:zcmultiblock",
+      "multiblock_id": "bigreactors:bookturbinerotor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Сборка ротора$()$(br2)Ротор можно собрать вдоль любой оси турбины (X, Y или Z).$(br2)Первым ставится $(l:bigreactors:turbine/part-rotorbearing)подшипник$(/l) на одной из стенок турбины, обычно по центру.$(br2)От подшипника проложите блоки $(l:bigreactors:turbine/part-rotorshaft)вала$(/l) до блока $(l:bigreactors:turbine/part-casing)корпуса$(/l) на противоположной стенке."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Когда вал готов, установите $(l:bigreactors:turbine/part-rotorblade)лопасти$(/l). Они ставятся рядом с блоком $(l:bigreactors:turbine/part-rotorshaft)вала$(/l) перпендикулярно ему или рядом с другой лопастью.$(br2)Лопастей может быть сколько угодно, в любой комбинации.$(br)Скорость ротора напрямую зависит от числа лопастей и количества пара, которое они могут пропускать."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Сколько нужно лопастей?$()$(br2)У каждой лопасти есть предел количества пара, которое она может захватить и $(italic)использовать$() для вращения ротора.$(br2)Наведите указатель на лопасть в инвентаре, чтобы узнать это значение.$(br2)По нему рассчитывают, сколько лопастей понадобится для расхода пара, заданного в интерфейсе контроллера."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Индукционные катушки$()$(br2)Для выработки энергии установите хотя бы несколько $(l:bigreactors:turbine/coils)индукционных катушек$(/l) на конце ротора, рядом с замыкающим блоком $(l:bigreactors:turbine/part-casing)корпуса$(/l).$(br2)$(italic)Не забудьте включить их в интерфейсе $(l:bigreactors:turbine/part-controller)контроллера$(/l)!$()$(br2)Можно установить до трёх колец по восемь блоков катушек в каждом."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Катушки можно смешивать. Турбина рассчитает средние характеристики.$(br2)Можно начать с дешёвых и доступных катушек и понемногу заменять их, не дожидаясь редких или дорогих деталей.$(br2)На следующей странице показан тот же ротор с добавленными $(l:bigreactors:turbine/coils)индукционными катушками$(/l)."
+    },
+    {
+      "type": "bigreactors:zcmultiblock",
+      "multiblock_id": "bigreactors:bookturbinerotor_coil"
+    }
+  ]
+}

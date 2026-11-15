@@ -1,0 +1,45 @@
+{
+  "name": "Дрон-охранник",
+  "icon": "pneumaticcraft:guard_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Дрон-охранник/$ — специализированный непрограммируемый $(l:tools/drone)дрон/$. Установите его прямо на блок с инвентарём. Он возьмёт оттуда предмет в качестве оружия и станет атаковать мобов, попавших в его зону."
+    },
+    {
+      "type": "spotlight",
+      "title": "Автоматическая зарядка",
+      "item": "pneumaticcraft:charging_station",
+      "text": "Как и другим дронам, ему нужно $(l:base_concepts/pressure)давление/$. Когда воздух на исходе, он ищет $(l:tools/drone#charging)зарядную станцию с улучшением «Раздатчик»/$."
+    },
+    {
+      "type": "text",
+      "title": "Зона действия",
+      "text": "$(thing)Дрон-охранник/$ атакует враждебных мобов не дальше 16 блоков по горизонтали от точки установки, на высоте до 8 блоков выше и до 5 блоков ниже.$(p)Небольшая дальность по вертикали мешает дрону замечать мобов в глубоких пещерах и тратить лишний воздух, телепортируясь к ним."
+    },
+    {
+      "type": "spotlight",
+      "title": "Оружие",
+      "item": "minecraft:netherite_sword",
+      "text": "$(thing)Дрон-охранник/$ может взять из инвентаря любой предмет, поэтому заранее положите туда подходящее оружие ближнего боя. Если оно сломается, а запасного нет, дрон продолжит драться голыми руками. Толку от этого немного."
+    },
+    {
+      "type": "spotlight",
+      "title": "Дальний бой",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "Дрону можно поставить $(l:base_concepts/upgrades#minigun)улучшение «Пулемёт»/$. Тогда положите в инвентарь $(l:tools/minigun_ammo)боеприпасы для пулемёта/$."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:guard_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление дрона-охранника",
+      "recipe": "pneumaticcraft:guard_drone"
+    }
+  ]
+}

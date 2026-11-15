@@ -1,0 +1,21 @@
+{
+  "name": "Пневматический ключ",
+  "icon": "pneumaticcraft:pneumatic_wrench[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Ключ/$ из $(pncr) подходит для разных задач:$(p)$(li)$(thing)Щёлкните правой кнопкой/$ по блоку Minecraft или мода, чтобы повернуть его.$(li)$(thing)Присядьте и щёлкните правой кнопкой/$ по машине $(pncr), чтобы снять её. Улучшения и запас воздуха сохранятся."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)Щёлкните правой кнопкой/$ по $(l:base_concepts/drones)дрону/$, чтобы снять его и получить обратно предмет.$(li)$(thing)Щёлкните правой кнопкой/$ по $(l:tubes/pressure_tubes)пневматической трубе/$, чтобы закрыть или открыть соединение между участками сети.$(p)Перед использованием зарядите $(item)пневматический ключ/$ на $(l:machines/charging_station)зарядной станции/$."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление пневматического ключа",
+      "recipe": "pneumaticcraft:pneumatic_wrench"
+    }
+  ]
+}

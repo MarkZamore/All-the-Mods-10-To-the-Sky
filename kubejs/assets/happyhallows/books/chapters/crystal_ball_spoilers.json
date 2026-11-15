@@ -1,0 +1,209 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "WARNING: SPOILERS AHEAD!\n\nWARNING: SPOILERS AHEAD!\n\nWARNING: SPOILERS AHEAD!",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "THE NEXT SET OF PAGES CONTAINS SPOILERS FOR THE CRYSTAL BALL.\n\nThis page is here to prevent those who are thumbing through, from accidentally seeing them. If you didn't intend to end up here, use the Table of Contents button at the top left to return."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Crystal Ball Spoilers\n\nThe following is spoiler information on the Crystal Ball.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/crystal_ball_spoilers/crystal_ball_spoilers.png",
+          "caption": null,
+          "image_width": 24,
+          "image_height": 24
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "The content is randomly generated, so on the off chance that a player may not receive every clue the Crystal Ball provides, the clues and use instructions are listed here."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Use: The Crystal Ball works somewhat like a Magic 8 Ball toy. When clicked, it will generate a randomized response.\n\nAnswers are categorized as Positive, Neutral, and Negative.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Whispering sounds will play, and particles will appear inside the ball, based on the answer category.\nPositive answers elicit green sparkles. Neutral answers will display a white poof, and Negative answers will show a gray cloud with a lightning bolt through it."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "There is an extremely rare chance for a very good Positive answer, or a very bad Negative one.\nWhen this happens, an item will appear along with a message from the Crystal ball, denoting a gift, or a warning. ",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Positive gifts are either an Enchanted Golden Apple, or a Totem of Undying.\n\nNegative gifts are Rotten Flesh or a cursed Enchanted Book. "
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "The Crystal ball has a cooldown use-timer. If a player clicks too soon, it will alert the player with a message.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Cooldown Message:\n\n'Patience...you must wait for the Spirits to answer.'\n\n The cooldown timer and the rarity of the gifts prevent exploits and ensure fairness. "
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Other Uses:\n\nThe Crystal Ball is also a night light, which glows from Dusk to Dawn. ",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Its properties allow it to keep track of day and night, as well as Moon cycles."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Offerings and Summoning:",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "\n\nAt Dusk on every New Moon, the Crystal Ball will begin glowing, and a message will appear:\n'As night falls and the moon rises, a strange feeling washes over you. The Crystal Ball beckons you with a mysterious, pulsating glow.'"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "The Crystal Ball will begin to whisper and offer clues as to what the player might 'offer' to it, and the resulting summon.\n\nThe clues are as follows:",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "-The Crystal Ball begins to flicker. The Spirits whisper tales of a rare golden treat, rumored to stir a forgotten mount from its cursed rest.\n\n-The Crystal Ball hums melodiously. The spirits sing of a simple baked delight, and tinkling sounds of joy. "
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Clues, Continued:\n\n-The Crystal Ball is abuzz with energy. The swirling mists hint at beauty and sweetness, and the smallest of fickle friends...",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Shadows churn inside the Crystal Ball. An unnatural presence reveals a truth of bone and coveted remnants.\n\nThe mists inside the Crystal Ball darken ominously. The orb warns of greed: a gold and altered root, with a vicious consequence."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "-Dark clouds swirl within the Crystal Ball, as it warns: Beware the ill omen; an aura or vessel of dark intent may appease its hunger.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Clues are accompanied by whispering sounds and the ball will continue to glow and provide clues until a summon has been completed."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": " If a player attempts to bring an offering on a non-summoning night, they will see a message:",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "'The spirits sense that you carry an offering, yet it holds no power under this moon'. This alerts the player to try again on a different moon cycle.\nThe offering does not need to be in the player's hand, the Crystal Ball can sense it in their inventory."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "If it is a summoning night, and a summon has not yet occured, the Crystal Ball will 'accept' the offering and perform a summon.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "If a summon has occurred, the Crystal Ball will stop pulsating and will go into a cooldown phase until the next Summoning Night. If the player attempts to summon during cooldown, a message will appear that the summoning power is exhausted for this cycle."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "SUMMONING SECRETS: ONLY PROCEED IF YOU WISH TO COMPLETELY SPOIL THE SURPRISES",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "SUMMONING SECRET SPOILERS ON THE NEXT PAGE..."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Lost Mobs:\nHappyHallows adds in two otherwise unobtainable mobs: the Zombie Horse and the Killer Rabbit. For those with a death-wish, the bunnies are, indeed, breedable. Zombie horses, however, cannot be bred.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "These next final pages will contain lists of the summoning items and their resulting summons."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Summoning Secrets, Continued:\n\nPositive Summoning Items:",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "-Cookie: Allay\n-Any Flower: Bee\n-Enchanted Golden Apple: Zombie Horse"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Summoning Secrets, Continued:\n\nNegative Summoning Items:",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "-Honey Bottle: Angry Bee\n-Golden Carrot: Evil Rabbit\n-Ominous Bottle (or player has the effect): Vindicator or Pillager\n\n-Skeleton Skull or Bone: Skeleton\n-Zombie Head: Zombie\n-Wither Skull: Wither Skeleton"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Summons have an 8 game-day cooldown, and if the player has more than one summoning item in their inventory, the Crystal Ball will choose one and leave the other for later.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Summoning can only happen at night. A pulsating glow indicates that the Crystal Ball is ready for a summon."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Fairness and Mechanics:\n\n The cooldown use-timer, summoning cooldown, and uniqueness of the Crystal Ball act as a safeguard against misuse.",
+      "elements": [
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "The goal for this item is fun and novelty. It is not intended for exploitation, automation, or to contribute to lag.\nSummoning can be disabled with configs, if desired.\n\nDisabled Summons message:'Outside forces have interfered, and the Spirits cannot reach the realm.'"
+        }
+      ]
+    }
+  ]
+}

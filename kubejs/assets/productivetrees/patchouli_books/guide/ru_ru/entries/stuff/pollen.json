@@ -1,0 +1,19 @@
+{
+  "name": "Пыльца",
+  "icon": "productivetrees:pollen",
+  "category": "productivetrees:stuff",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "flag": "mod:productivebees",
+      "item": "productivetrees:pollen",
+      "text": "Пыльцой, которую собрали пчёлы, можно опылять листья вручную и выводить новые виды деревьев. Посмотрите в JEI, какие деревья скрещиваются, чтобы понять, какую пыльцу использовать на каких листьях."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "flag": "!mod:productivebees",
+      "item": "productivetrees:pollen",
+      "text": "Пыльцой из сита можно опылять листья вручную и выводить новые виды деревьев. Посмотрите в JEI, какие деревья скрещиваются, чтобы понять, какую пыльцу использовать на каких листьях."
+    }
+  ]
+}

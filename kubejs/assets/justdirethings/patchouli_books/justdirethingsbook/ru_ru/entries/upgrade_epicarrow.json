@@ -1,0 +1,17 @@
+{
+  "name": "Стрела Йонду",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_epicarrow",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Стрелы сами ищут цели и перескакивают между противниками. Удобно против толпы.$(br2)После активации способности следующая выпущенная стрела будет перелетать от одного моба к другому до 10 раз!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения для стрелы Йонду",
+      "recipe": "justdirethings:upgrade_epicarrow"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Пневматическая броня",
+  "icon": "minecraft:written_book",
+  "category": "pneumaticcraft:armor",
+  "priority": "true",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Что будет, если соединить $(pncr) и интерфейс $(thing)Железного человека/$? Получится $(thing)пневматическая броня/$!$(p)Вдохновение костюмом Тони Старка не делает броню неуязвимой. Без улучшений она защищает и служит лишь немного лучше обычной $(thing)железной брони/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pneumatic_armor.png"
+      ],
+      "border": "true",
+      "text": "Человек из сжатого железа"
+    },
+    {
+      "type": "text",
+      "text": "У брони много улучшений. Чтобы установить их и накачать броню воздухом, положите её в $(l:machines/charging_station)станцию заправки/$.$(p)Общие улучшения описаны ниже. Особые улучшения каждой части брони описаны на её странице."
+    },
+    {
+      "type": "text",
+      "text": "Когда вы наденете часть брони, она через несколько секунд $(thing)запустится/$ . Нажмите $(thing)$(k:pneumaticcraft.armor.options)/$, чтобы открыть меню, настроить улучшения и изменить показания на экране. Чем больше улучшений, тем больше доступных настроек.$(p)Все улучшения включаются и выключаются флажками в меню. К каждому флажку можно привязать клавишу и переключать функцию без открытия меню."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:anvil",
+      "title": "Ремонт",
+      "text": "Есть несколько способов сохранить броню в хорошем состоянии:$(li)Отремонтировать часть на $(thing)наковальне/$ слитками сжатого железа$(li)Поставить на каждую часть $(thing)улучшение «Срок службы предмета»/$ для самовосстановления$(li)Наложить на каждую часть зачарование $(thing)«Починка»/$"
+    },
+    {
+      "type": "text",
+      "title": "Окрашивание",
+      "text": "У каждой части брони можно изменить стандартный серый цвет. Настраивайте отдельно $(thing)основной/$ и $(thing)дополнительный/$ цвета, а у $(thing)окуляра/$ шлема может быть свой цвет.$(p)Откройте раздел $(bold)«Цвета...»/$ в главном меню брони. Возможность встроена, улучшений не требуется!"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:speed_upgrade",
+      "text": "$(l:base_concepts/upgrades#speed)Улучшения «Скорость»/$ сокращают время запуска брони. Кроме того, $(l:armor/pneumatic_helmet)шлем/$ быстрее наводится с $(l:base_concepts/upgrades#entity_tracker)трекером существ/$ и $(l:base_concepts/upgrades#block_tracker)трекером блоков/$, а $(l:armor/pneumatic_leggings)пневмоштаны/$ ускоряют бег. Дополнительные функции $(l:base_concepts/pressure)расходуют воздух/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:volume_upgrade",
+      "text": "$(l:base_concepts/upgrades#volume)Улучшения «Объём»/$ увеличивают $(l:base_concepts/pressure)запас воздуха/$ каждой части. Заправка займёт больше времени, но и давление при работе будет падать медленнее. Можно поставить до 25 улучшений. Каждое следующее даёт меньшую прибавку."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:armor_upgrade",
+      "text": "$(l:base_concepts/upgrades#armor)Улучшения «Броня»/$ увеличивают защиту и твёрдость каждой части. Два улучшения доводят её до уровня $(thing)алмазной брони/$, а с четырьмя (предел) защита выше, чем у $(thing)алмазной брони/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:item_life_upgrade",
+      "text": "$(l:base_concepts/upgrades#item_life)Улучшения «Срок службы предмета»/$ медленно восстанавливают прочность, расходуя $(l:base_concepts/pressure)воздух/$. В каждую часть можно поставить до пяти улучшений. Чем их больше, тем быстрее, но растёт расход воздуха."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gilded_upgrade",
+      "text": "$(l:base_concepts/upgrades#gilded)Улучшение «Позолота»/$ можно поставить в любую часть брони, и $(thing)пиглины/$ поверят, что на вас $(thing)золотая броня/$. Наивные пиглины."
+    },
+    {
+      "type": "spotlight",
+      "flag": "mod:mekanism",
+      "title": "Радиация Mekanism",
+      "item": "pneumaticcraft:radiation_shielding_upgrade",
+      "text": "$(l:base_concepts/upgrades#radiation_shielding)Улучшение «Радиационная защита»/$ защищает от радиации Mekanism так же, как его собственный $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)модуль радиационной защиты/$. Для полной защиты улучшение должно стоять в каждой части брони."
+    },
+    {
+      "type": "text",
+      "title": "Thaumcraft",
+      "flag": "mod:thaumcraft",
+      "text": "$(l:base_concepts/upgrades#thaumcraft)Улучшения «Таумкрафт»/$ дают такую же скидку на вис, как соответствующая часть $(thing)брони тауматурга/$. В $(l:armor/helmet)шлеме/$ это улучшение действует как $(item)очки откровения/$, показывая $(thing)узлы ауры/$ и количество $(thing)аспектов/$ в ёмкостях."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Нагрудник из Blazegold",
+  "sortnum": 6,
+  "category": "justdirethings:armor",
+  "icon": "justdirethings:blazegold_chestplate",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Нагрудник лучше защищает и умеет восстанавливаться в лаве. Бросьте его в блок-источник лавы, чтобы полностью починить."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление нагрудника из Blazegold",
+      "recipe": "justdirethings:blazegold_chestplate"
+    }
+  ]
+}

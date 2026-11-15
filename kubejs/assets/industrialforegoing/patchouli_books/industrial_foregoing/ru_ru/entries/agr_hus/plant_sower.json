@@ -1,0 +1,17 @@
+{
+  "name": "Сеятель",
+  "icon": "industrialforegoing:plant_sower",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(6)Сажает$() культуры и саженцы. $(br2)Девять ячеек инвентаря помечены $(6)цветами$(), как и отметки сверху сеятеля. Рабочая область над машиной поделена на девять участков. На каждый участок идут семена только из соответствующей ячейки."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_sower"
+    }
+  ]
+}

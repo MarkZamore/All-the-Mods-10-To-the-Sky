@@ -1,0 +1,27 @@
+{
+  "name": "Подшипник ротора",
+  "icon": "bigreactors:reinforced_turbinerotorbearing",
+  "category": "bigreactors:turbine-parts",
+  "read_by_default": true,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "bigreactors:reinforced_turbinerotorbearing",
+      "link_recipe": true,
+      "title": "Подшипник ротора",
+      "text": "Подшипник — основание сборки $(l:bigreactors:turbine/rotor)ротора$(/l).$(br2)Установите подшипник на одной из стенок турбины, обычно по центру. За ним разместите блоки $(l:bigreactors:turbine/part-rotorshaft)вала ротора$(/l)."
+    },
+    {
+      "type": "bigreactors:crafting1x",
+      "title1": "Базовый",
+      "recipe1": "bigreactors:turbine/basic/bearing",
+      "title2": "Усиленный",
+      "recipe2": "bigreactors:turbine/reinforced/bearing"
+    },
+    {
+      "type": "bigreactors:part_usage",
+      "text": "$(l)Обязательная деталь:$() нужен ровно один$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Варианты:$() все$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

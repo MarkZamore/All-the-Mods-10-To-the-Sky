@@ -1,0 +1,17 @@
+{
+  "name": "Приманка",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_decoy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Приманка отвлекает противников и даёт преимущество в бою.$(br2)Нажмите назначенную клавишу, чтобы создать приманку. Ближайшие противники будут атаковать её, пока она не исчезнет."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление приманки",
+      "recipe": "justdirethings:upgrade_decoy"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Как собрать",
+  "icon": "bigreactors:fluidizersolidinjector",
+  "category": "bigreactors:fluidizer",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Разжижитель — машина размером не менее 3×3×3 блока. Соберите его из блоков корпуса и других деталей.$(br)На стенках вместо корпуса можно использовать стекло, а в каркасе должен оставаться корпус.$(br2)Допустимые места установки указаны на странице каждой детали."
+    },
+    {
+      "type": "zcmultiblock",
+      "multiblock_id": "bigreactors:bookfluidizer"
+    }
+  ]
+}

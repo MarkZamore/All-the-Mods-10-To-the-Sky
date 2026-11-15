@@ -1,0 +1,22 @@
+{
+  "name": "Энергопорт",
+  "icon": "bigreactors:fluidizerpowerport",
+  "category": "bigreactors:fluidizer-parts",
+  "read_by_default": true,
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:fluidizerpowerport",
+      "link_recipe": true,
+      "title": "Энергопорт",
+      "text": "Через энергопорт разжижитель получает питание.$(br2)К нему можно подключить любой кабель или генератор с поддержкой Forge Energy."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Энергопорт",
+      "crafting.recipe1": "bigreactors:fluidizer/powerport",
+      "usage.text": "$(l)Обязательная деталь:$() нужен хотя бы один$(br)$(l)Место установки:$() любая стенка вне каркаса$(br)$(l)Графический интерфейс:$() нет"
+    }
+  ]
+}

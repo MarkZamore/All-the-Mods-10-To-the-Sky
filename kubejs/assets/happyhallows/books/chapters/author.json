@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Now, armed with these dark secrets, you're ready. The veil between worlds is thin, and the shadows are waiting. Go forth, brave soul, and embrace the Happy Hallows. Just... try not to disturb what slumbers.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/crystal_ball/mama.png",
+          "caption": null,
+          "image_width": 48,
+          "image_height": 48
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "I hope you enjoy the spooky additions, and thank you for playing my mods.\n\nMuch Love,\n ~Mama Michelle"
+        }
+      ]
+    }
+  ]
+}

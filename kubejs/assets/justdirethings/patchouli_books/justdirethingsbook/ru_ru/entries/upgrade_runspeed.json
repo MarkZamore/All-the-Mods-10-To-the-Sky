@@ -1,0 +1,17 @@
+{
+  "name": "Скорость бега",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_runspeed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет бегать быстрее и преодолевать большие расстояния за меньшее время.$(br2)Устанавливается начиная с поножей из Ferricore. На поножах более высокого уровня можно бежать ещё быстрее. Скорость регулируется ползунком в настройках."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Скорость бега»",
+      "recipe": "justdirethings:upgrade_runspeed"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Бесконечный трезубец",
+  "icon": "industrialforegoing:infinity_trident",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Раскрывает возможности трезубца. Более высокий уровень открывает новые уровни $(6)«Верности»$(), $(6)«Тягуна»$() и $(6)«Громовержца»$(). $(br2)И удар, и молния действуют по площади."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_trident"
+    }
+  ]
+}

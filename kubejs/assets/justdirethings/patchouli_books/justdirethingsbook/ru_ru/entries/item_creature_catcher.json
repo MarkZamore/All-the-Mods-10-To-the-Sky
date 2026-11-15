@@ -1,0 +1,17 @@
+{
+  "name": "Ловец существ",
+  "sortnum": 8,
+  "category": "justdirethings:items",
+  "icon": "justdirethings:creaturecatcher",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы поймать существо, бросьте в него ловец. Бросьте ловец ещё раз, чтобы выпустить пойманного.$(br2)Ловец можно использовать в некоторых фильтрах для точного отбора. Например, можно пропускать только синих овец."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление ловца существ",
+      "recipe": "justdirethings:creaturecatcher"
+    }
+  ]
+}

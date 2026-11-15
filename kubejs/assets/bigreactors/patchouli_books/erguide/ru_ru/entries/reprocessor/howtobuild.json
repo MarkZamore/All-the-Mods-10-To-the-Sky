@@ -1,0 +1,17 @@
+{
+  "name": "Как собрать",
+  "icon": "bigreactors:reprocessorcollector",
+  "category": "bigreactors:reprocessor",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Основание переработчика занимает 3×3 блока, высота — 7 блоков. Соберите корпус и установите по одной детали каждого вида.$(br)На боковых стенках вместо корпуса можно использовать стекло. Для каркаса стекло не подходит.$(br2)Допустимые места установки указаны на странице каждой детали."
+    },
+    {
+      "type": "zcmultiblock",
+      "multiblock_id": "bigreactors:bookreprocessor"
+    }
+  ]
+}

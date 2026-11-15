@@ -1,0 +1,26 @@
+{
+  "name": "Электрокомпрессор",
+  "icon": "pneumaticcraft:electric_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "flag": "pneumaticcraft:electricCompressorEnabled",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Электрокомпрессор/$ вырабатывает сжатый воздух из $(thing)энергии EU мода IndustrialCraft 2/$. Стандартная эффективность 40%; её можно $(ttcolor)$(t:См. параметр I:electricCompressorEfficiency)изменить в конфигурации/$.$(p)Он работает как механизм IC2 1-го уровня и взрывается при подаче более 32 EU/такт. Чтобы принимать высокое напряжение, установите $(item)улучшения-трансформаторы/$ из IC2, как на обычных механизмах этого мода."
+    },
+    {
+      "type": "text",
+      "text": "Производительность в мл/такт:$(p)  $(formula)скорость подачи / E * 400/$$(p)где $(formula)E/$ — эффективность.$(p)Например, при стандартной эффективности 40% и подаче 32 EU/такт получится $(formula)32 / 40 * 400 = 320 мл/такт./$"
+    },
+    {
+      "type": "text",
+      "text": "Эффективность также зависит от $(l:base_concepts/heat)температуры/$ устройства. Его нужно охлаждать: с ростом температуры эффективность падает вплоть до полной остановки выработки воздуха."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление $(item)электрокомпрессора/$",
+      "recipe": "pneumaticcraft:electric_compressor"
+    }
+  ]
+}

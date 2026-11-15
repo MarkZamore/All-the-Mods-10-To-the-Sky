@@ -1,0 +1,19 @@
+{
+  "name": "Условие для дрона: RF",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_rf_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это виджет $(l:programming/conditions)«Условие»/$.$(p)Виджет $(thing)«Условие для дрона: RF»/$ проверяет запас $(thing)Forge Energy (FE)/$ у этого $(l:tools/drone)дрона/$.$(p)$(italic)Название историческое: виджет проверяет FE, а не RF (Redstone Flux)./$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_rf_piece.png"
+      ],
+      "text": "$(italic)Условие для дрона: RF/$"
+    }
+  ]
+}

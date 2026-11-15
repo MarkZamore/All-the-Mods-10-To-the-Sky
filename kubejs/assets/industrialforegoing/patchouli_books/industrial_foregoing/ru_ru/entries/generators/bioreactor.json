@@ -1,0 +1,17 @@
+{
+  "name": "Биогенератор",
+  "icon": "industrialforegoing:bioreactor",
+  "category": "industrialforegoing:generators",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "При подаче воды превращает $(6)семена$(), $(6)саженцы$(), $(6)красители$() и… $(6)черепа$()?! в $(l:generators/biofuel)биотопливо$(). $(br2)Чем больше разных ингредиентов внутри, тем выше выход с каждого. С одним ингредиентом получится $(6)80$() мБ. С четырьмя разными — по $(6)110$() мБ, то есть $(6)440$() мБ в сумме."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:bioreactor"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Камера разведения",
+  "icon": "productivebees:breeding_chamber",
+  "category": "productivebees:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "productivebees:breeding_chamber",
+      "text": "В этой камере можно безопасно разводить пчёл. Поместите в неё двух пчёл, корм для размножения каждой из них и пустые клетки для потомства. Подайте питание. Ускорители сокращают время разведения."
+    }
+  ]
+}

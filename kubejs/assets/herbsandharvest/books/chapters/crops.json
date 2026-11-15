@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "Herbs and Harvest adds 32 new crops to the game.\n\nSelect a topic below to learn more:",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.crops.info",
+          "target_page": 1
+        },
+        {
+          "title": "herbsandharvest.guide_book.crops.tall",
+          "target_page": 2
+        },
+        {
+          "title": "herbsandharvest.guide_book.crops.grapes",
+          "target_page": 3
+        },
+        {
+          "title": "herbsandharvest.guide_book.crops.list",
+          "target_page": 4
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/intro/crops.png",
+          "caption": "herbsandharvest.guide_book.chapters.intro.crops_caption",
+          "image_width": 110,
+          "image_height": 62
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.crops.info",
+      "summary": "Herbs and Harvest Crops behave the same as Vanilla crops.\n\nThe Crops are all plantable on farmland, and they must be broken to obtain produce and seeds.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.c5b2502666b6ec60"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.crops.tall",
+      "summary": "There are several tall crops available:\n\nCorn, Eggplant, Peas, and Tomatoes.",
+      "elements": [
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.cf0f76fcb28c1cfa"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.crops.grapes",
+      "summary": "Grape vines grow similarly to cave vines and produce harvestable fruit.\n\nThey are planted by placing underneath a block, and over time, will grow downward and produce fruit.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/grapes/grapes.png",
+          "caption": "herbsandharvest.guide_book.chapters.grapes.grapes_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.8f57a25bcd21aa76"
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.crops.list",
+      "sub_sections": [
+        {
+          "title": "herbsandharvest.guide_book.crops.list.lista",
+          "target_page": 5
+        },
+        {
+          "title": "herbsandharvest.guide_book.crops.list.listb",
+          "target_page": 6
+        },
+        {
+          "title": "herbsandharvest.guide_book.crops.list.listc",
+          "target_page": 7
+        }
+      ],
+      "summary": "Following is a complete, alphabetized list of all Herbs & Harvest Crops.\nClick on the links below to view each section:",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/intro/crops.png",
+          "caption": "herbsandharvest.guide_book.chapters.intro.crops_caption",
+          "image_width": 110,
+          "image_height": 62
+        },
+        {
+          "type": "text",
+          "literal_text": "",
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.crops.list.lista",
+      "summary": "",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:asparagus",
+              "text": "guide.herbsandharvest.asparagus_desc"
+            },
+            {
+              "item": "herbsandharvest:barley",
+              "text": "guide.herbsandharvest.barley_desc"
+            },
+            {
+              "item": "herbsandharvest:eggplant",
+              "text": "guide.herbsandharvest.eggplant_desc"
+            },
+            {
+              "item": "herbsandharvest:blackberry",
+              "text": "guide.herbsandharvest.blackberry_desc"
+            },
+            {
+              "item": "herbsandharvest:blueberry",
+              "text": "guide.herbsandharvest.blueberry_desc"
+            },
+            {
+              "item": "herbsandharvest:broccoli",
+              "text": "guide.herbsandharvest.broccoli_desc"
+            },
+            {
+              "item": "herbsandharvest:cabbage",
+              "text": "guide.herbsandharvest.cabbage_desc"
+            },
+            {
+              "item": "herbsandharvest:cauliflower",
+              "text": "guide.herbsandharvest.cauliflower_desc"
+            },
+            {
+              "item": "herbsandharvest:celery",
+              "text": "guide.herbsandharvest.celery_desc"
+            },
+            {
+              "item": "herbsandharvest:corn",
+              "text": "guide.herbsandharvest.corn_desc"
+            },
+            {
+              "item": "herbsandharvest:cucumber",
+              "text": "guide.herbsandharvest.cucumber_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.crops.list.listb",
+      "summary": "",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:garlic_bulb",
+              "text": "guide.herbsandharvest.garlic_bulb_desc"
+            },
+            {
+              "item": "herbsandharvest:green_bean",
+              "text": "guide.herbsandharvest.green_bean_desc"
+            },
+            {
+              "item": "herbsandharvest:green_pepper",
+              "text": "guide.herbsandharvest.green_pepper_desc"
+            },
+            {
+              "item": "herbsandharvest:lettuce",
+              "text": "guide.herbsandharvest.lettuce_desc"
+            },
+            {
+              "item": "herbsandharvest:oats_item",
+              "text": "guide.herbsandharvest.oats_item_desc"
+            },
+            {
+              "item": "herbsandharvest:onion",
+              "text": "guide.herbsandharvest.onion_desc"
+            },
+            {
+              "item": "herbsandharvest:peanut",
+              "text": "guide.herbsandharvest.peanut_desc"
+            },
+            {
+              "item": "herbsandharvest:peas",
+              "text": "guide.herbsandharvest.peas_desc"
+            },
+            {
+              "item": "herbsandharvest:pineapple",
+              "text": "guide.herbsandharvest.pineapple_desc"
+            },
+            {
+              "item": "herbsandharvest:radish",
+              "text": "guide.herbsandharvest.radish_desc"
+            },
+            {
+              "item": "herbsandharvest:rice_item",
+              "text": "guide.herbsandharvest.rice_item_desc"
+            },
+            {
+              "item": "herbsandharvest:raspberry",
+              "text": "guide.herbsandharvest.raspberry_desc"
+            },
+            {
+              "item": "herbsandharvest:rye",
+              "text": "guide.herbsandharvest.rye_desc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "title": "herbsandharvest.guide_book.crops.list.listc",
+      "summary": "",
+      "elements": [
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:squash",
+              "text": "guide.herbsandharvest.squash_desc"
+            },
+            {
+              "item": "herbsandharvest:strawberry",
+              "text": "guide.herbsandharvest.strawberry_desc"
+            },
+            {
+              "item": "herbsandharvest:sweet_potato",
+              "text": "guide.herbsandharvest.sweet_potato_desc"
+            },
+            {
+              "item": "herbsandharvest:tomato",
+              "text": "guide.herbsandharvest.tomato_desc"
+            },
+            {
+              "item": "herbsandharvest:turnip",
+              "text": "guide.herbsandharvest.turnip_desc"
+            },
+            {
+              "item": "herbsandharvest:zucchini",
+              "text": "guide.herbsandharvest.zucchini_desc"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "herbsandharvest.guide_book.lanmc.page.03e48455f608148b"
+        },
+        {
+          "type": "icon_list",
+          "entries": [
+            {
+              "item": "herbsandharvest:grapes",
+              "text": "guide.herbsandharvest.grapes_desc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

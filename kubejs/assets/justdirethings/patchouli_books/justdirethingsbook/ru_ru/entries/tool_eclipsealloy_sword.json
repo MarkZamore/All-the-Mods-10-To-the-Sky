@@ -1,0 +1,17 @@
+{
+  "name": "Меч из сплава Eclipse",
+  "sortnum": 20,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:eclipsealloy_sword[justdirethings:forge_energy=500000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Сильнейший меч в Just Dire Things. У него большой запас энергии, и он поддерживает самые продвинутые улучшения.$(br2)Сплав Eclipse делает его особенно прочным и позволяет наносить большой урон. Это лучший выбор для самых мощных боевых способностей."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:eclipsealloy_sword",
+      "text": "Изготовление меча из сплава Eclipse"
+    }
+  ]
+}

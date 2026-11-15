@@ -1,0 +1,17 @@
+{
+  "name": "Обнаружитель мобов",
+  "icon": "industrialforegoing:mob_detector",
+  "category": "industrialforegoing:misc",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Считает существ перед собой и выдаёт сзади сигнал редстоуна, сила которого равна их количеству."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_detector"
+    }
+  ]
+}

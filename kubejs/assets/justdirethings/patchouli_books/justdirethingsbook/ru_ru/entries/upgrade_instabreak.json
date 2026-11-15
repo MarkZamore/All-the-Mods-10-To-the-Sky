@@ -1,0 +1,17 @@
+{
+  "name": "Мгновенная добыча",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_instabreak",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Благодаря $(l:justdirethings:res_time_crystal)кристаллам времени$(/l) инструмент ломает блоки мгновенно, ускоряя сбор материалов.$(br2)Чем твёрже блок, тем выше расход энергии. Мгновенно разбить обсидиан намного дороже, чем камень."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Мгновенная добыча»",
+      "recipe": "justdirethings:upgrade_instabreak"
+    }
+  ]
+}

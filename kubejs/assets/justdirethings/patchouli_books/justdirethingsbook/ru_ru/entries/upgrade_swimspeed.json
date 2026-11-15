@@ -1,0 +1,17 @@
+{
+  "name": "Скорость плавания",
+  "sortnum": 1,
+  "category": "justdirethings:upgrades",
+  "icon": "justdirethings:upgrade_swimspeed",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет быстрее плавать и исследовать подводный мир.$(br2)Броня более высокого уровня увеличивает доступную скорость. Её можно настроить ползунком."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Изготовление улучшения «Скорость плавания»",
+      "recipe": "justdirethings:upgrade_swimspeed"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Логистика",
+  "description": "Система логистики позволяет перемещать предметы и жидкости, поддерживая нужные запасы в хранилищах и резервуарах.",
+  "icon": "pneumaticcraft:logistics_drone[pneumaticcraft:air=120000]",
+  "sortnum": 8
+}

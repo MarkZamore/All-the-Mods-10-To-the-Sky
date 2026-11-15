@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "The air chills, the nights lengthen, and something new stirs in the pixelated realm...\n\nWelcome to the Hallowed Handbook, your guide to surviving the mysteries and mischief of the Haunting Season. ",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/logo.png",
+          "caption": null,
+          "image_width": 24,
+          "image_height": 24
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "This book holds the secrets to navigating all of the peculiar pleasures and playful perils of Happy Hallows.\n\nAre you ready?\n\nYour path to enlightment awaits..."
+        }
+      ]
+    }
+  ]
+}

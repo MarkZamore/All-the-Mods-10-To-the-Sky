@@ -1,0 +1,17 @@
+{
+  "name": "Меч из Ferricore",
+  "sortnum": 1,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:ferricore_sword",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Немного превосходит железный меч. Ferricore повышает урон, а особые улучшения дают дополнительные возможности в бою."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "justdirethings:ferricore_sword",
+      "text": "Рецепт меча из Ferricore:"
+    }
+  ]
+}

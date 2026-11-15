@@ -1,0 +1,230 @@
+{
+  "name": "Улучшения",
+  "icon": "pneumaticcraft:volume_upgrade",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Улучшения/$ можно изготовить и вставить в механизмы или некоторые инструменты, чтобы расширить их возможности. Для установки в инструменты нужна $(l:machines/charging_station)станция заправки/$.$(p)Эффект улучшения зависит от устройства. Он описан в интерфейсе механизма, а для инструментов — в меню улучшений станции заправки."
+    },
+    {
+      "type": "crafting",
+      "anchor": "volume",
+      "recipe": "pneumaticcraft:volume_upgrade",
+      "text": "Изготовление улучшения объёма"
+    },
+    {
+      "type": "crafting",
+      "anchor": "dispenser",
+      "recipe": "pneumaticcraft:dispenser_upgrade",
+      "text": "Изготовление улучшения «Диспенсер»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "inventory",
+      "recipe": "pneumaticcraft:inventory_upgrade",
+      "text": "Изготовление улучшения инвентаря"
+    },
+    {
+      "type": "crafting",
+      "anchor": "item_life",
+      "recipe": "pneumaticcraft:item_life_upgrade",
+      "text": "Изготовление улучшения срока службы предметов"
+    },
+    {
+      "type": "crafting",
+      "anchor": "entity_tracker",
+      "recipe": "pneumaticcraft:entity_tracker_upgrade",
+      "text": "Изготовление улучшения «Трекер существ»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "block_tracker",
+      "recipe": "pneumaticcraft:block_tracker_upgrade",
+      "text": "Изготовление улучшения «Трекер блоков»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "speed",
+      "recipe": "pneumaticcraft:speed_upgrade",
+      "text": "Изготовление улучшения скорости$(p)$(bold)Совет:/$ чтобы сделать сразу несколько улучшений, используйте $(l:machines/liquid_hopper)жидкостную воронку/$ или резервуар из другого мода с запасом $(l:components/lubricant)смазки/$."
+    },
+    {
+      "type": "crafting",
+      "anchor": "speed2",
+      "recipe": "pneumaticcraft:speed_upgrade_from_glycerol",
+      "text": "Изготовление улучшений скорости из $(l:renewables/glycerol)глицерина/$"
+    },
+    {
+      "type": "crafting",
+      "anchor": "search",
+      "recipe": "pneumaticcraft:search_upgrade",
+      "text": "Изготовление улучшения поиска"
+    },
+    {
+      "type": "crafting",
+      "anchor": "coordinate_tracker",
+      "recipe": "pneumaticcraft:coordinate_tracker_upgrade",
+      "text": "Изготовление улучшения «Трекер координат»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "range",
+      "recipe": "pneumaticcraft:range_upgrade",
+      "text": "Изготовление улучшения дальности"
+    },
+    {
+      "type": "crafting",
+      "anchor": "security",
+      "recipe": "pneumaticcraft:security_upgrade",
+      "text": "Изготовление улучшения безопасности"
+    },
+    {
+      "type": "crafting",
+      "anchor": "magnet",
+      "recipe": "pneumaticcraft:magnet_upgrade",
+      "text": "Изготовление улучшения притяжения"
+    },
+    {
+      "type": "crafting",
+      "anchor": "thaumcraft",
+      "flag": "mod:thaumcraft",
+      "recipe": "pneumaticcraft:thaumcraft_upgrade",
+      "text": "Изготовление улучшения Thaumcraft"
+    },
+    {
+      "type": "crafting",
+      "anchor": "charging",
+      "recipe": "pneumaticcraft:charging_upgrade",
+      "text": "Изготовление улучшения зарядки"
+    },
+    {
+      "type": "crafting",
+      "anchor": "armor",
+      "recipe": "pneumaticcraft:armor_upgrade",
+      "text": "Изготовление улучшения брони"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_1",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_1",
+      "text": "Изготовление улучшения «Реактивные ботинки I»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_2",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_2",
+      "text": "Изготовление улучшения «Реактивные ботинки II»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_3",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_3",
+      "text": "Изготовление улучшения «Реактивные ботинки III»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_4",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_4",
+      "text": "Изготовление улучшения «Реактивные ботинки IV»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jet_boots_5",
+      "recipe": "pneumaticcraft:jet_boots_upgrade_5",
+      "text": "Изготовление улучшения «Реактивные ботинки V»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_1",
+      "recipe": "pneumaticcraft:jumping_upgrade_1",
+      "text": "Изготовление улучшения «Прыгучесть I»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_2",
+      "recipe": "pneumaticcraft:jumping_upgrade_2",
+      "text": "Изготовление улучшения «Прыгучесть II»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_3",
+      "recipe": "pneumaticcraft:jumping_upgrade_3",
+      "text": "Изготовление улучшения «Прыгучесть III»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "jumping_4",
+      "recipe": "pneumaticcraft:jumping_upgrade_4",
+      "text": "Изготовление улучшения «Прыгучесть IV»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "night_vision",
+      "recipe": "pneumaticcraft:night_vision_upgrade",
+      "text": "Изготовление улучшения «Ночное зрение»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "scuba",
+      "recipe": "pneumaticcraft:scuba_upgrade",
+      "text": "Изготовление улучшения «Акваланг»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "flippers",
+      "recipe": "pneumaticcraft:flippers_upgrade",
+      "text": "Изготовление улучшения «Ласты»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "standby",
+      "recipe": "pneumaticcraft:standby_upgrade",
+      "text": "Изготовление улучшения режима ожидания"
+    },
+    {
+      "type": "crafting",
+      "anchor": "minigun",
+      "recipe": "pneumaticcraft:minigun_upgrade",
+      "text": "Изготовление улучшения «Миниган»"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:toughasnails",
+      "anchor": "air_conditioning",
+      "recipe": "pneumaticcraft:air_conditioning_upgrade",
+      "text": "Изготовление улучшения «Кондиционирование»"
+    },
+    {
+      "type": "crafting",
+      "flag": "mod:mekanism",
+      "anchor": "radiation_shielding",
+      "recipe": "pneumaticcraft:radiation_shielding_upgrade",
+      "text": "Изготовление улучшения защиты от радиации"
+    },
+    {
+      "type": "crafting",
+      "anchor": "gilded",
+      "recipe": "pneumaticcraft:gilded_upgrade",
+      "text": "Изготовление улучшения «Позолота»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "ender_visor",
+      "recipe": "pneumaticcraft:ender_visor_upgrade",
+      "text": "Изготовление улучшения «Эндер-визор»"
+    },
+    {
+      "type": "crafting",
+      "anchor": "stomp",
+      "recipe": "pneumaticcraft:stomp_upgrade",
+      "text": "Изготовление улучшения топота"
+    },
+    {
+      "type": "crafting",
+      "anchor": "chunkloader",
+      "recipe": "pneumaticcraft:chunkloader_upgrade",
+      "text": "Изготовление улучшения «Загрузчик чанков»"
+    }
+  ]
+}

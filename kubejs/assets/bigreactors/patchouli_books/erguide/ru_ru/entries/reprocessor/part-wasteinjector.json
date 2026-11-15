@@ -1,0 +1,22 @@
+{
+  "name": "Нагнетатель отходов",
+  "icon": "bigreactors:reprocessorwasteinjector",
+  "category": "bigreactors:reprocessor-parts",
+  "read_by_default": true,
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "bigreactors:reprocessorwasteinjector",
+      "link_recipe": true,
+      "title": "Нагнетатель отходов",
+      "text": "Через этот нагнетатель отходы реактора поступают в переработчик.$(br2)Подавайте их вручную через интерфейс или подключите трубу."
+    },
+    {
+      "type": "crafting-part_usage",
+      "crafting.title1": "Нагнетатель отходов",
+      "crafting.recipe1": "bigreactors:reprocessor/wasteinjector",
+      "usage.text": "$(l)Обязательная деталь:$() нужен ровно один$(br)$(l)Место установки:$() верхняя стенка вне каркаса$(br)$(l)Графический интерфейс:$() есть"
+    }
+  ]
+}

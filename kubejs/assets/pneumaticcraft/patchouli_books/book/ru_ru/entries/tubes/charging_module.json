@@ -1,0 +1,22 @@
+{
+  "name": "Модуль зарядки",
+  "icon": "pneumaticcraft:charging_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот модуль заряжает или разряжает предметы в инвентаре, на который направлен. Это может быть сундук с пневмоинструментами или $(l:components/air_canister)воздушными баллонами/$ для доставки воздуха на расстояние, например через эндер-хранилище.$(p)Если навести модуль на $(l:machines/aerial_interface)воздушный интерфейс/$, он будет заряжать предметы прямо в вашем инвентаре."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "$(l:tubes/module_expansion_card)Карта расширения модуля/$ ускоряет зарядку с 10 до 100 мл за такт на каждый предмет."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление модуля зарядки",
+      "recipe": "pneumaticcraft:charging_module"
+    }
+  ]
+}

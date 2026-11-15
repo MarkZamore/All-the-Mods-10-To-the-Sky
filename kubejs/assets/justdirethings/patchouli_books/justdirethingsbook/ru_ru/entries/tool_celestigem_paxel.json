@@ -1,0 +1,12 @@
+{
+  "name": "Паксель из Celestigem",
+  "sortnum": 19,
+  "category": "justdirethings:tools",
+  "icon": "justdirethings:celestigem_paxel[justdirethings:forge_energy=10000]",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Совмещает кирку, топор и лопату и наследует их улучшения.$(br2)Соедините кирку, топор и лопату из Celestigem на кузнечном столе. Установленные на инструментах улучшения перенесутся на паксель."
+    }
+  ]
+}

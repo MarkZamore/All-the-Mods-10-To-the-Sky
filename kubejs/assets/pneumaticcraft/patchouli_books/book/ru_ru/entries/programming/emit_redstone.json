@@ -1,0 +1,19 @@
+{
+  "name": "Сигнал редстоуна",
+  "icon": "pneumaticcraft:textures/progwidgets/emit_redstone_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот виджет заставляет $(l:tools/drone)дрон/$ излучать $(#f00)сигнал редстоуна/$. Нажми $(thing)ПКМ/$ по виджету и выбери, с каких сторон идёт сигнал. Силу сигнала задаёт число от 0 до 15 в подключённом виджете $(l:programming/text)«Текст»/$."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/emit_redstone_piece.png"
+      ],
+      "text": "$(italic)Виджет сигнала редстоуна/$"
+    }
+  ]
+}

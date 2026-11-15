@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "type": "standard",
+      "summary": "These frolicking fiends carry Trick-Or-Treat Bags, and are more likely than other mobs to leave one behind when defeated. Right-click to open, and find small treats (or tricks) inside.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/items/trick_or_treat_bag.png",
+          "caption": "happyhallows.guide_book.chapters.items.bag_caption",
+          "image_width": 32,
+          "image_height": 32
+        },
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/items/mob_bag.png",
+          "caption": "happyhallows.guide_book.chapters.items.mob_bag_caption",
+          "image_width": 116,
+          "image_height": 68
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "If fortune favors you, a Noisemaker can be found inside a Trick-Or-Treat Bag.\nThis terrorizing toy works like a Goat Horn, and is equipped with 12 sounds to frighten your friends. ",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/items/noisemaker.png",
+          "caption": "happyhallows.guide_book.chapters.items.noisemaker_caption",
+          "image_width": 32,
+          "image_height": 32
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Is that a Creeper igniting? Did a Shrieker just activate? Is a wither on the loose? Only you will know for sure..."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": " We can't forget spooky tunes to go along with the season! Find the Halloween music disc inside various loot chests.",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/items/halloween_disc.png",
+          "caption": "happyhallows.guide_book.chapters.items.disc_caption",
+          "image_width": 32,
+          "image_height": 32
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Enjoy supernatural symphonies and macabre melodies as you sift through your chess-monster or design your domain."
+        }
+      ]
+    },
+    {
+      "type": "standard",
+      "summary": "Sunflower Oil\n\nOnce your Pine wood has rotted and aged to perfection, preserve it, using Sunflower Oil!",
+      "elements": [
+        {
+          "type": "image",
+          "image_path": "textures/gui/guide/chapters/items/craft_sunflower_oil.png",
+          "caption": "happyhallows.guide_book.chapters.items.craft_sunflower_oil_caption",
+          "image_width": 116,
+          "image_height": 54
+        },
+        {
+          "type": "text",
+          "literal_text": null,
+          "text": "Use on Pine Woods and Planks to stop the aging process. Note: This has a permanent effect."
+        }
+      ]
+    }
+  ]
+}

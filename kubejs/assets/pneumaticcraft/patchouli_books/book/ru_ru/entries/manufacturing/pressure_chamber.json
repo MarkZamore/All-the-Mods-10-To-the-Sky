@@ -1,0 +1,87 @@
+{
+  "name": "Барокамера",
+  "icon": "pneumaticcraft:pressure_chamber_wall",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Барокамера/$ — многоблочная конструкция для превращения материалов под давлением. Она вмещает много воздуха и может служить аккумулятором.$(p)Правила сборки:$(li)Конструкция должна быть полой, размером 3×3×3, 4×4×4 или 5×5×5."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)Рёбра/$ и $(thing)углы/$ собираются из $(item)барокамерных стенок/$ или $(item)барокамерного стекла/$.$(li)В $(thing)грани/$ можно ставить $(item)барокамерные стенки/$, $(item)стекло/$, $(item)барокамерные клапаны/$ или $(l:manufacturing/pressure_chamber#interface)барокамерные интерфейсы/$.$(li)Нужен хотя бы один $(item)барокамерный клапан/$.$(li)Рекомендуется не меньше двух $(item)барокамерных интерфейсов/$: один направлен внутрь, другой наружу."
+    },
+    {
+      "type": "multiblock",
+      "name": "Барокамера",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_3",
+      "text": "Вариант барокамеры 3×3×3 с одним $(item)клапаном/$ и двумя $(item)интерфейсами/$"
+    },
+    {
+      "type": "multiblock",
+      "name": "Барокамера",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_4",
+      "text": "Вариант барокамеры 4×4×4 с двумя $(item)клапанами/$ и двумя $(item)интерфейсами/$"
+    },
+    {
+      "type": "multiblock",
+      "name": "Барокамера",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_5",
+      "text": "Вариант барокамеры 5×5×5 с четырьмя $(item)клапанами/$ и четырьмя $(item)интерфейсами/$"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "interface",
+      "item": "pneumaticcraft:pressure_chamber_interface",
+      "text": "$(item)Барокамерный интерфейс/$ автоматически загружает и выгружает предметы из $(thing)барокамеры/$. Предметы $(italic)нужно подавать/$ через $(item)воронки/$ или трубы других модов. Поставьте минимум два интерфейса: один буквой I наружу ($(thing)интерфейс ввода/$), второй буквой O наружу ($(thing)интерфейс вывода/$)."
+    },
+    {
+      "type": "text",
+      "text": "Входной интерфейс принимает только ингредиенты рецептов барокамеры. Выходной по умолчанию выгружает только готовое. Кнопка в интерфейсе позволяет при необходимости выгружать $(italic)все/$ предметы.$(p)$(italic)После версии 1.12.2 это поведение изменилось и стало удобнее./$"
+    },
+    {
+      "type": "text",
+      "text": "Выходной $(item)интерфейс/$ автоматически помещает предметы в соседнее хранилище. Трубы из других модов подходят, если интерфейс распознаёт их как хранилище.$(p)Каждый перемещённый предмет требует 1000 мл $(l:base_concepts/pressure)воздуха/$. Для полной стопки $(item)интерфейсу/$ нужно 64 000 мл, то есть 4 бар в обычной камере 3×3×3. Если он словно застрял, подождите, пока вырастет давление."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Советы/$$(li)Чтобы сжать $(item)железо/$, используйте $(item)железные блоки/$. На загрузку и выгрузку уйдёт в девять раз меньше воздуха.$(li)Дополнительные клапаны помогают быстрее накачать большую камеру, если компрессоры успевают подавать нужный объём воздуха."
+    },
+    {
+      "type": "crafting",
+      "title": "Стенка и стекло",
+      "recipe": "pneumaticcraft:pressure_chamber_wall",
+      "recipe2": "pneumaticcraft:pressure_chamber_glass"
+    },
+    {
+      "type": "crafting",
+      "title": "Интерфейс и клапан",
+      "recipe": "pneumaticcraft:pressure_chamber_interface",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve_x1"
+    },
+    {
+      "type": "crafting",
+      "title": "Клапаны",
+      "recipe": "pneumaticcraft:pressure_chamber_valve_x4",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve"
+    },
+    {
+      "type": "spotlight",
+      "title": "Укреплённый клапан",
+      "item": "pneumaticcraft:reinforced_pressure_chamber_valve",
+      "text": "$(item)Укреплённый барокамерный клапан/$ повышает предельное давление в барокамере с обычных 5 до 20 бар. Камера вмещает вчетверо больше воздуха и может открыть $(ttcolor)$(t:По умолчанию всем рецептам барокамеры хватает давления до 5 бар, но сборки могут это менять)новые рецепты/$."
+    },
+    {
+      "type": "crafting",
+      "title": "Несобранный укреплённый клапан",
+      "recipe": "pneumaticcraft:unassembled_reinforced_pressure_chamber_valve",
+      "text": "При этом менять $(item)интерфейсы/$, $(item)стенки/$ и $(item)стекло/$ не нужно."
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "title": "Укреплённый клапан",
+      "recipe": "pneumaticcraft:assembly/reinforced_pressure_chamber_valve"
+    }
+  ]
+}
