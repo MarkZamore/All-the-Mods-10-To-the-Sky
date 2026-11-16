@@ -2,7 +2,21 @@
   "schemaVersion": 1,
   "authorArchiveSha256": "3703e6b5655eaffa89efa747656908d2d5fec09a5b67a13a1c9fb98f91cf3cdf",
   "descriptorSha256": "84f9035ebc5806e9b0e8edac0969654ffeed7a7304bf50560a0c9551b7f7cee7",
-  "patches": [],
+  "patches": [
+    {
+      "path": "config/defaultoptions/options.txt",
+      "before": {
+        "sizeBytes": 2923,
+        "sha256": "807c79173c7629ee106695483acfb0ee4c5fde57e112602b9e5342a2d52f87b8"
+      },
+      "after": {
+        "sizeBytes": 2922,
+        "sha256": "a08848521951611a4555b27c23c57c824964347c1cb072762ac1d5d53653c090"
+      },
+      "from": "skipMultiplayerWarning:false",
+      "to": "skipMultiplayerWarning:true"
+    }
+  ],
   "memorySettingsConfig": {
     "fileId": 7934534,
     "sizeBytes": 2443,
@@ -44,6 +58,11 @@
         "path": "kubejs/client_scripts/lanmc_memory_warning_policy.js",
         "sizeBytes": 268,
         "sha256": "f18c0ce3cdd78d652475b1e9c05158e66eda9309ef437646c98c3a476eaca253"
+      },
+      {
+        "path": "kubejs/client_scripts/lanmc_multiplayer_warning.js",
+        "sizeBytes": 267,
+        "sha256": "dfb1b7e4d3eb96db03bdd4210994f53352be52affd4ece9b15610ba9ee2b03f1"
       }
     ]
   },

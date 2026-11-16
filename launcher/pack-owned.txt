@@ -1,3 +1,4 @@
+config/defaultoptions/options.txt
 config/ftbquests/quests/lang/ru_ru.snbt
 config/ftbquests/quests/lang/ru_ru/chapter.snbt
 config/ftbquests/quests/lang/ru_ru/chapter_group.snbt
@@ -694,3 +695,4 @@ kubejs/assets/productivetrees/patchouli_books/guide/ru_ru/entries/treetap/maple_
 kubejs/assets/productivetrees/patchouli_books/guide/ru_ru/entries/treetap_missing/missing.json
 kubejs/assets/silentgear/lang/ru_ru.json
 kubejs/client_scripts/lanmc_memory_warning_policy.js
+kubejs/client_scripts/lanmc_multiplayer_warning.js
