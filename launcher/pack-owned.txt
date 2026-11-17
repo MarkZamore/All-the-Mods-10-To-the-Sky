@@ -63,6 +63,7 @@ config/ftbquests/quests/lang/ru_ru/file.snbt
 config/ftbquests/quests/lang/ru_ru/image.snbt
 config/ftbquests/quests/lang/ru_ru/reward.snbt
 config/ftbquests/quests/lang/ru_ru/reward_table.snbt
+config/lanminecraft/experimental-world-confirmation.jar
 config/log4j2.xml
 config/memorysettings.json
 kubejs/assets/actuallyadditions/lang/ru_ru.json
